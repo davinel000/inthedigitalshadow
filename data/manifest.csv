@@ -1,0 +1,4 @@
+item_id,repo_path,original_source,source_machine_or_drive,date_start,date_end,category,modes,privacy_level,processing_status,hash_sha256,notes
+ITS-0001,romanov_in_the_digital_shadow.pdf,submitted thesis PDF,current repository,2026-03-31,2026-03-31,thesis,"collect;allocate;delegate;overload",public,curated,,Submitted thesis document.
+ITS-0002,data/derived/inventory-master-thesis.csv,"P:\DIGITAL MEDIA\MASTER THESIS",P: drive,2025-02-11,2026-04-02,derived,"collect;allocate;delegate;overload",restricted,derived,,File inventory of the external master thesis folder.
+ITS-0003,data/derived/inventory-master-thesis-extension-summary.csv,"P:\DIGITAL MEDIA\MASTER THESIS",P: drive,2025-02-11,2026-04-02,derived,"collect",restricted,derived,,Extension summary generated from the external folder inventory.

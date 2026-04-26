@@ -1,0 +1,18 @@
+# Local staging and sensitive material
+data/inbox/*
+!data/inbox/.gitkeep
+data/private/*
+!data/private/.gitkeep
+
+# Common large or generated local files
+*.tmp
+*.bak
+*.dmp
+Thumbs.db
+.DS_Store
+
+# Software installers and binaries should be documented, not committed.
+*.exe
+*.dll
+*.msi
+
