@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1600" viewBox="0 0 1600 1600">
+<rect width="1600" height="1600" fill="#FFFFFF"/>
+<text x="88.00" y="62.00" font-family="IBM Plex Sans, Segoe UI, Arial, Helvetica, sans-serif" font-size="42" fill="#1F2328" font-weight="700">Overload Timeline</text>
+<text x="88.00" y="95.00" font-family="IBM Plex Sans, Segoe UI, Arial, Helvetica, sans-serif" font-size="21" fill="#6E7781">Embodied overlay across project phases. Raw metrics remain separate; phase bands organize the chronology.</text>
+<line x1="88" y1="114" x2="1510" y2="114" stroke="#8D3B32" stroke-width="2.2"/>
+<rect x="88.00" y="150.00" width="1424.00" height="312.00" rx="12" fill="#F8F9FB" stroke="#1F2328" stroke-width="1.1"/>
+<rect x="88.00" y="492.00" width="1424.00" height="252.00" rx="12" fill="#F8F9FB" stroke="#1F2328" stroke-width="1.1"/>
+<rect x="88.00" y="774.00" width="1424.00" height="252.00" rx="12" fill="#F8F9FB" stroke="#1F2328" stroke-width="1.1"/>
+<rect x="88.00" y="1056.00" width="1424.00" height="176.00" rx="12" fill="#F8F9FB" stroke="#1F2328" stroke-width="1.1"/>
+<rect x="88.00" y="1262.00" width="1424.00" height="218.00" rx="12" fill="#F8F9FB" stroke="#1F2328" stroke-width="1.1"/>
+<rect x="88.00" y="151.00" width="482.45" height="310.00" fill="#F5F7FA" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="531.54" y="151.00" width="420.20" height="310.00" fill="#FFFFFF" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="912.83" y="151.00" width="147.85" height="310.00" fill="#F5F7FA" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="1021.77" y="151.00" width="256.79" height="310.00" fill="#FFFFFF" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="1239.65" y="151.00" width="93.38" height="310.00" fill="#F5F7FA" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="1294.12" y="151.00" width="217.88" height="310.00" fill="#FFFFFF" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="88.00" y="493.00" width="482.45" height="250.00" fill="#F5F7FA" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="531.54" y="493.00" width="420.20" height="250.00" fill="#FFFFFF" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="912.83" y="493.00" width="147.85" height="250.00" fill="#F5F7FA" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="1021.77" y="493.00" width="256.79" height="250.00" fill="#FFFFFF" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="1239.65" y="493.00" width="93.38" height="250.00" fill="#F5F7FA" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="1294.12" y="493.00" width="217.88" height="250.00" fill="#FFFFFF" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="88.00" y="775.00" width="482.45" height="250.00" fill="#F5F7FA" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="531.54" y="775.00" width="420.20" height="250.00" fill="#FFFFFF" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="912.83" y="775.00" width="147.85" height="250.00" fill="#F5F7FA" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="1021.77" y="775.00" width="256.79" height="250.00" fill="#FFFFFF" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="1239.65" y="775.00" width="93.38" height="250.00" fill="#F5F7FA" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="1294.12" y="775.00" width="217.88" height="250.00" fill="#FFFFFF" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="88.00" y="1057.00" width="482.45" height="174.00" fill="#F5F7FA" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="531.54" y="1057.00" width="420.20" height="174.00" fill="#FFFFFF" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="912.83" y="1057.00" width="147.85" height="174.00" fill="#F5F7FA" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="1021.77" y="1057.00" width="256.79" height="174.00" fill="#FFFFFF" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="1239.65" y="1057.00" width="93.38" height="174.00" fill="#F5F7FA" stroke="none" stroke-width="0" opacity="0.7"/>
+<rect x="1294.12" y="1057.00" width="217.88" height="174.00" fill="#FFFFFF" stroke="none" stroke-width="0" opacity="0.7"/>
+<text x="329.22" y="114.00" font-family="Space Mono, Cascadia Mono, Consolas, monospace" font-size="17" fill="#6E7781" text-anchor="middle">P1</text>
+<text x="329.22" y="132.00" font-family="IBM Plex Sans, Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#6E7781" text-anchor="middle">Destab.</text>
+<text x="741.64" y="114.00" font-family="Space Mono, Cascadia Mono, Consolas, monospace" font-size="17" fill="#6E7781" text-anchor="middle">P2</text>
+<text x="741.64" y="132.00" font-family="IBM Plex Sans, Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#6E7781" text-anchor="middle">Dense Accumulation</text>
+<text x="986.75" y="114.00" font-family="Space Mono, Cascadia Mono, Consolas, monospace" font-size="17" fill="#6E7781" text-anchor="middle">P3</text>
+<text x="986.75" y="132.00" font-family="IBM Plex Sans, Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#6E7781" text-anchor="middle">Threshold Crisis</text>
+<text x="1150.16" y="114.00" font-family="Space Mono, Cascadia Mono, Consolas, monospace" font-size="17" fill="#6E7781" text-anchor="middle">P4</text>
+<text x="1150.16" y="132.00" font-family="IBM Plex Sans, Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#6E7781" text-anchor="middle">Salvage Conc.</text>
+<text x="1286.34" y="114.00" font-family="Space Mono, Cascadia Mono, Consolas, monospace" font-size="17" fill="#6E7781" text-anchor="middle">P5</text>
+<text x="1286.34" y="132.00" font-family="IBM Plex Sans, Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#6E7781" text-anchor="middle">Terminal Push</text>
+<text x="1403.06" y="114.00" font-family="Space Mono, Cascadia Mono, Consolas, monospace" font-size="17" fill="#6E7781" text-anchor="middle">P6</text>
+<text x="1403.06" y="132.00" font-family="IBM Plex Sans, Segoe UI, Arial, Helvetica, sans-serif" font-size="12" fill="#6E7781" text-anchor="middle">Afterimage</text>
+<line x1="88" y1="438.00" x2="1512" y2="438.00" stroke="#D7DCE2" stroke-width="1"/>
+<line x1="88" y1="176.00" x2="1512" y2="176.00" stroke="#D7DCE2" stroke-width="1"/>
+<text x="106.00" y="184.00" font-family="IBM Plex Sans, Segoe UI, Arial, Helvetica, sans-serif" font-size="25" fill="#1F2328" font-weight="700">High-HR Share (%)</text>
+<text x="76.00" y="442.00" font-family="Space Mono, Cascadia Mono, Consolas, monospace" font-size="14" fill="#6E7781" text-anchor="end">6</text>
+<text x="76.00" y="180.00" font-family="Space Mono, Cascadia Mono, Consolas, monospace" font-size="14" fill="#6E7781" text-anchor="end">23</text>
+<path d="M 88.00 297.36 L 142.47 337.91 L 196.94 391.30 L 251.41 390.27 L 305.88 399.99 L 360.35 371.28 L 414.82 201.33 L 469.29 341.91 L 523.76 343.38 L 578.23 358.46 L 632.70 323.54 L 687.17 303.26 L 741.64 412.05 L 796.11 364.19 L 850.58 373.17 L 905.05 291.33 L 959.52 326.65 L 1013.99 344.21 L 1068.46 336.63 L 1122.93 253.50 L 1177.40 285.81 L 1231.87 323.80 L 1286.34 245.05 L 1340.81 356.49 L 1395.28 355.13 L 1449.75 324.40 L 1504.22 332.10" fill="none" stroke="#B4584A" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="414.82" y="191.33" font-family="Space Mono, Cascadia Mono, Consolas, monospace" font-size="14" fill="#B4584A" text-anchor="middle">21</text>
+<text x="741.64" y="432.05" font-family="Space Mono, Cascadia Mono, Consolas, monospace" font-size="14" fill="#B4584A" text-anchor="middle">8</text>
+<line x1="88" y1="720.00" x2="1512" y2="720.00" stroke="#D7DCE2" stroke-width="1"/>
+<line x1="88" y1="518.00" x2="1512" y2="518.00" stroke="#D7DCE2" stroke-width="1"/>
+<text x="106.00" y="526.00" font-family="IBM Plex Sans, Segoe UI, Arial, Helvetica, sans-serif" font-size="25" fill="#1F2328" font-weight="700">Sleep Duration (hours)</text>
+<text x="76.00" y="724.00" font-family="Space Mono, Cascadia Mono, Consolas, monospace" font-size="14" fill="#6E7781" text-anchor="end">4.8</text>
+<text x="76.00" y="522.00" font-family="Space Mono, Cascadia Mono, Consolas, monospace" font-size="14" fill="#6E7781" text-anchor="end">8.8</text>
+<path d="M 88.00 701.62 L 142.47 537.24 L 196.94 594.65 L 251.41 558.16 L 305.88 569.10 L 360.35 549.74 L 414.82 649.02 L 469.29 657.48 L 523.76 599.46 L 578.23 604.39 L 632.70 614.31 L 687.17 574.95 L 741.64 571.17 L 796.11 563.33 L 850.58 561.29 L 905.05 660.52 L 959.52 581.37 L 1013.99 567.78 L 1068.46 578.60 L 1122.93 600.34 L 1177.40 590.94 L 1231.87 657.00 L 1286.34 632.61 L 1340.81 565.85 L 1395.28 641.00 L 1449.75 604.03 L 1504.22 551.67" fill="none" stroke="#4C78A8" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="142.47" y="527.24" font-family="Space Mono, Cascadia Mono, Consolas, monospace" font-size="14" fill="#4C78A8" text-anchor="middle">8.4</text>
+<text x="88.00" y="721.62" font-family="Space Mono, Cascadia Mono, Consolas, monospace" font-size="14" fill="#4C78A8" text-anchor="middle">5.2</text>
+<line x1="88" y1="1002.00" x2="1512" y2="1002.00" stroke="#D7DCE2" stroke-width="1"/>
+<line x1="88" y1="800.00" x2="1512" y2="800.00" stroke="#D7DCE2" stroke-width="1"/>
+<text x="106.00" y="808.00" font-family="IBM Plex Sans, Segoe UI, Arial, Helvetica, sans-serif" font-size="25" fill="#1F2328" font-weight="700">Elevated-Activation Episode Minutes</text>
+<text x="76.00" y="1006.00" font-family="Space Mono, Cascadia Mono, Consolas, monospace" font-size="14" fill="#6E7781" text-anchor="end">110</text>
+<text x="76.00" y="804.00" font-family="Space Mono, Cascadia Mono, Consolas, monospace" font-size="14" fill="#6E7781" text-anchor="end">280</text>
+<path d="M 88.00 936.31 L 142.47 830.38 L 196.94 942.25 L 251.41 949.72 L 305.88 960.07 L 360.35 880.80 L 414.82 856.19 L 469.29 867.73 L 523.76 895.06 L 578.23 905.58 L 632.70 848.72 L 687.17 886.40 L 741.64 982.82 L 796.11 877.91 L 850.58 898.96 L 905.05 911.02 L 959.52 813.75 L 1013.99 840.06 L 1068.46 878.25 L 1122.93 836.67 L 1177.40 936.82 L 1231.87 884.53 L 1286.34 890.48 L 1340.81 867.73 L 1395.28 885.72 L 1449.75 844.13 L 1504.22 883.77" fill="none" stroke="#C59B42" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="959.52" y="803.75" font-family="Space Mono, Cascadia Mono, Consolas, monospace" font-size="14" fill="#C59B42" text-anchor="middle">268</text>
+<text x="741.64" y="1002.82" font-family="Space Mono, Cascadia Mono, Consolas, monospace" font-size="14" fill="#C59B42" text-anchor="middle">126</text>
+<text x="106.00" y="1090.00" font-family="IBM Plex Sans, Segoe UI, Arial, Helvetica, sans-serif" font-size="25" fill="#1F2328" font-weight="700">Psychological Overload Markers</text>
+<circle cx="103.56" cy="1149.00" r="15.60" fill="#B4584A" opacity="0.10"/>
+<circle cx="103.56" cy="1149.00" r="6.40" fill="#B4584A" opacity="0.28"/>
+<circle cx="158.03" cy="1149.00" r="19.40" fill="#B4584A" opacity="0.10"/>
+<circle cx="158.03" cy="1149.00" r="8.10" fill="#B4584A" opacity="0.28"/>
+<circle cx="212.50" cy="1149.00" r="23.20" fill="#B4584A" opacity="0.10"/>
+<circle cx="212.50" cy="1149.00" r="9.80" fill="#B4584A" opacity="0.28"/>
+<circle cx="266.97" cy="1149.00" r="19.40" fill="#B4584A" opacity="0.10"/>
+<circle cx="266.97" cy="1149.00" r="8.10" fill="#B4584A" opacity="0.28"/>
+<circle cx="313.66" cy="1149.00" r="23.20" fill="#B4584A" opacity="0.10"/>
+<circle cx="313.66" cy="1149.00" r="9.80" fill="#B4584A" opacity="0.28"/>
+<circle cx="329.22" cy="1149.00" r="23.20" fill="#B4584A" opacity="0.10"/>
+<circle cx="329.22" cy="1149.00" r="9.80" fill="#B4584A" opacity="0.28"/>
+<circle cx="352.57" cy="1149.00" r="23.20" fill="#B4584A" opacity="0.10"/>
+<circle cx="352.57" cy="1149.00" r="9.80" fill="#B4584A" opacity="0.28"/>
+<circle cx="360.35" cy="1149.00" r="19.40" fill="#B4584A" opacity="0.10"/>
+<circle cx="360.35" cy="1149.00" r="8.10" fill="#B4584A" opacity="0.28"/>
+<circle cx="375.91" cy="1149.00" r="23.20" fill="#B4584A" opacity="0.10"/>
+<circle cx="375.91" cy="1149.00" r="9.80" fill="#B4584A" opacity="0.28"/>
+<circle cx="508.20" cy="1149.00" r="23.20" fill="#B4584A" opacity="0.10"/>
+<circle cx="508.20" cy="1149.00" r="9.80" fill="#B4584A" opacity="0.28"/>
+<circle cx="515.98" cy="1149.00" r="15.60" fill="#B4584A" opacity="0.10"/>
+<circle cx="515.98" cy="1149.00" r="6.40" fill="#B4584A" opacity="0.28"/>
+<circle cx="578.23" cy="1149.00" r="19.40" fill="#B4584A" opacity="0.10"/>
+<circle cx="578.23" cy="1149.00" r="8.10" fill="#B4584A" opacity="0.28"/>
+<circle cx="694.95" cy="1149.00" r="23.20" fill="#B4584A" opacity="0.18"/>
+<circle cx="694.95" cy="1149.00" r="9.80" fill="#B4584A" opacity="0.36"/>
+<circle cx="858.36" cy="1149.00" r="19.40" fill="#B4584A" opacity="0.18"/>
+<circle cx="858.36" cy="1149.00" r="8.10" fill="#B4584A" opacity="0.36"/>
+<circle cx="897.27" cy="1149.00" r="19.40" fill="#B4584A" opacity="0.18"/>
+<circle cx="897.27" cy="1149.00" r="8.10" fill="#B4584A" opacity="0.36"/>
+<circle cx="928.39" cy="1149.00" r="23.20" fill="#B4584A" opacity="0.18"/>
+<circle cx="928.39" cy="1149.00" r="9.80" fill="#B4584A" opacity="0.36"/>
+<circle cx="1084.02" cy="1149.00" r="27.00" fill="#B4584A" opacity="0.18"/>
+<circle cx="1084.02" cy="1149.00" r="11.50" fill="#B4584A" opacity="0.36"/>
+<circle cx="1099.58" cy="1149.00" r="23.20" fill="#B4584A" opacity="0.18"/>
+<circle cx="1099.58" cy="1149.00" r="9.80" fill="#B4584A" opacity="0.36"/>
+<circle cx="1107.37" cy="1149.00" r="27.00" fill="#B4584A" opacity="0.18"/>
+<circle cx="1107.37" cy="1149.00" r="11.50" fill="#B4584A" opacity="0.36"/>
+<circle cx="1138.49" cy="1149.00" r="27.00" fill="#B4584A" opacity="0.18"/>
+<circle cx="1138.49" cy="1149.00" r="11.50" fill="#B4584A" opacity="0.36"/>
+<circle cx="1185.18" cy="1149.00" r="23.20" fill="#B4584A" opacity="0.18"/>
+<circle cx="1185.18" cy="1149.00" r="9.80" fill="#B4584A" opacity="0.36"/>
+<circle cx="1185.18" cy="1149.00" r="15.60" fill="#B4584A" opacity="0.18"/>
+<circle cx="1185.18" cy="1149.00" r="6.40" fill="#B4584A" opacity="0.36"/>
+<circle cx="1255.21" cy="1149.00" r="30.80" fill="#B4584A" opacity="0.18"/>
+<circle cx="1255.21" cy="1149.00" r="13.20" fill="#B4584A" opacity="0.36"/>
+<circle cx="1340.81" cy="1149.00" r="19.40" fill="#B4584A" opacity="0.10"/>
+<circle cx="1340.81" cy="1149.00" r="8.10" fill="#B4584A" opacity="0.28"/>
+<circle cx="1465.31" cy="1149.00" r="23.20" fill="#B4584A" opacity="0.18"/>
+<circle cx="1465.31" cy="1149.00" r="9.80" fill="#B4584A" opacity="0.36"/>
+<rect x="593.79" y="1182.00" width="280.13" height="16.00" rx="5" fill="#B76A62" stroke="none" stroke-width="0" opacity="0.22"/>
+<rect x="1161.84" y="1182.00" width="54.47" height="16.00" rx="5" fill="#B76A62" stroke="none" stroke-width="0" opacity="0.22"/>
+<rect x="1231.87" y="1182.00" width="280.13" height="16.00" rx="5" fill="#B76A62" stroke="none" stroke-width="0" opacity="0.22"/>
+<rect x="624.92" y="1204.00" width="46.69" height="12.00" rx="2" fill="#AAB4C3" stroke="#8A94A3" stroke-width="0.8" opacity="0.45"/>
+<text x="648.26" y="1200.00" font-family="IBM Plex Sans, Segoe UI, Arial, Helvetica, sans-serif" font-size="11" fill="#6E7781" text-anchor="middle">rehearsal 1</text>
+<rect x="951.74" y="1204.00" width="46.69" height="12.00" rx="2" fill="#AAB4C3" stroke="#8A94A3" stroke-width="0.8" opacity="0.45"/>
+<text x="975.08" y="1200.00" font-family="IBM Plex Sans, Segoe UI, Arial, Helvetica, sans-serif" font-size="11" fill="#6E7781" text-anchor="middle">rehearsal 2</text>
+<rect x="1278.56" y="1204.00" width="23.34" height="12.00" rx="2" fill="#AAB4C3" stroke="#8A94A3" stroke-width="0.8" opacity="0.45"/>
+<text x="1290.23" y="1200.00" font-family="IBM Plex Sans, Segoe UI, Arial, Helvetica, sans-serif" font-size="11" fill="#6E7781" text-anchor="middle">rehearsal + performance</text>
+<rect x="1285.90" y="1204.00" width="32.00" height="12.00" rx="2" fill="#AAB4C3" stroke="#8A94A3" stroke-width="0.8" opacity="0.45"/>
+<text x="1301.90" y="1200.00" font-family="IBM Plex Sans, Segoe UI, Arial, Helvetica, sans-serif" font-size="11" fill="#6E7781" text-anchor="middle">rehearsal 1</text>
+<rect x="1309.68" y="1204.00" width="12.00" height="12.00" rx="2" fill="#AAB4C3" stroke="#8A94A3" stroke-width="0.8" opacity="0.45"/>
+<text x="1313.57" y="1200.00" font-family="IBM Plex Sans, Segoe UI, Arial, Helvetica, sans-serif" font-size="11" fill="#6E7781" text-anchor="middle">rehearsal + performance</text>
+<rect x="1301.46" y="1204.00" width="32.00" height="12.00" rx="2" fill="#AAB4C3" stroke="#8A94A3" stroke-width="0.8" opacity="0.45"/>
+<text x="1317.46" y="1200.00" font-family="IBM Plex Sans, Segoe UI, Arial, Helvetica, sans-serif" font-size="11" fill="#6E7781" text-anchor="middle">rehearsal</text>
+<line x1="88.00" y1="150" x2="88.00" y2="1232" stroke="#D7DCE2" stroke-width="1" stroke-dasharray="4 5"/>
+<line x1="88.00" y1="1232" x2="88.00" y2="1238" stroke="#1F2328" stroke-width="1"/>
+<text x="88.00" y="1256.00" font-family="Space Mono, Cascadia Mono, Consolas, monospace" font-size="13" fill="#6E7781" text-anchor="middle">Jul</text>
+<line x1="329.22" y1="150" x2="329.22" y2="1232" stroke="#D7DCE2" stroke-width="1" stroke-dasharray="4 5"/>
+<line x1="329.22" y1="1232" x2="329.22" y2="1238" stroke="#1F2328" stroke-width="1"/>
+<text x="329.22" y="1256.00" font-family="Space Mono, Cascadia Mono, Consolas, monospace" font-size="13" fill="#6E7781" text-anchor="middle">Aug</text>
+<line x1="570.45" y1="150" x2="570.45" y2="1232" stroke="#D7DCE2" stroke-width="1" stroke-dasharray="4 5"/>
+<line x1="570.45" y1="1232" x2="570.45" y2="1238" stroke="#1F2328" stroke-width="1"/>
+<text x="570.45" y="1256.00" font-family="Space Mono, Cascadia Mono, Consolas, monospace" font-size="13" fill="#6E7781" text-anchor="middle">Sep</text>
+<line x1="803.89" y1="150" x2="803.89" y2="1232" stroke="#D7DCE2" stroke-width="1" stroke-dasharray="4 5"/>
+<line x1="803.89" y1="1232" x2="803.89" y2="1238" stroke="#1F2328" stroke-width="1"/>
+<text x="803.89" y="1256.00" font-family="Space Mono, Cascadia Mono, Consolas, monospace" font-size="13" fill="#6E7781" text-anchor="middle">Oct</text>
+<line x1="1045.11" y1="150" x2="1045.11" y2="1232" stroke="#D7DCE2" stroke-width="1" stroke-dasharray="4 5"/>
+<line x1="1045.11" y1="1232" x2="1045.11" y2="1238" stroke="#1F2328" stroke-width="1"/>
+<text x="1045.11" y="1256.00" font-family="Space Mono, Cascadia Mono, Consolas, monospace" font-size="13" fill="#6E7781" text-anchor="middle">Nov</text>
+<line x1="1278.56" y1="150" x2="1278.56" y2="1232" stroke="#D7DCE2" stroke-width="1" stroke-dasharray="4 5"/>
+<line x1="1278.56" y1="1232" x2="1278.56" y2="1238" stroke="#1F2328" stroke-width="1"/>
+<text x="1278.56" y="1256.00" font-family="Space Mono, Cascadia Mono, Consolas, monospace" font-size="13" fill="#6E7781" text-anchor="middle">Dec</text>
+<text x="108.00" y="1296.00" font-family="IBM Plex Sans, Segoe UI, Arial, Helvetica, sans-serif" font-size="23" fill="#1F2328" font-weight="700">Reading Guide</text>
+<text x="108.00" y="1330.00" font-family="IBM Plex Sans, Segoe UI, Arial, Helvetica, sans-serif" font-size="16" fill="#6E7781"><tspan x="108.00" dy="0">Top three panels show weekly values. The lower panel compresses daily psychological overload into a heatmap-like density</tspan><tspan x="108.00" dy="18">field: larger and darker circles indicate more severe moments. Physical health issues and rehearsal / performance periods</tspan><tspan x="108.00" dy="18">are shown separately below. Vertical dashed lines indicate monthly boundaries.</tspan></text>
+</svg>

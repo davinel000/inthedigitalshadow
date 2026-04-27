@@ -1,0 +1,4 @@
+lane_final,label,start_dt,end_dt,plan_relation,record_type,source_layer
+Composition / Sound,Dramaturgy development,2025-08-11,2025-08-24,planned,block,planned
+Production / Fabrication,Frame assembly,2025-09-01,2025-09-14,realized,block,worklog
+Communication / Doc,Funding follow-up,2025-09-15,2025-09-21,realized,block,communication

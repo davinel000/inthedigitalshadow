@@ -1,0 +1,16 @@
+platform,task_type,uptake_label,count
+chatgpt,analysis,unknown,22
+chatgpt,coding,unknown,37
+chatgpt,other,unknown,164
+chatgpt,planning,unknown,18
+chatgpt,writing,unknown,59
+telegram,analysis,unknown,1
+telegram,coding,accept,2
+telegram,coding,unknown,16
+telegram,other,accept,18
+telegram,other,clarify,2
+telegram,other,unknown,181
+telegram,planning,unknown,11
+telegram,writing,accept,2
+telegram,writing,defer,1
+telegram,writing,unknown,29

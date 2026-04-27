@@ -1,0 +1,15 @@
+target_channel,uptake_label_final,count,uptake_label,share
+AI,modify,111,Modify,0.31896551724137934
+human,modify,46,Modify,0.19827586206896552
+AI,clarify,84,Clarify,0.2413793103448276
+human,clarify,56,Clarify,0.2413793103448276
+AI,none,31,None,0.08908045977011494
+human,none,49,None,0.21120689655172414
+AI,accept,28,Accept,0.08045977011494253
+human,accept,52,Accept,0.22413793103448276
+AI,result_report,62,Result Report,0.1781609195402299
+human,result_report,17,Result Report,0.07327586206896551
+AI,challenge,29,Challenge,0.08333333333333333
+human,challenge,7,Challenge,0.03017241379310345
+human,defer,5,Defer,0.021551724137931036
+AI,reject,3,Reject,0.008620689655172414

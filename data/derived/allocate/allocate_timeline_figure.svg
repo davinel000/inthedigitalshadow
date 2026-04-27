@@ -1,0 +1,180 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1600" viewBox="0 0 1600 1600">
+<rect width="1600" height="1600" fill="#FCFCF8"/>
+<text x="88.00" y="62.00" font-family="'IBM Plex Sans', 'Segoe UI', Arial, Helvetica, sans-serif" font-size="42" fill="#1F2328" font-weight="700">Allocate Timeline</text>
+<text x="88.00" y="95.00" font-family="'IBM Plex Sans', 'Segoe UI', Arial, Helvetica, sans-serif" font-size="21" fill="#6E7781">Schedule structure, availability, and cumulative spending across the project period.</text>
+<line x1="88" y1="114" x2="1510" y2="114" stroke="#C59B42" stroke-width="2.2"/>
+<rect x="88.00" y="150.00" width="1424.00" height="86.00" rx="12" fill="#F7F5EF" stroke="#1F2328" stroke-width="1.1"/>
+<rect x="88.00" y="260.00" width="1424.00" height="930.00" rx="12" fill="#F7F5EF" stroke="#1F2328" stroke-width="1.1"/>
+<rect x="88.00" y="1216.00" width="1424.00" height="210.00" rx="12" fill="#F7F5EF" stroke="#1F2328" stroke-width="1.1"/>
+<rect x="88.00" y="1450.00" width="1424.00" height="90.00" rx="12" fill="#F7F5EF" stroke="#1F2328" stroke-width="1.0"/>
+<rect x="88.00" y="174.00" width="1424.00" height="18.00" rx="5" fill="#D9E2D3" stroke="none" stroke-width="0" opacity="0.8"/>
+<text x="800.00" y="212.00" font-family="'IBM Plex Sans', 'Segoe UI', Arial, Helvetica, sans-serif" font-size="12" fill="#6E7781" text-anchor="middle">project frame</text>
+<rect x="88.00" y="174.00" width="233.44" height="18.00" rx="5" fill="#D9E2D3" stroke="none" stroke-width="0" opacity="0.8"/>
+<text x="204.72" y="212.00" font-family="'IBM Plex Sans', 'Segoe UI', Arial, Helvetica, sans-serif" font-size="12" fill="#6E7781" text-anchor="middle">project frame</text>
+<rect x="243.63" y="174.00" width="482.45" height="18.00" rx="5" fill="#E7D7A7" stroke="none" stroke-width="0" opacity="0.8"/>
+<text x="484.85" y="212.00" font-family="'IBM Plex Sans', 'Segoe UI', Arial, Helvetica, sans-serif" font-size="12" fill="#6E7781" text-anchor="middle">phase 1</text>
+<rect x="733.86" y="174.00" width="427.98" height="18.00" rx="5" fill="#E7D7A7" stroke="none" stroke-width="0" opacity="0.8"/>
+<text x="947.85" y="212.00" font-family="'IBM Plex Sans', 'Segoe UI', Arial, Helvetica, sans-serif" font-size="12" fill="#6E7781" text-anchor="middle">phase 2</text>
+<rect x="1169.62" y="174.00" width="342.38" height="18.00" rx="5" fill="#E7D7A7" stroke="none" stroke-width="0" opacity="0.8"/>
+<text x="1340.81" y="212.00" font-family="'IBM Plex Sans', 'Segoe UI', Arial, Helvetica, sans-serif" font-size="12" fill="#6E7781" text-anchor="middle">phase 3</text>
+<rect x="624.92" y="174.00" width="46.69" height="18.00" rx="5" fill="#E7C5B5" stroke="none" stroke-width="0" opacity="0.8"/>
+<text x="648.26" y="212.00" font-family="'IBM Plex Sans', 'Segoe UI', Arial, Helvetica, sans-serif" font-size="12" fill="#6E7781" text-anchor="middle">rehearsal</text>
+<rect x="951.74" y="174.00" width="46.69" height="18.00" rx="5" fill="#E7C5B5" stroke="none" stroke-width="0" opacity="0.8"/>
+<text x="975.08" y="212.00" font-family="'IBM Plex Sans', 'Segoe UI', Arial, Helvetica, sans-serif" font-size="12" fill="#6E7781" text-anchor="middle">rehearsal</text>
+<rect x="1278.56" y="174.00" width="23.34" height="18.00" rx="5" fill="#E7C5B5" stroke="none" stroke-width="0" opacity="0.8"/>
+<text x="1290.23" y="212.00" font-family="'IBM Plex Sans', 'Segoe UI', Arial, Helvetica, sans-serif" font-size="12" fill="#6E7781" text-anchor="middle">rehearsal</text>
+<rect x="1309.68" y="174.00" width="8.00" height="18.00" rx="5" fill="#E7C5B5" stroke="none" stroke-width="0" opacity="0.8"/>
+<text x="1313.57" y="212.00" font-family="'IBM Plex Sans', 'Segoe UI', Arial, Helvetica, sans-serif" font-size="12" fill="#6E7781" text-anchor="middle">performance</text>
+<rect x="368.13" y="174.00" width="31.13" height="18.00" rx="5" fill="#E7D7A7" stroke="none" stroke-width="0" opacity="0.8"/>
+<text x="383.69" y="212.00" font-family="'IBM Plex Sans', 'Segoe UI', Arial, Helvetica, sans-serif" font-size="12" fill="#6E7781" text-anchor="middle">Draft contracts</text>
+<rect x="399.26" y="174.00" width="23.34" height="18.00" rx="5" fill="#E7D7A7" stroke="none" stroke-width="0" opacity="0.8"/>
+<text x="410.93" y="212.00" font-family="'IBM Plex Sans', 'Segoe UI', Arial, Helvetica, sans-serif" font-size="12" fill="#6E7781" text-anchor="middle">Documentation quote request planned</text>
+<rect x="570.45" y="174.00" width="46.69" height="18.00" rx="5" fill="#E7D7A7" stroke="none" stroke-width="0" opacity="0.8"/>
+<text x="593.79" y="212.00" font-family="'IBM Plex Sans', 'Segoe UI', Arial, Helvetica, sans-serif" font-size="12" fill="#6E7781" text-anchor="middle">Discussion with possible design candidates</text>
+<rect x="624.92" y="174.00" width="46.69" height="18.00" rx="5" fill="#E7D7A7" stroke="none" stroke-width="0" opacity="0.8"/>
+<text x="648.26" y="212.00" font-family="'IBM Plex Sans', 'Segoe UI', Arial, Helvetica, sans-serif" font-size="12" fill="#6E7781" text-anchor="middle">Design quote requests planned</text>
+<rect x="1006.21" y="174.00" width="46.69" height="18.00" rx="5" fill="#E7D7A7" stroke="none" stroke-width="0" opacity="0.8"/>
+<text x="1029.55" y="212.00" font-family="'IBM Plex Sans', 'Segoe UI', Arial, Helvetica, sans-serif" font-size="12" fill="#6E7781" text-anchor="middle">Actual design quote requests</text>
+<rect x="1371.93" y="174.00" width="31.13" height="18.00" rx="5" fill="#E7D7A7" stroke="none" stroke-width="0" opacity="0.8"/>
+<text x="1387.50" y="212.00" font-family="'IBM Plex Sans', 'Segoe UI', Arial, Helvetica, sans-serif" font-size="12" fill="#6E7781" text-anchor="middle">Final payout period</text>
+<text x="104.00" y="168.00" font-family="'IBM Plex Sans', 'Segoe UI', Arial, Helvetica, sans-serif" font-size="20" fill="#1F2328" font-weight="700">Budget / rehearsal / frame strip</text>
+<line x1="88.00" y1="260" x2="88.00" y2="1190" stroke="#D0D7DE" stroke-width="1" stroke-dasharray="3 4"/>
+<line x1="88.00" y1="1216" x2="88.00" y2="1426" stroke="#D0D7DE" stroke-width="1" stroke-dasharray="3 4"/>
+<text x="88.00" y="1210.00" font-family="'Space Mono', 'Cascadia Mono', Consolas, monospace" font-size="13" fill="#6E7781" text-anchor="middle">Jul</text>
+<line x1="329.22" y1="260" x2="329.22" y2="1190" stroke="#D0D7DE" stroke-width="1" stroke-dasharray="3 4"/>
+<line x1="329.22" y1="1216" x2="329.22" y2="1426" stroke="#D0D7DE" stroke-width="1" stroke-dasharray="3 4"/>
+<text x="329.22" y="1210.00" font-family="'Space Mono', 'Cascadia Mono', Consolas, monospace" font-size="13" fill="#6E7781" text-anchor="middle">Aug</text>
+<line x1="570.45" y1="260" x2="570.45" y2="1190" stroke="#D0D7DE" stroke-width="1" stroke-dasharray="3 4"/>
+<line x1="570.45" y1="1216" x2="570.45" y2="1426" stroke="#D0D7DE" stroke-width="1" stroke-dasharray="3 4"/>
+<text x="570.45" y="1210.00" font-family="'Space Mono', 'Cascadia Mono', Consolas, monospace" font-size="13" fill="#6E7781" text-anchor="middle">Sep</text>
+<line x1="803.89" y1="260" x2="803.89" y2="1190" stroke="#D0D7DE" stroke-width="1" stroke-dasharray="3 4"/>
+<line x1="803.89" y1="1216" x2="803.89" y2="1426" stroke="#D0D7DE" stroke-width="1" stroke-dasharray="3 4"/>
+<text x="803.89" y="1210.00" font-family="'Space Mono', 'Cascadia Mono', Consolas, monospace" font-size="13" fill="#6E7781" text-anchor="middle">Oct</text>
+<line x1="1045.11" y1="260" x2="1045.11" y2="1190" stroke="#D0D7DE" stroke-width="1" stroke-dasharray="3 4"/>
+<line x1="1045.11" y1="1216" x2="1045.11" y2="1426" stroke="#D0D7DE" stroke-width="1" stroke-dasharray="3 4"/>
+<text x="1045.11" y="1210.00" font-family="'Space Mono', 'Cascadia Mono', Consolas, monospace" font-size="13" fill="#6E7781" text-anchor="middle">Nov</text>
+<line x1="1278.56" y1="260" x2="1278.56" y2="1190" stroke="#D0D7DE" stroke-width="1" stroke-dasharray="3 4"/>
+<line x1="1278.56" y1="1216" x2="1278.56" y2="1426" stroke="#D0D7DE" stroke-width="1" stroke-dasharray="3 4"/>
+<text x="1278.56" y="1210.00" font-family="'Space Mono', 'Cascadia Mono', Consolas, monospace" font-size="13" fill="#6E7781" text-anchor="middle">Dec</text>
+<line x1="88" y1="260.00" x2="1512" y2="260.00" stroke="#D0D7DE" stroke-width="1"/>
+<text x="100.00" y="282.00" font-family="'IBM Plex Sans', 'Segoe UI', Arial, Helvetica, sans-serif" font-size="18" fill="#1F2328" font-weight="700">budget phases</text>
+<rect x="624.92" y="290.00" width="46.69" height="14.00" rx="4" fill="#C59B42" stroke="none" stroke-width="0" opacity="0.62"/>
+<rect x="1278.56" y="310.00" width="46.69" height="14.00" rx="4" fill="#C59B42" stroke="none" stroke-width="0" opacity="0.62"/>
+<rect x="1333.03" y="330.00" width="46.69" height="14.00" rx="4" fill="#C59B42" stroke="none" stroke-width="0" opacity="0.62"/>
+<line x1="88" y1="363.33" x2="1512" y2="363.33" stroke="#D0D7DE" stroke-width="1"/>
+<text x="100.00" y="385.33" font-family="'IBM Plex Sans', 'Segoe UI', Arial, Helvetica, sans-serif" font-size="18" fill="#1F2328" font-weight="700">availability Slava</text>
+<rect x="407.04" y="393.33" width="101.16" height="14.00" rx="4" fill="#7A9E7E" stroke="none" stroke-width="0" opacity="0.62"/>
+<rect x="508.20" y="413.33" width="54.47" height="14.00" rx="4" fill="#7A9E7E" stroke="none" stroke-width="0" opacity="0.62"/>
+<rect x="951.74" y="433.33" width="101.16" height="14.00" rx="4" fill="#7A9E7E" stroke="none" stroke-width="0" opacity="0.62"/>
+<rect x="1169.62" y="393.33" width="6.00" height="14.00" rx="4" fill="#7A9E7E" stroke="none" stroke-width="0" opacity="0.62"/>
+<rect x="1177.40" y="413.33" width="62.25" height="14.00" rx="4" fill="#7A9E7E" stroke="none" stroke-width="0" opacity="0.62"/>
+<rect x="1278.56" y="433.33" width="93.38" height="14.00" rx="4" fill="#7A9E7E" stroke="none" stroke-width="0" opacity="0.62"/>
+<line x1="88" y1="466.67" x2="1512" y2="466.67" stroke="#D0D7DE" stroke-width="1"/>
+<text x="100.00" y="488.67" font-family="'IBM Plex Sans', 'Segoe UI', Arial, Helvetica, sans-serif" font-size="18" fill="#1F2328" font-weight="700">availability Chi Him</text>
+<rect x="422.60" y="496.67" width="171.19" height="14.00" rx="4" fill="#5D7C66" stroke="none" stroke-width="0" opacity="0.62"/>
+<rect x="593.79" y="516.67" width="23.34" height="14.00" rx="4" fill="#5D7C66" stroke="none" stroke-width="0" opacity="0.62"/>
+<rect x="624.92" y="536.67" width="46.69" height="14.00" rx="4" fill="#5D7C66" stroke="none" stroke-width="0" opacity="0.62"/>
+<rect x="671.61" y="496.67" width="108.94" height="14.00" rx="4" fill="#5D7C66" stroke="none" stroke-width="0" opacity="0.62"/>
+<rect x="749.42" y="516.67" width="443.54" height="14.00" rx="4" fill="#5D7C66" stroke="none" stroke-width="0" opacity="0.62"/>
+<rect x="1200.74" y="536.67" width="70.03" height="14.00" rx="4" fill="#5D7C66" stroke="none" stroke-width="0" opacity="0.62"/>
+<rect x="1247.43" y="496.67" width="31.13" height="14.00" rx="4" fill="#5D7C66" stroke="none" stroke-width="0" opacity="0.62"/>
+<rect x="1294.12" y="516.67" width="31.13" height="14.00" rx="4" fill="#5D7C66" stroke="none" stroke-width="0" opacity="0.62"/>
+<rect x="1333.03" y="536.67" width="101.16" height="14.00" rx="4" fill="#5D7C66" stroke="none" stroke-width="0" opacity="0.62"/>
+<line x1="88" y1="570.00" x2="1512" y2="570.00" stroke="#D0D7DE" stroke-width="1"/>
+<text x="100.00" y="592.00" font-family="'IBM Plex Sans', 'Segoe UI', Arial, Helvetica, sans-serif" font-size="18" fill="#1F2328" font-weight="700">Composition</text>
+<rect x="407.04" y="600.00" width="46.69" height="14.00" rx="4" fill="#7F8FB2" stroke="none" stroke-width="0" opacity="0.62"/>
+<rect x="515.98" y="620.00" width="101.16" height="14.00" rx="4" fill="#7F8FB2" stroke="none" stroke-width="0" opacity="0.62"/>
+<rect x="842.80" y="640.00" width="101.16" height="14.00" rx="4" fill="#7F8FB2" stroke="none" stroke-width="0" opacity="0.62"/>
+<line x1="88" y1="673.33" x2="1512" y2="673.33" stroke="#D0D7DE" stroke-width="1"/>
+<text x="100.00" y="695.33" font-family="'IBM Plex Sans', 'Segoe UI', Arial, Helvetica, sans-serif" font-size="18" fill="#1F2328" font-weight="700">Tech Stack</text>
+<rect x="407.04" y="703.33" width="46.69" height="12.00" rx="4" fill="#C86E5A" stroke="none" stroke-width="0" opacity="0.62"/>
+<rect x="515.98" y="721.33" width="46.69" height="12.00" rx="4" fill="#C86E5A" stroke="none" stroke-width="0" opacity="0.62"/>
+<rect x="562.67" y="739.33" width="7.78" height="12.00" rx="4" fill="#C86E5A" stroke="none" stroke-width="0" opacity="0.62"/>
+<rect x="624.92" y="703.33" width="46.69" height="12.00" rx="4" fill="#C86E5A" stroke="none" stroke-width="0" opacity="0.62"/>
+<rect x="702.73" y="721.33" width="23.34" height="12.00" rx="4" fill="#C86E5A" stroke="none" stroke-width="0" opacity="0.62"/>
+<rect x="733.86" y="739.33" width="46.69" height="12.00" rx="4" fill="#C86E5A" stroke="none" stroke-width="0" opacity="0.62"/>
+<rect x="733.86" y="703.33" width="155.63" height="12.00" rx="4" fill="#C86E5A" stroke="none" stroke-width="0" opacity="0.62"/>
+<rect x="842.80" y="721.33" width="101.16" height="12.00" rx="4" fill="#C86E5A" stroke="none" stroke-width="0" opacity="0.62"/>
+<rect x="897.27" y="739.33" width="46.69" height="12.00" rx="4" fill="#C86E5A" stroke="none" stroke-width="0" opacity="0.62"/>
+<rect x="951.74" y="703.33" width="46.69" height="12.00" rx="4" fill="#C86E5A" stroke="none" stroke-width="0" opacity="0.62"/>
+<rect x="951.74" y="721.33" width="46.69" height="12.00" rx="4" fill="#C86E5A" stroke="none" stroke-width="0" opacity="0.62"/>
+<rect x="1169.62" y="739.33" width="46.69" height="12.00" rx="4" fill="#C86E5A" stroke="none" stroke-width="0" opacity="0.62"/>
+<rect x="1278.56" y="703.33" width="46.69" height="12.00" rx="4" fill="#C86E5A" stroke="none" stroke-width="0" opacity="0.62"/>
+<line x1="88" y1="776.67" x2="1512" y2="776.67" stroke="#D0D7DE" stroke-width="1"/>
+<text x="100.00" y="798.67" font-family="'IBM Plex Sans', 'Segoe UI', Arial, Helvetica, sans-serif" font-size="18" fill="#1F2328" font-weight="700">Screen</text>
+<rect x="407.04" y="806.67" width="46.69" height="12.00" rx="4" fill="#8C8C8C" stroke="none" stroke-width="0" opacity="0.62"/>
+<rect x="407.04" y="824.67" width="46.69" height="12.00" rx="4" fill="#8C8C8C" stroke="none" stroke-width="0" opacity="0.62"/>
+<rect x="461.51" y="842.67" width="46.69" height="12.00" rx="4" fill="#8C8C8C" stroke="none" stroke-width="0" opacity="0.62"/>
+<rect x="515.98" y="806.67" width="46.69" height="12.00" rx="4" fill="#8C8C8C" stroke="none" stroke-width="0" opacity="0.62"/>
+<rect x="570.45" y="824.67" width="46.69" height="12.00" rx="4" fill="#8C8C8C" stroke="none" stroke-width="0" opacity="0.62"/>
+<rect x="570.45" y="842.67" width="46.69" height="12.00" rx="4" fill="#8C8C8C" stroke="none" stroke-width="0" opacity="0.62"/>
+<rect x="624.92" y="806.67" width="46.69" height="12.00" rx="4" fill="#8C8C8C" stroke="none" stroke-width="0" opacity="0.62"/>
+<rect x="624.92" y="824.67" width="101.16" height="12.00" rx="4" fill="#8C8C8C" stroke="none" stroke-width="0" opacity="0.62"/>
+<rect x="733.86" y="842.67" width="46.69" height="12.00" rx="4" fill="#8C8C8C" stroke="none" stroke-width="0" opacity="0.62"/>
+<rect x="733.86" y="806.67" width="46.69" height="12.00" rx="4" fill="#8C8C8C" stroke="none" stroke-width="0" opacity="0.62"/>
+<rect x="788.33" y="824.67" width="46.69" height="12.00" rx="4" fill="#8C8C8C" stroke="none" stroke-width="0" opacity="0.62"/>
+<rect x="842.80" y="842.67" width="46.69" height="12.00" rx="4" fill="#8C8C8C" stroke="none" stroke-width="0" opacity="0.62"/>
+<rect x="842.80" y="806.67" width="46.69" height="12.00" rx="4" fill="#8C8C8C" stroke="none" stroke-width="0" opacity="0.62"/>
+<rect x="897.27" y="824.67" width="46.69" height="12.00" rx="4" fill="#8C8C8C" stroke="none" stroke-width="0" opacity="0.62"/>
+<rect x="897.27" y="842.67" width="46.69" height="12.00" rx="4" fill="#8C8C8C" stroke="none" stroke-width="0" opacity="0.62"/>
+<rect x="951.74" y="806.67" width="46.69" height="12.00" rx="4" fill="#8C8C8C" stroke="none" stroke-width="0" opacity="0.62"/>
+<rect x="951.74" y="824.67" width="46.69" height="12.00" rx="4" fill="#8C8C8C" stroke="none" stroke-width="0" opacity="0.62"/>
+<rect x="951.74" y="842.67" width="46.69" height="12.00" rx="4" fill="#8C8C8C" stroke="none" stroke-width="0" opacity="0.62"/>
+<rect x="1006.21" y="806.67" width="46.69" height="12.00" rx="4" fill="#8C8C8C" stroke="none" stroke-width="0" opacity="0.62"/>
+<rect x="1060.68" y="824.67" width="155.63" height="12.00" rx="4" fill="#8C8C8C" stroke="none" stroke-width="0" opacity="0.62"/>
+<rect x="1224.09" y="842.67" width="46.69" height="12.00" rx="4" fill="#8C8C8C" stroke="none" stroke-width="0" opacity="0.62"/>
+<rect x="1278.56" y="806.67" width="46.69" height="12.00" rx="4" fill="#8C8C8C" stroke="none" stroke-width="0" opacity="0.62"/>
+<rect x="1387.50" y="824.67" width="46.69" height="12.00" rx="4" fill="#8C8C8C" stroke="none" stroke-width="0" opacity="0.62"/>
+<line x1="88" y1="880.00" x2="1512" y2="880.00" stroke="#D0D7DE" stroke-width="1"/>
+<text x="100.00" y="902.00" font-family="'IBM Plex Sans', 'Segoe UI', Arial, Helvetica, sans-serif" font-size="18" fill="#1F2328" font-weight="700">Visual</text>
+<rect x="461.51" y="910.00" width="101.16" height="14.00" rx="4" fill="#A16DA8" stroke="none" stroke-width="0" opacity="0.62"/>
+<rect x="515.98" y="930.00" width="101.16" height="14.00" rx="4" fill="#A16DA8" stroke="none" stroke-width="0" opacity="0.62"/>
+<rect x="570.45" y="950.00" width="46.69" height="14.00" rx="4" fill="#A16DA8" stroke="none" stroke-width="0" opacity="0.62"/>
+<rect x="624.92" y="910.00" width="101.16" height="14.00" rx="4" fill="#A16DA8" stroke="none" stroke-width="0" opacity="0.62"/>
+<rect x="679.39" y="930.00" width="101.16" height="14.00" rx="4" fill="#A16DA8" stroke="none" stroke-width="0" opacity="0.62"/>
+<rect x="842.80" y="950.00" width="101.16" height="14.00" rx="4" fill="#A16DA8" stroke="none" stroke-width="0" opacity="0.62"/>
+<rect x="1006.21" y="910.00" width="210.10" height="14.00" rx="4" fill="#A16DA8" stroke="none" stroke-width="0" opacity="0.62"/>
+<line x1="88" y1="983.33" x2="1512" y2="983.33" stroke="#D0D7DE" stroke-width="1"/>
+<text x="100.00" y="1005.33" font-family="'IBM Plex Sans', 'Segoe UI', Arial, Helvetica, sans-serif" font-size="18" fill="#1F2328" font-weight="700">Interfaces</text>
+<rect x="407.04" y="1013.33" width="46.69" height="12.00" rx="4" fill="#D48B4A" stroke="none" stroke-width="0" opacity="0.62"/>
+<rect x="461.51" y="1031.33" width="46.69" height="12.00" rx="4" fill="#D48B4A" stroke="none" stroke-width="0" opacity="0.62"/>
+<rect x="515.98" y="1049.33" width="46.69" height="12.00" rx="4" fill="#D48B4A" stroke="none" stroke-width="0" opacity="0.62"/>
+<rect x="570.45" y="1013.33" width="46.69" height="12.00" rx="4" fill="#D48B4A" stroke="none" stroke-width="0" opacity="0.62"/>
+<rect x="570.45" y="1031.33" width="46.69" height="12.00" rx="4" fill="#D48B4A" stroke="none" stroke-width="0" opacity="0.62"/>
+<rect x="624.92" y="1049.33" width="46.69" height="12.00" rx="4" fill="#D48B4A" stroke="none" stroke-width="0" opacity="0.62"/>
+<rect x="624.92" y="1013.33" width="46.69" height="12.00" rx="4" fill="#D48B4A" stroke="none" stroke-width="0" opacity="0.62"/>
+<rect x="733.86" y="1031.33" width="46.69" height="12.00" rx="4" fill="#D48B4A" stroke="none" stroke-width="0" opacity="0.62"/>
+<rect x="842.80" y="1049.33" width="46.69" height="12.00" rx="4" fill="#D48B4A" stroke="none" stroke-width="0" opacity="0.62"/>
+<rect x="842.80" y="1013.33" width="46.69" height="12.00" rx="4" fill="#D48B4A" stroke="none" stroke-width="0" opacity="0.62"/>
+<rect x="897.27" y="1031.33" width="46.69" height="12.00" rx="4" fill="#D48B4A" stroke="none" stroke-width="0" opacity="0.62"/>
+<rect x="951.74" y="1049.33" width="46.69" height="12.00" rx="4" fill="#D48B4A" stroke="none" stroke-width="0" opacity="0.62"/>
+<rect x="951.74" y="1013.33" width="46.69" height="12.00" rx="4" fill="#D48B4A" stroke="none" stroke-width="0" opacity="0.62"/>
+<rect x="1006.21" y="1031.33" width="46.69" height="12.00" rx="4" fill="#D48B4A" stroke="none" stroke-width="0" opacity="0.62"/>
+<rect x="1224.09" y="1049.33" width="46.69" height="12.00" rx="4" fill="#D48B4A" stroke="none" stroke-width="0" opacity="0.62"/>
+<line x1="88" y1="1086.67" x2="1512" y2="1086.67" stroke="#D0D7DE" stroke-width="1"/>
+<text x="100.00" y="1108.67" font-family="'IBM Plex Sans', 'Segoe UI', Arial, Helvetica, sans-serif" font-size="18" fill="#1F2328" font-weight="700">Sound</text>
+<rect x="515.98" y="1116.67" width="46.69" height="14.00" rx="4" fill="#6A8FBF" stroke="none" stroke-width="0" opacity="0.62"/>
+<rect x="624.92" y="1136.67" width="46.69" height="14.00" rx="4" fill="#6A8FBF" stroke="none" stroke-width="0" opacity="0.62"/>
+<rect x="788.33" y="1156.67" width="155.63" height="14.00" rx="4" fill="#6A8FBF" stroke="none" stroke-width="0" opacity="0.62"/>
+<line x1="88" y1="1190.00" x2="1512" y2="1190.00" stroke="#D0D7DE" stroke-width="1"/>
+<polyline fill="none" stroke="#C59B42" stroke-width="3" points="414.82,1396.63 469.29,1377.61 578.23,1377.23 632.70,1375.71 687.17,1372.94 741.64,1354.46 796.11,1350.69 850.58,1350.05 905.05,1306.02 959.52,1305.12 1013.99,1304.96 1068.46,1301.77 1122.93,1301.66 1177.40,1300.69 1231.87,1290.91 1286.34,1284.77 1340.81,1257.76 1449.75,1243.10 1504.22,1234.00"/>
+<line x1="88" y1="1426.00" x2="1512" y2="1426.00" stroke="#D0D7DE" stroke-width="1"/>
+<text x="78.00" y="1430.00" font-family="'Space Mono', 'Cascadia Mono', Consolas, monospace" font-size="13" fill="#6E7781" text-anchor="end">0</text>
+<line x1="88" y1="1330.00" x2="1512" y2="1330.00" stroke="#D0D7DE" stroke-width="1"/>
+<text x="78.00" y="1334.00" font-family="'Space Mono', 'Cascadia Mono', Consolas, monospace" font-size="13" fill="#6E7781" text-anchor="end">7649</text>
+<line x1="88" y1="1234.00" x2="1512" y2="1234.00" stroke="#D0D7DE" stroke-width="1"/>
+<text x="78.00" y="1238.00" font-family="'Space Mono', 'Cascadia Mono', Consolas, monospace" font-size="13" fill="#6E7781" text-anchor="end">15299</text>
+<text x="104.00" y="1240.00" font-family="'IBM Plex Sans', 'Segoe UI', Arial, Helvetica, sans-serif" font-size="20" fill="#1F2328" font-weight="700">Cumulative expenses (EUR)</text>
+<text x="104.00" y="1478.00" font-family="'IBM Plex Sans', 'Segoe UI', Arial, Helvetica, sans-serif" font-size="20" fill="#1F2328" font-weight="700">Legend</text>
+<rect x="106.00" y="1498.00" width="18.00" height="12.00" rx="3" fill="#C59B42" stroke="none" stroke-width="0" opacity="0.62"/>
+<text x="134.00" y="1508.00" font-family="'IBM Plex Sans', 'Segoe UI', Arial, Helvetica, sans-serif" font-size="15" fill="#1F2328">budget phases</text>
+<rect x="326.00" y="1498.00" width="18.00" height="12.00" rx="3" fill="#8C8C8C" stroke="none" stroke-width="0" opacity="0.62"/>
+<text x="354.00" y="1508.00" font-family="'IBM Plex Sans', 'Segoe UI', Arial, Helvetica, sans-serif" font-size="15" fill="#1F2328">Screen</text>
+<rect x="546.00" y="1498.00" width="18.00" height="12.00" rx="3" fill="#C86E5A" stroke="none" stroke-width="0" opacity="0.62"/>
+<text x="574.00" y="1508.00" font-family="'IBM Plex Sans', 'Segoe UI', Arial, Helvetica, sans-serif" font-size="15" fill="#1F2328">Tech Stack</text>
+<rect x="766.00" y="1498.00" width="18.00" height="12.00" rx="3" fill="#A16DA8" stroke="none" stroke-width="0" opacity="0.62"/>
+<text x="794.00" y="1508.00" font-family="'IBM Plex Sans', 'Segoe UI', Arial, Helvetica, sans-serif" font-size="15" fill="#1F2328">Visual</text>
+<rect x="986.00" y="1498.00" width="18.00" height="12.00" rx="3" fill="#D48B4A" stroke="none" stroke-width="0" opacity="0.62"/>
+<text x="1014.00" y="1508.00" font-family="'IBM Plex Sans', 'Segoe UI', Arial, Helvetica, sans-serif" font-size="15" fill="#1F2328">Interfaces</text>
+<text x="1248.00" y="1478.00" font-family="'IBM Plex Sans', 'Segoe UI', Arial, Helvetica, sans-serif" font-size="15" fill="#6E7781">Planned blocks are lighter.</text>
+</svg>

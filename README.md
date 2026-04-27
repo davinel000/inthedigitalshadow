@@ -1,79 +1,97 @@
-# In the Digital Shadow
+# in the digital shadow
 
-Repository for Slava Romanov's master's thesis and research project **In the Digital Shadow: An Embodied Debrief**.
+![Thesis cover](docs/assets/thesis-cover.png)
 
-The repository is intended to hold the clean, reproducible layer of the project: thesis text, methodology, curated research traces, inventories, and scripts that make the corpus reviewable without depending on a single working machine.
-
-## Current State
-
-- `romanov_in_the_digital_shadow.pdf` is the submitted thesis PDF.
-- The broader production folder currently exists outside the repository at `P:\DIGITAL MEDIA\MASTER THESIS`.
-- Some datasets and project traces are still on another computer and should be inventoried before copying.
+Public research repository for Slava Romanov's master's thesis and artistic research project **in the digital shadow: An Embodied Debrief**. It brings together the thesis PDF, the methodological frame, selected public data, key analytical diagrams, and the minimum technical context needed to understand how the research was built.
 
 ## Research Frame
 
 The thesis reads the production process through four operational modes:
 
-- **Collect**: accumulation of traces, references, logs, notes, and source material.
-- **Allocate**: distribution of time, attention, money, space, and tasks.
-- **Delegate**: work externalised to collaborators, software, automation, AI systems, and technical infrastructure.
-- **Overload**: points where coordination, expectation, and embodied capacity exceed a workable limit.
+- **Collect**: accumulation of traces, references, logs, notes, source material, and leftovers.
+- **Allocate**: distribution of time, money, attention, space, and technical capacity.
+- **Delegate**: work externalized to collaborators, software, AI systems, hardware, interfaces, and infrastructure.
+- **Overload**: moments when density, coordination, expectation, and embodied capacity exceed a workable limit.
 
-The practical goal of this repository is to make those traces legible as a reproducible research corpus, not just as a storage dump.
+These modes organize both the installation logic and the research corpus.
 
-## Repository Layout
+## Read
 
-```text
-docs/
-  collection-protocol.md    How to collect and decide what enters the repo
-  methodology.md            Methodological notes for Embodied Debrief
-data/
-  README.md                 Data policy and folder meanings
-  manifest.csv              Main catalog of curated research traces
-  curated/                  Clean files selected for the corpus
-  derived/                  Generated summaries, extracts, tables, timelines
-  inbox/                    Temporary local staging area, ignored by git
-  private/                  Sensitive source material, ignored by git
-scripts/
-  build-inventory.ps1       Creates file inventories from external drives/folders
-```
+- [Key Findings](docs/key-findings.md)
+- [Methodology](docs/methodology.md)
+- [Data Policy](docs/data-policy.md)
+- [Thesis PDF](romanov_in_the_digital_shadow.pdf)
 
-## Collection Workflow
+## Reuse
 
-1. On each machine, run `scripts/build-inventory.ps1` against the relevant source folder.
-2. Review the generated inventory before copying files.
-3. Copy only relevant material into `data/inbox/`.
-4. Clean, redact, normalize, and document selected items.
-5. Move approved files into `data/curated/` or generated outputs into `data/derived/`.
-6. Add every curated item to `data/manifest.csv`.
+- [Reproduce](docs/reproduce.md)
+- [Templates](data/templates)
 
-Example inventory command:
+## Public Corpus
 
-```powershell
-.\scripts\build-inventory.ps1 -Source "P:\DIGITAL MEDIA\MASTER THESIS" -Output ".\data\derived\inventory-master-thesis.csv"
-```
+- thesis PDF and concise methodological notes;
+- a curated public layer of findings and depersonalized data;
+- selected system snapshots, especially final TouchDesigner logic states;
+- derived tables and final diagrams.
 
-For stronger reproducibility, include hashes:
+Current material:
 
-```powershell
-.\scripts\build-inventory.ps1 -Source "D:\path\to\datasets" -Output ".\data\derived\inventory-datasets.csv" -Hash
-```
+- [system snapshots](data/curated/system)
+- [project_mass](data/derived/project_mass)
+- [allocate](data/derived/allocate)
+- [delegate](data/derived/delegate)
+- [overload](data/derived/overload)
+- [figures](data/derived/figures)
 
-## What Belongs Here
+## Analytical Blocks
 
-Good candidates for the clean corpus:
+The repository is being organized around the main analytical blocks used in the thesis:
 
-- exported chats or chat excerpts relevant to Collect, Allocate, Delegate, or Overload;
-- schedules, budgets, task plans, production logs, and delegation records;
-- self-tracking summaries, not necessarily raw private data;
-- TouchDesigner/technical configuration snapshots that document system logic;
-- installation diagrams, mappings, cards, scripts, and reproducible generated tables;
-- short README notes explaining each research block.
+- `project mass`: accumulation across files, physical items, spending, and other production layers;
+- `allocate`: working schedule, budget strip, and time allocation views;
+- `delegate`: delegation volume, task type comparisons, and human/AI request patterns;
+- `overload`: phase timelines with physiological and self-tracking overlays;
+- installation logic diagrams and final thesis figures derived from these layers.
 
-Avoid committing:
+Current files already included:
 
-- full software installers, cracks, caches, and duplicated binaries;
-- private messages or personal health data before review/redaction;
-- large videos/audio unless they are essential and intentionally tracked;
-- raw exports whose structure has not yet been documented.
+- [project_mass_daily.csv](data/derived/project_mass/project_mass_daily.csv)
+- [project_mass_toe_daily.csv](data/derived/project_mass/project_mass_toe_daily.csv)
+- [allocate_budget_weekly.csv](data/derived/allocate/allocate_budget_weekly.csv)
+- [allocate_timeline_dataset.csv](data/derived/allocate/allocate_timeline_dataset.csv)
+- [allocate_event_markers.csv](data/derived/allocate/allocate_event_markers.csv)
+- [LOGIC.toe](data/curated/system/LOGIC.toe)
+- [LOGIC.AUDIO.toe](data/curated/system/LOGIC.AUDIO.toe)
+- [delegate_task_type_comparison.csv](data/derived/delegate/delegate_task_type_comparison.csv)
+- [delegate_uptake_comparison.csv](data/derived/delegate/delegate_uptake_comparison.csv)
+- [overload_phase_summary_fitness.csv](data/derived/overload/overload_phase_summary_fitness.csv)
+- [overload_timeline_weekly.csv](data/derived/overload/overload_timeline_weekly.csv)
+- [collect.svg](data/derived/figures/collect.svg)
+- [allocate.svg](data/derived/figures/allocate.svg)
+- [delegate_request.svg](data/derived/figures/delegate_request.svg)
+- [delegate_uptake.svg](data/derived/figures/delegate_uptake.svg)
+- [overload_timeline.svg](data/derived/figures/overload_timeline.svg)
+
+## Related Project Links
+
+- Project page: [slavaromanov.art/2026/in-the-digital-shadow](https://www.slavaromanov.art/2026/in-the-digital-shadow)
+- Thesis PDF in this repository: [romanov_in_the_digital_shadow.pdf](romanov_in_the_digital_shadow.pdf)
+
+The project page provides the artistic and installation-facing overview. This repository provides the documentary, methodological, and data-facing layer.
+
+## Privacy And Exclusions
+
+Public material in this repository is curated, reduced, and in some cases depersonalized or derived.
+
+In particular:
+
+- third-party messages were filtered locally before any public layer was prepared;
+- privacy-sensitive corpora and raw health exports are not published here as-is;
+- only selected author-controlled or privacy-safe outputs should enter `data/curated/` or `data/derived/`.
+
+See [data-policy.md](docs/data-policy.md) for details.
+
+## AI-Assisted Workflow
+
+Parts of the repository documentation, scripting, editorial restructuring, and selected analysis support were developed with assistance from GPT Codex and other local or hosted language models. Curation, interpretation, selection, redaction, and final responsibility remain with the author.
 

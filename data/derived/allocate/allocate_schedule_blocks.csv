@@ -1,0 +1,118 @@
+lane_group,lane_subgroup,label,start_local,end_local,notes,start_dt,end_dt,duration_days
+budget phases,,Research Materials,2025-09-08,2025-09-14,approx from yellow milestone block,2025-09-08,2025-09-14,7
+budget phases,,Performance,2025-12-01,2025-12-07,approx from orange milestone block,2025-12-01,2025-12-07,7
+budget phases,,Documentation,2025-12-08,2025-12-14,approx from yellow milestone block,2025-12-08,2025-12-14,7
+availability Slava,,Slava Vacation,2025-08-11,2025-08-24,dates visible on block,2025-08-11,2025-08-24,14
+availability Slava,,Slava in Bremen,2025-08-24,2025-08-31,dates visible on block,2025-08-24,2025-08-31,8
+availability Slava,,Slava in Bremen,2025-10-20,2025-11-02,dates visible on block,2025-10-20,2025-11-02,14
+availability Slava,,HAM,2025-11-17,2025-11-17,"small one-day block, exact text may be abbreviated",2025-11-17,2025-11-17,1
+availability Slava,,Slava in Berlin,2025-11-18,2025-11-26,dates visible on block,2025-11-18,2025-11-26,9
+availability Slava,,Slava in Bremen,2025-12-01,2025-12-13,dates visible on block,2025-12-01,2025-12-13,13
+availability Chi Him,,Chi Him in Bremen,2025-08-13,2025-09-04,dates visible on block,2025-08-13,2025-09-04,23
+availability Chi Him,,Chi Him out of Bremen,2025-09-04,2025-09-07,location text looks like Leipzig,2025-09-04,2025-09-07,4
+availability Chi Him,,Chi Him in Bremen,2025-09-08,2025-09-14,dates visible on block,2025-09-08,2025-09-14,7
+availability Chi Him,,Chi Him out of Bremen (Rome),2025-09-14,2025-09-28,dates visible on block,2025-09-14,2025-09-28,15
+availability Chi Him,,Chi Him in Bremen,2025-09-24,2025-11-20,"approx, long green block",2025-09-24,2025-11-20,58
+availability Chi Him,,Chi Him out of Bremen (Zurich),2025-11-21,2025-11-30,dates visible on block,2025-11-21,2025-11-30,10
+availability Chi Him,,Chi Him in Stuttgart,2025-11-27,2025-12-01,dates visible on block,2025-11-27,2025-12-01,5
+availability Chi Him,,Chi Him in Bremen,2025-12-03,2025-12-07,dates visible on block,2025-12-03,2025-12-07,5
+availability Chi Him,,Chi Him out of Bremen (Berlin + Zurich),2025-12-08,2025-12-21,dates visible on block,2025-12-08,2025-12-21,14
+Composition,,Dramaturgy day,2025-08-11,2025-08-17,small green block,2025-08-11,2025-08-17,7
+Composition,,Dramaturgy development,2025-08-25,2025-09-07,approx from green block,2025-08-25,2025-09-07,14
+Composition,,Dramaturgy finalization,2025-10-06,2025-10-19,approx from green block,2025-10-06,2025-10-19,14
+Tech Stack,,Quotes for PC,2025-08-11,2025-08-17,small magenta block,2025-08-11,2025-08-17,7
+Tech Stack,,General list of equipment draft,2025-08-25,2025-08-31,approx from magenta block,2025-08-25,2025-08-31,7
+Tech Stack,,WDI,2025-08-31,2025-09-01,"tiny magenta block, abbreviation as shown",2025-08-31,2025-09-01,2
+Tech Stack,,Setting up equipment,2025-09-08,2025-09-14,approx from magenta block,2025-09-08,2025-09-14,7
+Tech Stack,,WDI,2025-09-18,2025-09-21,"tiny magenta block, abbreviation as shown",2025-09-18,2025-09-21,4
+Tech Stack,,General list of equipment beta,2025-09-22,2025-09-28,approx from magenta block,2025-09-22,2025-09-28,7
+Tech Stack,,Monitor WeDigIt situation,2025-09-22,2025-10-12,"OCR-backed, spelling kept close to image",2025-09-22,2025-10-12,21
+Tech Stack,,Search for replacement projectors,2025-10-06,2025-10-19,approx from long magenta block,2025-10-06,2025-10-19,14
+Tech Stack,,Getting a rented PC (2 months),2025-10-13,2025-10-19,approx from magenta block,2025-10-13,2025-10-19,7
+Tech Stack,,Setting up 2 rented PC,2025-10-20,2025-10-26,approx from magenta block,2025-10-20,2025-10-26,7
+Tech Stack,,Setting up equipment,2025-10-20,2025-10-26,approx from magenta block,2025-10-20,2025-10-26,7
+Tech Stack,,General list of equipment final,2025-11-17,2025-11-23,approx from magenta block,2025-11-17,2025-11-23,7
+Tech Stack,,Setting up equipment,2025-12-01,2025-12-07,approx from magenta block,2025-12-01,2025-12-07,7
+Screen,,Detailed Tech Concept,2025-08-11,2025-08-17,gray block,2025-08-11,2025-08-17,7
+Screen,,3D Model,2025-08-11,2025-08-17,small gray block,2025-08-11,2025-08-17,7
+Screen,,3D Model,2025-08-18,2025-08-24,gray block text appears repeated,2025-08-18,2025-08-24,7
+Screen,,Circuitry design,2025-08-25,2025-08-31,gray block,2025-08-25,2025-08-31,7
+Screen,,Consultation,2025-09-01,2025-09-07,gray block,2025-09-01,2025-09-07,7
+Screen,,List of Equipment,2025-09-01,2025-09-07,gray block,2025-09-01,2025-09-07,7
+Screen,,Order equipment,2025-09-08,2025-09-14,gray block,2025-09-08,2025-09-14,7
+Screen,,Receive equipment,2025-09-08,2025-09-21,gray block,2025-09-08,2025-09-21,14
+Screen,,Element prototype,2025-09-22,2025-09-28,gray block,2025-09-22,2025-09-28,7
+Screen,,Consultation,2025-09-22,2025-09-28,small gray block,2025-09-22,2025-09-28,7
+Screen,,Production,2025-09-29,2025-10-05,gray block,2025-09-29,2025-10-05,7
+Screen,,Calibration & Tests,2025-10-06,2025-10-12,gray block,2025-10-06,2025-10-12,7
+Screen,,First Buildup,2025-10-06,2025-10-12,gray block,2025-10-06,2025-10-12,7
+Screen,,OSC Tests,2025-10-13,2025-10-19,gray block,2025-10-13,2025-10-19,7
+Screen,,Debugging,2025-10-13,2025-10-19,gray block,2025-10-13,2025-10-19,7
+Screen,,Prep for Transport,2025-10-20,2025-10-26,gray block,2025-10-20,2025-10-26,7
+Screen,,Second Buildup,2025-10-20,2025-10-26,gray block,2025-10-20,2025-10-26,7
+Screen,,Transporting,2025-10-27,2025-11-02,gray block,2025-10-27,2025-11-02,7
+Screen,,Schwankhalle confirmation,2025-10-20,2025-10-26,gray block under second buildup,2025-10-20,2025-10-26,7
+Screen,,Third Buildup in Urbanscreen,2025-11-03,2025-11-23,large gray block,2025-11-03,2025-11-23,21
+Screen,,Prep for Transport,2025-11-24,2025-11-30,gray block,2025-11-24,2025-11-30,7
+Screen,,Final Buildup,2025-12-01,2025-12-07,gray block,2025-12-01,2025-12-07,7
+Screen,,Transporting,2025-12-15,2025-12-21,gray block,2025-12-15,2025-12-21,7
+Visual,,Moodboard & Ideas,2025-08-18,2025-08-31,purple block,2025-08-18,2025-08-31,14
+Visual,,Testing POPs,2025-08-25,2025-09-07,purple block,2025-08-25,2025-09-07,14
+Visual,,Testing visuals,2025-09-08,2025-09-21,purple block,2025-09-08,2025-09-21,14
+Visual,,Interactive Assets,2025-09-01,2025-09-07,purple block,2025-09-01,2025-09-07,7
+Visual,,Interactive Assets,2025-09-15,2025-09-28,purple block,2025-09-15,2025-09-28,14
+Visual,,Interactive Assets,2025-10-06,2025-10-19,purple block,2025-10-06,2025-10-19,14
+Visual,,Building visuals,2025-10-27,2025-11-23,large purple block,2025-10-27,2025-11-23,28
+Interfaces,,2x DC setup test,2025-08-11,2025-08-17,orange block,2025-08-11,2025-08-17,7
+Interfaces,,Pointcloud sync,2025-08-18,2025-08-24,orange block,2025-08-18,2025-08-24,7
+Interfaces,,Pointcloud recorder,2025-08-25,2025-08-31,orange block,2025-08-25,2025-08-31,7
+Interfaces,,Depth to SD,2025-09-01,2025-09-07,orange block,2025-09-01,2025-09-07,7
+Interfaces,,Share Katana I/O protocols,2025-09-01,2025-09-07,orange block with two-line label,2025-09-01,2025-09-07,7
+Interfaces,,Camera placement test,2025-09-08,2025-09-14,orange block,2025-09-08,2025-09-14,7
+Interfaces,,Katana test,2025-09-08,2025-09-14,small orange block,2025-09-08,2025-09-14,7
+Interfaces,,Skeleton + OSC,2025-09-22,2025-09-28,orange block,2025-09-22,2025-09-28,7
+Interfaces,,MIDI Mappings,2025-10-06,2025-10-12,orange block,2025-10-06,2025-10-12,7
+Interfaces,,Real condition scan,2025-10-06,2025-10-12,small orange block,2025-10-06,2025-10-12,7
+Interfaces,,OSC Screen controls,2025-10-13,2025-10-19,orange block,2025-10-13,2025-10-19,7
+Interfaces,,Cameras test,2025-10-20,2025-10-26,orange block,2025-10-20,2025-10-26,7
+Interfaces,,Katana test,2025-10-20,2025-10-26,small orange block,2025-10-20,2025-10-26,7
+Interfaces,,Cameras & calibration test,2025-10-27,2025-11-02,orange block,2025-10-27,2025-11-02,7
+Interfaces,,Recording Chi Him Movements,2025-11-24,2025-11-30,orange block,2025-11-24,2025-11-30,7
+Sound,,Sound palette,2025-08-25,2025-08-31,teal block,2025-08-25,2025-08-31,7
+Sound,,Sound interactivity test,2025-09-08,2025-09-14,teal block,2025-09-08,2025-09-14,7
+Sound,,Sound Assets Development,2025-09-29,2025-10-19,large teal block,2025-09-29,2025-10-19,21
+Admin,,Mittelab ruf 1,2025-07-28,2025-08-03,"blue block, spelling kept close to image",2025-07-28,2025-08-03,7
+Admin,,Draft contracts,2025-08-04,2025-08-10,blue block,2025-08-04,2025-08-10,7
+Admin,,Quotes for documentation,2025-08-11,2025-08-17,blue block,2025-08-11,2025-08-17,7
+Admin,,Discuss with possible candidates designers,2025-09-01,2025-09-07,"blue block, text partly OCR-based",2025-09-01,2025-09-07,7
+Admin,,Quotes for design & documentation,2025-09-08,2025-09-14,blue block,2025-09-08,2025-09-14,7
+Admin,,Mittelab ruf 2,2025-09-22,2025-09-28,"blue block, spelling kept close to image",2025-09-22,2025-09-28,7
+Admin,,Quotes for logistic & documentation,2025-10-27,2025-11-09,"blue block, exact middle word partly unclear",2025-10-27,2025-11-09,14
+Admin,,Mittelab ruf 3,2025-11-10,2025-11-16,"blue block, spelling kept close to image",2025-11-10,2025-11-16,7
+Admin,,Collecting reports and financing,2025-12-15,2025-12-28,blue block,2025-12-15,2025-12-28,14
+Admin,,Paying final money,2025-12-08,2025-12-21,blue block,2025-12-08,2025-12-21,14
+Communication,,First Consultation,2025-08-04,2025-08-10,pink block,2025-08-04,2025-08-10,7
+Communication,,Draft concept,2025-08-11,2025-08-17,pink block,2025-08-11,2025-08-17,7
+Communication,,Collect connections,2025-08-11,2025-08-17,"small pink block, plural inferred",2025-08-11,2025-08-17,7
+Communication,,Collect connections,2025-08-25,2025-08-31,"small pink block, plural inferred",2025-08-25,2025-08-31,7
+Communication,,Write to Schwankhalle,2025-09-01,2025-09-07,pink block,2025-09-01,2025-09-07,7
+Communication,,Record and document first rehearsal,2025-09-08,2025-09-21,pink block,2025-09-08,2025-09-21,14
+Communication,,call,2025-09-22,2025-09-22,"tiny pink block, lowercase kept as seen",2025-09-22,2025-09-22,1
+Communication,,Write to Schwankhalle,2025-09-22,2025-09-28,pink block,2025-09-22,2025-09-28,7
+Communication,,Collect Materials,2025-09-08,2025-09-28,long pink block,2025-09-08,2025-09-28,21
+Communication,,Media Strategy preparation,2025-10-06,2025-10-19,pink block,2025-10-06,2025-10-19,14
+Communication,,Media Strategy discussion,2025-10-20,2025-10-26,pink block,2025-10-20,2025-10-26,7
+Communication,,Selecting designer,2025-10-20,2025-10-26,small pink block,2025-10-20,2025-10-26,7
+Communication,,Partner communication,2025-10-27,2025-11-02,pink block,2025-10-27,2025-11-02,7
+Communication,,Media design,2025-10-27,2025-11-09,pink block,2025-10-27,2025-11-09,14
+Communication,,Adding announcement,2025-11-03,2025-11-09,pink block,2025-11-03,2025-11-09,7
+Communication,,Inviting partners,2025-11-10,2025-11-16,pink block,2025-11-10,2025-11-16,7
+Communication,,Inviting friends,2025-11-17,2025-11-23,pink block,2025-11-17,2025-11-23,7
+Communication,,Online ads,2025-11-24,2025-11-30,pink block,2025-11-24,2025-11-30,7
+Communication,,Periodic posting,2025-11-10,2025-12-14,long pink block,2025-11-10,2025-12-14,35
+Communication,,Mailing,2025-11-24,2025-11-30,pink block,2025-11-24,2025-11-30,7
+Communication,,Mailing,2025-12-08,2025-12-14,pink block,2025-12-08,2025-12-14,7
+Communication,,Photo/Video documentation,2025-12-08,2025-12-14,pink block,2025-12-08,2025-12-14,7
+Workshops,,Workshop design,2025-11-10,2025-11-30,pink block in workshops lane,2025-11-10,2025-11-30,21
+Workshops,,Workshop test,2025-12-01,2025-12-07,pink block,2025-12-01,2025-12-07,7
+Workshops,,Workshop execution,2025-12-08,2025-12-14,pink block,2025-12-08,2025-12-14,7

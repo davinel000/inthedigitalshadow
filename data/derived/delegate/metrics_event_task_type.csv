@@ -1,0 +1,11 @@
+platform,task_type,count
+chatgpt,analysis,22
+chatgpt,coding,37
+chatgpt,other,164
+chatgpt,planning,18
+chatgpt,writing,59
+telegram,analysis,1
+telegram,coding,18
+telegram,other,201
+telegram,planning,11
+telegram,writing,32

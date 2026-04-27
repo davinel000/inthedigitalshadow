@@ -1,0 +1,241 @@
+lane_final,label,start_dt,end_dt,plan_relation,record_type,source_layer
+Composition / Sound,Dramaturgy day,2025-08-11,2025-08-17,planned,block,planned
+Composition / Sound,Dramaturgy development,2025-08-25,2025-09-07,planned,block,planned
+Composition / Sound,Dramaturgy finalization,2025-10-06,2025-10-19,planned,block,planned
+Tech / Logistics,Quotes for PC,2025-08-11,2025-08-17,planned,block,planned
+Tech / Logistics,General list of equipment draft,2025-08-25,2025-08-31,planned,block,planned
+Tech / Logistics,WDI,2025-08-31,2025-09-01,planned,block,planned
+Tech / Logistics,Setting up equipment,2025-09-08,2025-09-14,planned,block,planned
+Tech / Logistics,WDI,2025-09-18,2025-09-21,planned,block,planned
+Tech / Logistics,General list of equipment beta,2025-09-22,2025-09-28,planned,block,planned
+Tech / Logistics,Monitor WeDigIt situation,2025-09-22,2025-10-12,planned,block,planned
+Tech / Logistics,Search for replacement projectors,2025-10-06,2025-10-19,planned,block,planned
+Tech / Logistics,Getting a rented PC (2 months),2025-10-13,2025-10-19,planned,block,planned
+Tech / Logistics,Setting up 2 rented PC,2025-10-20,2025-10-26,planned,block,planned
+Tech / Logistics,Setting up equipment,2025-10-20,2025-10-26,planned,block,planned
+Tech / Logistics,General list of equipment final,2025-11-17,2025-11-23,planned,block,planned
+Tech / Logistics,Setting up equipment,2025-12-01,2025-12-07,planned,block,planned
+Screen,Detailed Tech Concept,2025-08-11,2025-08-17,planned,block,planned
+Screen,3D Model,2025-08-11,2025-08-17,planned,block,planned
+Screen,3D Model,2025-08-18,2025-08-24,planned,block,planned
+Screen,Circuitry design,2025-08-25,2025-08-31,planned,block,planned
+Screen,Consultation,2025-09-01,2025-09-07,planned,block,planned
+Screen,List of Equipment,2025-09-01,2025-09-07,planned,block,planned
+Screen,Order equipment,2025-09-08,2025-09-14,planned,block,planned
+Screen,Receive equipment,2025-09-08,2025-09-21,planned,block,planned
+Screen,Element prototype,2025-09-22,2025-09-28,planned,block,planned
+Screen,Consultation,2025-09-22,2025-09-28,planned,block,planned
+Screen,Production,2025-09-29,2025-10-05,planned,block,planned
+Screen,Calibration & Tests,2025-10-06,2025-10-12,planned,block,planned
+Screen,First Buildup,2025-10-06,2025-10-12,planned,block,planned
+Screen,OSC Tests,2025-10-13,2025-10-19,planned,block,planned
+Screen,Debugging,2025-10-13,2025-10-19,planned,block,planned
+Screen,Prep for Transport,2025-10-20,2025-10-26,planned,block,planned
+Screen,Second Buildup,2025-10-20,2025-10-26,planned,block,planned
+Screen,Transporting,2025-10-27,2025-11-02,planned,block,planned
+Screen,Schwankhalle confirmation,2025-10-20,2025-10-26,planned,block,planned
+Screen,Third Buildup in Urbanscreen,2025-11-03,2025-11-23,planned,block,planned
+Screen,Prep for Transport,2025-11-24,2025-11-30,planned,block,planned
+Screen,Final Buildup,2025-12-01,2025-12-07,planned,block,planned
+Screen,Transporting,2025-12-15,2025-12-21,planned,block,planned
+Visual,Moodboard & Ideas,2025-08-18,2025-08-31,planned,block,planned
+Visual,Testing POPs,2025-08-25,2025-09-07,planned,block,planned
+Visual,Testing visuals,2025-09-08,2025-09-21,planned,block,planned
+Visual,Interactive Assets,2025-09-01,2025-09-07,planned,block,planned
+Visual,Interactive Assets,2025-09-15,2025-09-28,planned,block,planned
+Visual,Interactive Assets,2025-10-06,2025-10-19,planned,block,planned
+Visual,Building visuals,2025-10-27,2025-11-23,planned,block,planned
+Interfaces,2x DC setup test,2025-08-11,2025-08-17,planned,block,planned
+Interfaces,Pointcloud sync,2025-08-18,2025-08-24,planned,block,planned
+Interfaces,Pointcloud recorder,2025-08-25,2025-08-31,planned,block,planned
+Interfaces,Depth to SD,2025-09-01,2025-09-07,planned,block,planned
+Interfaces,Share Katana I/O protocols,2025-09-01,2025-09-07,planned,block,planned
+Interfaces,Camera placement test,2025-09-08,2025-09-14,planned,block,planned
+Interfaces,Katana test,2025-09-08,2025-09-14,planned,block,planned
+Interfaces,Skeleton + OSC,2025-09-22,2025-09-28,planned,block,planned
+Interfaces,MIDI Mappings,2025-10-06,2025-10-12,planned,block,planned
+Interfaces,Real condition scan,2025-10-06,2025-10-12,planned,block,planned
+Interfaces,OSC Screen controls,2025-10-13,2025-10-19,planned,block,planned
+Interfaces,Cameras test,2025-10-20,2025-10-26,planned,block,planned
+Interfaces,Katana test,2025-10-20,2025-10-26,planned,block,planned
+Interfaces,Cameras & calibration test,2025-10-27,2025-11-02,planned,block,planned
+Interfaces,Recording Chi Him Movements,2025-11-24,2025-11-30,planned,block,planned
+Composition / Sound,Sound palette,2025-08-25,2025-08-31,planned,block,planned
+Composition / Sound,Sound interactivity test,2025-09-08,2025-09-14,planned,block,planned
+Composition / Sound,Sound Assets Development,2025-09-29,2025-10-19,planned,block,planned
+Communication / Doc,Mittelab ruf 1,2025-07-28,2025-08-03,planned,block,planned
+Communication / Doc,Draft contracts,2025-08-04,2025-08-10,planned,block,planned
+Communication / Doc,Quotes for documentation,2025-08-11,2025-08-17,planned,block,planned
+Communication / Doc,Discuss with possible candidates designers,2025-09-01,2025-09-07,planned,block,planned
+Communication / Doc,Quotes for design & documentation,2025-09-08,2025-09-14,planned,block,planned
+Communication / Doc,Mittelab ruf 2,2025-09-22,2025-09-28,planned,block,planned
+Communication / Doc,Quotes for logistic & documentation,2025-10-27,2025-11-09,planned,block,planned
+Communication / Doc,Mittelab ruf 3,2025-11-10,2025-11-16,planned,block,planned
+Communication / Doc,Collecting reports and financing,2025-12-15,2025-12-28,planned,block,planned
+Communication / Doc,Paying final money,2025-12-08,2025-12-21,planned,block,planned
+Communication / Doc,First Consultation,2025-08-04,2025-08-10,planned,block,planned
+Communication / Doc,Draft concept,2025-08-11,2025-08-17,planned,block,planned
+Communication / Doc,Collect connections,2025-08-11,2025-08-17,planned,block,planned
+Communication / Doc,Collect connections,2025-08-25,2025-08-31,planned,block,planned
+Communication / Doc,Write to Schwankhalle,2025-09-01,2025-09-07,planned,block,planned
+Communication / Doc,Record and document first rehearsal,2025-09-08,2025-09-21,planned,block,planned
+Communication / Doc,call,2025-09-22,2025-09-22,planned,block,planned
+Communication / Doc,Write to Schwankhalle,2025-09-22,2025-09-28,planned,block,planned
+Communication / Doc,Collect Materials,2025-09-08,2025-09-28,planned,block,planned
+Communication / Doc,Media Strategy preparation,2025-10-06,2025-10-19,planned,block,planned
+Communication / Doc,Media Strategy discussion,2025-10-20,2025-10-26,planned,block,planned
+Communication / Doc,Selecting designer,2025-10-20,2025-10-26,planned,block,planned
+Communication / Doc,Partner communication,2025-10-27,2025-11-02,planned,block,planned
+Communication / Doc,Media design,2025-10-27,2025-11-09,planned,block,planned
+Communication / Doc,Adding announcement,2025-11-03,2025-11-09,planned,block,planned
+Communication / Doc,Inviting partners,2025-11-10,2025-11-16,planned,block,planned
+Communication / Doc,Inviting friends,2025-11-17,2025-11-23,planned,block,planned
+Communication / Doc,Online ads,2025-11-24,2025-11-30,planned,block,planned
+Communication / Doc,Periodic posting,2025-11-10,2025-12-14,planned,block,planned
+Communication / Doc,Mailing,2025-11-24,2025-11-30,planned,block,planned
+Communication / Doc,Mailing,2025-12-08,2025-12-14,planned,block,planned
+Communication / Doc,Photo/Video documentation,2025-12-08,2025-12-14,planned,block,planned
+Rehearsal / Performance,Workshop design,2025-11-10,2025-11-30,planned,block,planned
+Rehearsal / Performance,Workshop test,2025-12-01,2025-12-07,planned,block,planned
+Rehearsal / Performance,Workshop execution,2025-12-08,2025-12-14,planned,block,planned
+Communication / Doc,Budget phase 1,2025-07-21,2025-09-21,realized,block,actual
+Communication / Doc,Budget phase 2,2025-09-22,2025-11-16,realized,block,actual
+Communication / Doc,Budget phase 3,2025-11-17,2025-12-31,realized,block,actual
+Communication / Doc,Draft contracts,2025-08-06,2025-08-10,realized,block,actual
+Communication / Doc,Documentation quote request planned,2025-08-10,2025-08-13,planned_not_realized,block,actual
+Communication / Doc,Discussion with possible design candidates,2025-09-01,2025-09-07,planned_not_realized,block,actual
+Communication / Doc,Design quote requests planned,2025-09-08,2025-09-14,planned_not_realized,block,actual
+Communication / Doc,Actual design quote requests,2025-10-27,2025-11-02,realized,block,actual
+Communication / Doc,Final payout period,2025-12-13,2025-12-17,realized,block,actual
+Composition / Sound,Dramaturgy development,2025-08-11,2025-08-13,realized,block,actual
+Composition / Sound,Dramaturgy development,2025-08-27,2025-09-07,realized,block,actual
+Composition / Sound,Dramaturgy development,2025-10-05,2025-10-19,realized,block,actual
+Interfaces,Setup test or DC setup,2025-08-11,2025-08-15,planned_not_realized,block,actual
+Interfaces,Point cloud synchronization prep,2025-08-25,2025-08-27,planned,block,actual
+Interfaces,Point cloud recording,2025-08-28,2025-08-31,realized,block,actual
+Interfaces,Testing depth send to stream diffusion,2025-09-02,2025-09-06,planned_not_realized,block,actual
+Interfaces,Katana protocol exchange,2025-09-01,2025-09-07,planned_not_realized,block,actual
+Interfaces,Camera placement test,2025-09-08,2025-09-15,realized,block,actual
+Interfaces,Katana test with Chi Him,2025-09-08,2025-09-14,realized,block,actual
+Interfaces,Skeleton tracking and OSC transmission,2025-09-22,2025-09-28,realized,block,actual
+Interfaces,MIDI mapping,2025-09-30,2025-10-07,realized,block,actual
+Interfaces,Real condition scan,2025-10-06,2025-10-12,unplanned,block,actual
+Interfaces,OSC screen control,2025-10-12,2025-10-15,planned_not_realized,block,actual
+Interfaces,Camera and Katana tests,2025-10-20,2025-10-26,shifted,block,actual
+Interfaces,Camera test and calibration,2025-11-03,2025-11-09,shifted,block,actual
+Interfaces,OSC screen control actually implemented,2025-11-23,2025-11-26,shifted,block,actual
+Interfaces,Recording Chi Him movement,2025-11-23,2025-11-26,realized,block,actual
+Rehearsal / Performance,First rehearsal at Schwankhalle,2025-09-08,2025-09-14,realized,block,actual
+Rehearsal / Performance,Second rehearsal at Schwankhalle,2025-10-20,2025-10-26,realized,block,actual
+Rehearsal / Performance,Final rehearsal,2025-12-01,2025-12-04,realized,block,actual
+Rehearsal / Performance,Performance,2025-12-05,2025-12-06,realized,block,actual
+Screen,Replacement search after late-June screen collaborator dropout,2025-07-01,2025-08-12,realized,block,actual
+Screen,Detailed technical concept and 3D model planned,2025-08-11,2025-08-14,planned_not_realized,block,actual
+Screen,Circuitry design planned,2025-08-27,2025-09-01,planned_not_realized,block,actual
+Screen,Consultation and initial communication phase,2025-09-01,2025-09-07,realized,block,actual
+Screen,Equipment ordering planned,2025-09-06,2025-09-09,planned_not_realized,block,actual
+Screen,Equipment delivery expected,2025-09-11,2025-09-21,planned_not_realized,block,actual
+Screen,Prototype assembly planned,2025-09-22,2025-09-26,planned_not_realized,block,actual
+Screen,Screen production planned,2025-09-27,2025-10-06,planned_not_realized,block,actual
+Screen,Calibration and testing planned,2025-10-05,2025-10-11,planned_not_realized,block,actual
+Screen,First build-up planned,2025-10-05,2025-10-13,planned_not_realized,block,actual
+Screen,Second build-up planned but became first real build-up at Schwankhalle,2025-10-20,2025-10-26,shifted,block,actual
+Screen,Urbanscreen basement build-up and testing,2025-11-01,2025-11-30,realized,block,actual
+Screen,Final build-up,2025-12-01,2025-12-04,realized,block,actual
+Screen,Conflict around availability and communication norms,2025-09-12,2025-09-13,realized,block,actual
+Screen,Screen work reorganized around revised schedule and hard completion deadline,2025-09-25,2025-11-24,realized,block,actual
+Screen,Test build of cube and side profiles at HfK,2025-10-10,2025-10-11,realized,block,actual
+Screen,Build meetings revealed major engineering flaw with side doors,2025-10-16,2025-10-18,realized,block,actual
+Screen,Three of four screens sewn and one still unfinished,2025-11-13,2025-11-14,realized,block,actual
+Screen,Final release meetings before Berlin trip,2025-11-23,2025-11-26,realized,block,actual
+Composition / Sound,Sound palette,2025-08-28,2025-09-01,planned,block,actual
+Composition / Sound,Sound interactivity test,2025-09-08,2025-09-14,unplanned,block,actual
+Composition / Sound,Sound asset creation,2025-09-29,2025-10-20,unplanned,block,actual
+Tech / Logistics,Projectors borrowed for Umbra work,2025-09-04,2025-09-18,realized,block,actual
+Tech / Logistics,Equipment list draft,2025-08-27,2025-09-01,realized,block,actual
+Tech / Logistics,Equipment setup during rehearsal,2025-09-08,2025-09-12,realized,block,actual
+Tech / Logistics,Equipment setup during rehearsal,2025-10-20,2025-10-24,realized,block,actual
+Tech / Logistics,Final equipment list,2025-11-18,2025-11-22,realized,block,actual
+Tech / Logistics,Final equipment setup,2025-12-01,2025-12-04,realized,block,actual
+Visual,Moodboards and visual ideas,2025-08-20,2025-08-26,planned,block,actual
+Visual,Interactive asset creation,2025-09-01,2025-09-07,realized,block,actual
+Visual,Visual testing,2025-09-08,2025-09-14,realized,block,actual
+Visual,Interactive asset creation,2025-09-15,2025-09-28,planned_not_realized,block,actual
+Visual,Interactive asset creation,2025-10-06,2025-10-19,planned_not_realized,block,actual
+Visual,Interactive asset creation,2025-10-27,2025-11-23,realized,block,actual
+Visual,Video work planned,2025-11-11,2025-11-12,realized,block,actual
+Communication / Doc,First budget breakdowns,2025-07-06,2025-07-06,realized,event,actual
+Communication / Doc,Money tranche and payment distribution discussion,2025-07-10,2025-07-10,realized,event,actual
+Communication / Doc,First funding request submitted,2025-07-28,2025-07-28,realized,event,actual
+Communication / Doc,Second funding request,2025-09-23,2025-09-23,realized,event,actual
+Communication / Doc,Third funding request,2025-11-09,2025-11-09,realized,event,actual
+Communication / Doc,Call with collaborator and timeline discussion,2025-09-27,2025-09-27,realized,event,actual
+Communication / Doc,Communication chat created and activities document started,2025-09-06,2025-09-06,realized,event,actual
+Communication / Doc,First communication call,2025-09-11,2025-09-11,realized,event,actual
+Communication / Doc,Instagram account created,2025-09-12,2025-09-12,realized,event,actual
+Communication / Doc,Second communication call and channel alignment,2025-10-01,2025-10-01,realized,event,actual
+Communication / Doc,Program aligned,2025-10-05,2025-10-05,realized,event,actual
+Communication / Doc,Announcement published on Schwankhalle website,2025-10-09,2025-10-09,realized,event,actual
+Communication / Doc,Reposts and circulation started,2025-10-27,2025-10-27,realized,event,actual
+Communication / Doc,Designer joined and first design variants appeared,2025-10-31,2025-10-31,realized,event,actual
+Communication / Doc,Font discussion and design cost constraints,2025-11-07,2025-11-07,realized,event,actual
+Communication / Doc,Press release ready,2025-11-10,2025-11-10,realized,event,actual
+Communication / Doc,Posters visible in the city,2025-11-23,2025-11-23,realized,event,actual
+Communication / Doc,Cheap stickers ordered due to late final design,2025-11-26,2025-11-26,realized,event,actual
+Communication / Doc,Photo documentation,2025-12-04,2025-12-04,realized,event,actual
+Communication / Doc,Photo documentation,2025-12-05,2025-12-05,realized,event,actual
+Communication / Doc,Video documentation,2025-12-07,2025-12-07,realized,event,actual
+Communication / Doc,Workshop preparation,2025-11-30,2025-11-30,realized,event,actual
+Composition / Sound,First part of audio composition completed,2025-11-10,2025-11-10,realized,event,actual
+Composition / Sound,Third act ready,2025-11-20,2025-11-20,realized,event,actual
+Composition / Sound,Text aria written,2025-11-26,2025-11-26,realized,event,actual
+Composition / Sound,Fourth act ready,2025-12-01,2025-12-01,realized,event,actual
+Composition / Sound,Act 6 (Reverse Aria) ready,2025-12-01,2025-12-01,realized,event,actual
+Communication / Doc,Documentation day,2025-12-07,2025-12-07,realized,event,actual
+Communication / Doc,Quote from photo documentarian received,2025-11-16,2025-11-16,realized,event,actual
+Interfaces,Movement recording with Chi Him used later in performance,2025-11-25,2025-11-25,realized,event,actual
+Interfaces,OSC information exchange with Chi Him aligned,2025-11-24,2025-11-24,realized,event,actual
+Rehearsal / Performance,Workshop,2025-12-06,2025-12-06,realized,event,actual
+Screen,Screen approach and budget alignment discussed,2025-07-14,2025-07-14,realized,event,actual
+Screen,Candidate search for screen builder continued,2025-07-15,2025-07-15,realized,event,actual
+Screen,Meeting with potential replacement screen builder,2025-07-24,2025-07-24,realized,event,actual
+Screen,Meeting with Chi Him and call with Alex on screen follow-up,2025-08-06,2025-08-06,realized,event,actual
+Screen,Call with Juan before vacation,2025-08-12,2025-08-12,realized,event,actual
+Screen,Consultation planned,2025-09-27,2025-09-27,planned_not_realized,event,actual
+Screen,Consultation planned,2025-10-04,2025-10-04,planned_not_realized,event,actual
+Screen,Screen effectively ready,2025-12-04,2025-12-04,realized,event,actual
+Screen,Transport back,2025-12-08,2025-12-08,realized,event,actual
+Screen,Discussion of screen approach with Chi Him,2025-07-17,2025-07-17,realized,event,actual
+Screen,Discussion of transformation methods,2025-07-19,2025-07-19,realized,event,actual
+Screen,Technical requirements sheet for screen created,2025-07-19,2025-07-19,realized,event,actual
+Screen,New contractors invited and candidate selection ongoing,2025-07-20,2025-07-20,realized,event,actual
+Screen,Another contractor declined,2025-07-26,2025-07-26,realized,event,actual
+Screen,Another candidate did not respond,2025-08-01,2025-08-01,realized,event,actual
+Screen,Figma board created,2025-08-01,2025-08-01,realized,event,actual
+Screen,Jamboard shared with collaborators,2025-08-13,2025-08-13,realized,event,actual
+Screen,Order table and material planning; sewing responsibility announced; contracts requested,2025-08-18,2025-08-18,realized,event,actual
+Screen,Proposal to align responsibilities and budgeting,2025-08-20,2025-08-20,realized,event,actual
+Screen,Materials table created and started filling up,2025-08-24,2025-08-24,realized,event,actual
+Screen,First conflict about task volume and expectations,2025-08-24,2025-08-24,realized,event,actual
+Screen,First major working meeting with screen collaborators,2025-08-27,2025-08-27,realized,event,actual
+Screen,Materials list updated for cube details,2025-09-17,2025-09-17,realized,event,actual
+Screen,Fabric for screen sides ordered,2025-09-19,2025-09-19,realized,event,actual
+Screen,Revised real screen schedule and technical requirements established,2025-09-25,2025-09-25,realized,event,actual
+Screen,Profile inserts did not fit and alternative order was needed,2025-09-30,2025-09-30,realized,event,actual
+Screen,Debugging meeting at Schwankhalle and new door solution adopted,2025-10-23,2025-10-23,realized,event,actual
+Screen,Door solution finalized and communication meeting held,2025-10-25,2025-10-25,realized,event,actual
+Screen,Equipment moved to UrbanScreen basement,2025-10-27,2025-10-27,realized,event,actual
+Screen,You started sewing the screen yourself at Klimawerkstatt,2025-10-29,2025-10-29,realized,event,actual
+Screen,Part of the screen already sewn,2025-10-31,2025-10-31,realized,event,actual
+Screen,Planned final build meeting at HfK did not happen,2025-10-31,2025-10-31,realized,event,actual
+Screen,Sewing continued in atelier,2025-11-01,2025-11-01,realized,event,actual
+Screen,Work continued in UrbanScreen basement,2025-11-07,2025-11-07,realized,event,actual
+Screen,Sewing still ongoing in atelier,2025-11-09,2025-11-09,realized,event,actual
+Screen,UrbanScreen testing meeting and motor judged non-working,2025-11-14,2025-11-14,realized,event,actual
+Screen,Motor verified by you as actually working,2025-11-18,2025-11-18,realized,event,actual
+Screen,OSC or motorized block workflow discussed,2025-11-19,2025-11-19,realized,event,actual
+Screen,Controllers soldered and build-up test meeting held,2025-11-21,2025-11-21,realized,event,actual
+Screen,Final basement meeting and motor made to work,2025-11-26,2025-11-26,realized,event,actual
+Screen,Front screen had to be resewn because it was uneven,2025-12-02,2025-12-02,realized,event,actual
+Screen,Motor failure shortly before performance,2025-12-03,2025-12-03,realized,event,actual
+Tech / Logistics,Initial technology review and equipment discussion,2025-07-01,2025-07-01,realized,event,actual

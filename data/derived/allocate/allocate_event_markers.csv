@@ -1,0 +1,70 @@
+lane_final,date,plan_relation,event_count,labels
+Communication / Doc,2025-07-06,realized,1,First budget breakdowns
+Communication / Doc,2025-07-10,realized,1,Money tranche and payment distribution discussion
+Communication / Doc,2025-07-28,realized,1,First funding request submitted
+Communication / Doc,2025-09-06,realized,1,Communication chat created and activities document started
+Communication / Doc,2025-09-11,realized,1,First communication call
+Communication / Doc,2025-09-12,realized,1,Instagram account created
+Communication / Doc,2025-09-23,realized,1,Second funding request
+Communication / Doc,2025-09-27,realized,1,Call with collaborator and timeline discussion
+Communication / Doc,2025-10-01,realized,1,Second communication call and channel alignment
+Communication / Doc,2025-10-05,realized,1,Program aligned
+Communication / Doc,2025-10-09,realized,1,Announcement published on Schwankhalle website
+Communication / Doc,2025-10-27,realized,1,Reposts and circulation started
+Communication / Doc,2025-10-31,realized,1,Designer joined and first design variants appeared
+Communication / Doc,2025-11-07,realized,1,Font discussion and design cost constraints
+Communication / Doc,2025-11-09,realized,1,Third funding request
+Communication / Doc,2025-11-10,realized,1,Press release ready
+Communication / Doc,2025-11-16,realized,1,Quote from photo documentarian received
+Communication / Doc,2025-11-23,realized,1,Posters visible in the city
+Communication / Doc,2025-11-26,realized,1,Cheap stickers ordered due to late final design
+Communication / Doc,2025-11-30,realized,1,Workshop preparation
+Communication / Doc,2025-12-04,realized,1,Photo documentation
+Communication / Doc,2025-12-05,realized,1,Photo documentation
+Communication / Doc,2025-12-07,realized,2,Documentation day | Video documentation
+Composition / Sound,2025-11-10,realized,1,First part of audio composition completed
+Composition / Sound,2025-11-20,realized,1,Third act ready
+Composition / Sound,2025-11-26,realized,1,Text aria written
+Composition / Sound,2025-12-01,realized,2,Act 6 (Reverse Aria) ready | Fourth act ready
+Interfaces,2025-11-24,realized,1,OSC information exchange with Chi Him aligned
+Interfaces,2025-11-25,realized,1,Movement recording with Chi Him used later in performance
+Rehearsal / Performance,2025-12-06,realized,1,Workshop
+Screen,2025-07-14,realized,1,Screen approach and budget alignment discussed
+Screen,2025-07-15,realized,1,Candidate search for screen builder continued
+Screen,2025-07-17,realized,1,Discussion of screen approach with Chi Him
+Screen,2025-07-19,realized,2,Discussion of transformation methods | Technical requirements sheet for screen created
+Screen,2025-07-20,realized,1,New contractors invited and candidate selection ongoing
+Screen,2025-07-24,realized,1,Meeting with potential replacement screen builder
+Screen,2025-07-26,realized,1,Another contractor declined
+Screen,2025-08-01,realized,2,Another candidate did not respond | Figma board created
+Screen,2025-08-06,realized,1,Meeting with Chi Him and call with Alex on screen follow-up
+Screen,2025-08-12,realized,1,Call with Juan before vacation
+Screen,2025-08-13,realized,1,Jamboard shared with collaborators
+Screen,2025-08-18,realized,1,Order table and material planning; sewing responsibility announced; contracts requested
+Screen,2025-08-20,realized,1,Proposal to align responsibilities and budgeting
+Screen,2025-08-24,realized,2,First conflict about task volume and expectations | Materials table created and started filling up
+Screen,2025-08-27,realized,1,First major working meeting with screen collaborators
+Screen,2025-09-17,realized,1,Materials list updated for cube details
+Screen,2025-09-19,realized,1,Fabric for screen sides ordered
+Screen,2025-09-25,realized,1,Revised real screen schedule and technical requirements established
+Screen,2025-09-27,planned_not_realized,1,Consultation planned
+Screen,2025-09-30,realized,1,Profile inserts did not fit and alternative order was needed
+Screen,2025-10-04,planned_not_realized,1,Consultation planned
+Screen,2025-10-23,realized,1,Debugging meeting at Schwankhalle and new door solution adopted
+Screen,2025-10-25,realized,1,Door solution finalized and communication meeting held
+Screen,2025-10-27,realized,1,Equipment moved to UrbanScreen basement
+Screen,2025-10-29,realized,1,You started sewing the screen yourself at Klimawerkstatt
+Screen,2025-10-31,realized,2,Part of the screen already sewn | Planned final build meeting at HfK did not happen
+Screen,2025-11-01,realized,1,Sewing continued in atelier
+Screen,2025-11-07,realized,1,Work continued in UrbanScreen basement
+Screen,2025-11-09,realized,1,Sewing still ongoing in atelier
+Screen,2025-11-14,realized,1,UrbanScreen testing meeting and motor judged non-working
+Screen,2025-11-18,realized,1,Motor verified by you as actually working
+Screen,2025-11-19,realized,1,OSC or motorized block workflow discussed
+Screen,2025-11-21,realized,1,Controllers soldered and build-up test meeting held
+Screen,2025-11-26,realized,1,Final basement meeting and motor made to work
+Screen,2025-12-02,realized,1,Front screen had to be resewn because it was uneven
+Screen,2025-12-03,realized,1,Motor failure shortly before performance
+Screen,2025-12-04,realized,1,Screen effectively ready
+Screen,2025-12-08,realized,1,Transport back
+Tech / Logistics,2025-07-01,realized,1,Initial technology review and equipment discussion

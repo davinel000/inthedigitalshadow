@@ -1,0 +1,20 @@
+target_channel,task_type_final,count,task_label,share
+AI,coordination,14,Coordination,0.025594149908592323
+human,coordination,279,Coordination,0.5264150943396226
+AI,analysis,110,Analysis,0.20109689213893966
+human,analysis,54,Analysis,0.1018867924528302
+AI,planning,81,Planning,0.1480804387568556
+human,planning,77,Planning,0.14528301886792452
+AI,technical_setup,80,Technical Setup,0.14625228519195613
+human,technical_setup,51,Technical Setup,0.09622641509433963
+AI,coding,98,Coding,0.17915904936014626
+human,coding,1,Coding,0.0018867924528301887
+AI,writing,88,Writing,0.16087751371115175
+human,writing,10,Writing,0.018867924528301886
+AI,research,37,Research,0.06764168190127971
+human,research,33,Research,0.062264150943396226
+AI,creative,34,Creative,0.062157221206581355
+human,creative,7,Creative,0.013207547169811321
+AI,admin_legal,5,Admin / Legal,0.009140767824497258
+human,admin_legal,14,Admin / Legal,0.026415094339622643
+human,other,4,Other,0.007547169811320755
