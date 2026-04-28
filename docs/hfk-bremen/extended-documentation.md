@@ -1,7 +1,7 @@
 ---
 title: "in the digital shadow: An Embodied Debrief"
 subtitle: "Final Documentation"
-author: "Vyacheslav (Slava) Romanov"
+author: "Viacheslav (Slava) Romanov"
 program: "Digital Media Bremen / HfK Bremen"
 year: "2026"
 supervisors: "Dennis P. Paul; Ralf Baecker"
@@ -130,7 +130,7 @@ Supervisors:
 Photo credits:
 
 - performance photographs by Jimi Liu
-- installation photographs by Vyacheslav (Slava) Romanov
+- installation photographs by Viacheslav (Slava) Romanov
 
 Acknowledgements:
 
