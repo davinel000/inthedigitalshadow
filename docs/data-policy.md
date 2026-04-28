@@ -2,9 +2,7 @@
 
 This repository contains the public layer of the project.
 
-## What May Be Public
-
-Included here:
+## Public Material
 
 - thesis text and short methodological notes;
 - depersonalized or author-controlled excerpts from research traces;
@@ -12,9 +10,7 @@ Included here:
 - final or near-final technical snapshots needed to understand system logic;
 - short descriptions of tools, scripts, and analysis steps.
 
-## What Stays Outside The Public Layer
-
-Kept outside the public repository:
+## Local Material
 
 - full private chat corpora;
 - unfiltered third-party messages;
@@ -49,13 +45,3 @@ Public outputs document the results of those steps without exposing raw unsafe i
 ## AI Assistance Note
 
 This project used AI systems as editorial, analytical, and technical assistants at selected stages. This includes help with code, restructuring, drafting, and limited analysis support. These systems did not replace authorial responsibility.
-
-## Publication Rule
-
-When deciding whether to add a file, ask:
-
-1. Does it help a reader understand the project, the method, the findings, or the tools?
-2. Is it safe to publish in its current form?
-3. Is it the smallest public form that still preserves meaning?
-
-If the answer to any of these is no, keep the file local and describe it indirectly instead.

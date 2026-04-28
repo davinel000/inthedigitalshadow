@@ -7,7 +7,9 @@ Files:
 - `collect.svg`
 - `allocate.svg`
 - `delegate_request.svg`
+- `delegate_request.png`
 - `delegate_uptake.svg`
+- `delegate_uptake.png`
 - `distributed_agency.svg`
 - `logic_states.svg`
 - `overload_phase_comparison.svg`

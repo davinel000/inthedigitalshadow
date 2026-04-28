@@ -5,18 +5,18 @@
 <line x1="80" y1="112" x2="1520" y2="112" stroke="#8D3B32" stroke-width="2.2"/>
 <rect x="80.00" y="210.00" width="1440.00" height="1180.00" rx="12" fill="#F8F9FB" stroke="#1F2328" stroke-width="1.1"/>
 <rect x="80.00" y="1430.00" width="1440.00" height="90.00" rx="10" fill="#F8F9FB" stroke="#1F2328" stroke-width="1.0"/>
-<line x1="523.60" y1="294" x2="523.60" y2="1334" stroke="#D7DCE2" stroke-width="1"/>
-<line x1="1076.40" y1="294" x2="1076.40" y2="1334" stroke="#D7DCE2" stroke-width="1"/>
-<text x="523.60" y="1372.00" font-family="Space Mono, Cascadia Mono, Consolas, monospace" font-size="18" fill="#6E7781" text-anchor="middle">20%</text>
-<text x="1076.40" y="1372.00" font-family="Space Mono, Cascadia Mono, Consolas, monospace" font-size="18" fill="#6E7781" text-anchor="middle">20%</text>
-<line x1="434.20" y1="294" x2="434.20" y2="1334" stroke="#D7DCE2" stroke-width="1"/>
-<line x1="1165.80" y1="294" x2="1165.80" y2="1334" stroke="#D7DCE2" stroke-width="1"/>
-<text x="434.20" y="1372.00" font-family="Space Mono, Cascadia Mono, Consolas, monospace" font-size="18" fill="#6E7781" text-anchor="middle">40%</text>
-<text x="1165.80" y="1372.00" font-family="Space Mono, Cascadia Mono, Consolas, monospace" font-size="18" fill="#6E7781" text-anchor="middle">40%</text>
-<line x1="344.80" y1="294" x2="344.80" y2="1334" stroke="#D7DCE2" stroke-width="1"/>
-<line x1="1255.20" y1="294" x2="1255.20" y2="1334" stroke="#D7DCE2" stroke-width="1"/>
-<text x="344.80" y="1372.00" font-family="Space Mono, Cascadia Mono, Consolas, monospace" font-size="18" fill="#6E7781" text-anchor="middle">60%</text>
-<text x="1255.20" y="1372.00" font-family="Space Mono, Cascadia Mono, Consolas, monospace" font-size="18" fill="#6E7781" text-anchor="middle">60%</text>
+<line x1="464.00" y1="294" x2="464.00" y2="1334" stroke="#D7DCE2" stroke-width="1"/>
+<line x1="1136.00" y1="294" x2="1136.00" y2="1334" stroke="#D7DCE2" stroke-width="1"/>
+<text x="464.00" y="1372.00" font-family="Space Mono, Cascadia Mono, Consolas, monospace" font-size="18" fill="#6E7781" text-anchor="middle">20%</text>
+<text x="1136.00" y="1372.00" font-family="Space Mono, Cascadia Mono, Consolas, monospace" font-size="18" fill="#6E7781" text-anchor="middle">20%</text>
+<line x1="315.00" y1="294" x2="315.00" y2="1334" stroke="#D7DCE2" stroke-width="1"/>
+<line x1="1285.00" y1="294" x2="1285.00" y2="1334" stroke="#D7DCE2" stroke-width="1"/>
+<text x="315.00" y="1372.00" font-family="Space Mono, Cascadia Mono, Consolas, monospace" font-size="18" fill="#6E7781" text-anchor="middle">40%</text>
+<text x="1285.00" y="1372.00" font-family="Space Mono, Cascadia Mono, Consolas, monospace" font-size="18" fill="#6E7781" text-anchor="middle">40%</text>
+<line x1="166.00" y1="294" x2="166.00" y2="1334" stroke="#D7DCE2" stroke-width="1"/>
+<line x1="1434.00" y1="294" x2="1434.00" y2="1334" stroke="#D7DCE2" stroke-width="1"/>
+<text x="166.00" y="1372.00" font-family="Space Mono, Cascadia Mono, Consolas, monospace" font-size="18" fill="#6E7781" text-anchor="middle">60%</text>
+<text x="1434.00" y="1372.00" font-family="Space Mono, Cascadia Mono, Consolas, monospace" font-size="18" fill="#6E7781" text-anchor="middle">60%</text>
 <line x1="613.00" y1="294" x2="613.00" y2="1334" stroke="#1F2328" stroke-width="1.1"/>
 <line x1="987.00" y1="294" x2="987.00" y2="1334" stroke="#1F2328" stroke-width="1.1"/>
 <text x="389.50" y="258.00" font-family="IBM Plex Sans, Segoe UI, Arial, Helvetica, sans-serif" font-size="30" fill="#1F2328" font-weight="700" text-anchor="middle">AI</text>

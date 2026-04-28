@@ -2,56 +2,86 @@
 
 ## Embodied Debrief
 
-Embodied Debrief is the working method for returning to a completed production through its residues: chats, schedules, self-tracking exports, notes, budgets, technical snapshots, material leftovers, and installation logic.
+Embodied Debrief is the working method of the thesis: a retrospective rereading of a completed production through its residues. The main material is process residue and its aftereffects.
 
-The central shift of the thesis is a move from finished outcome to process residue. What usually stays at the edge of documentation becomes the main material of interpretation.
-
-## Source Families
-
-The research worked with several trace families at once:
+The research works across several trace families at once:
 
 - ChatGPT exports centered on `conversations.json`
 - Telegram exports centered on `result.json`
 - Mi Fitness data-copy exports
-- schedules, budget tables, and red-mark self-tracking
+- schedules, budget tables, and red-mark tracking
 - TouchDesigner system states
-- notes, diary fragments, planning material, and project remnants
+- notes, planning material, technical remnants, and installation logic
 
-## Analytical Modes
+## Four Modes
 
-### Collect
+The thesis reads the project through four operational modes:
 
-Collect reads accumulation across digital, communicative, financial, material, and bodily layers.
+- `Collect`
+- `Allocate`
+- `Delegate`
+- `Overload`
 
-### Allocate
+These four modes structure the rereading of the same production process.
 
-Allocate reads how time, money, attention, and technical capacity were distributed under growing project density.
+## Collect
 
-### Delegate
+`Collect` was operationalized through project mass: the accumulated load of the project across financial, communicative, digital, material, and shared-documentation layers.
 
-Delegate reads how work, uncertainty, coordination, and responsibility were redistributed across humans, AI systems, software, and infrastructure.
+In this method, accumulation matters twice:
 
-### Overload
+- it expands what the project can do
+- it increases storage, revision, orientation, and coordination burden
 
-Overload reads the point where accumulated pressure exceeds available capacity and leaves traces in time structure, self-tracking, recovery, and repeated repair cycles.
+The public `project mass` layer uses a small number of readable curves and keeps file-family detail in supporting tables. The core public outputs are:
 
-## Analytical Units In `delegate-analysis`
+- [project_mass_summary.csv](../data/derived/project_mass/project_mass_summary.csv)
+- [project_mass_daily.csv](../data/derived/project_mass/project_mass_daily.csv)
+- [project_mass_toe_daily.csv](../data/derived/project_mass/project_mass_toe_daily.csv)
 
-The main analytical units used in the local message-analysis pipeline were:
+Method limit:
+
+- filesystem chronology is a reconstruction from the current surviving snapshot
+- `cumulative_known_files` and `cumulative_known_bytes` should be read as observed lower-bound project mass
+
+## Allocate
+
+`Allocate` reads how time, money, attention, and technical capacity were distributed under scarcity.
+
+In the thesis, schedules function as orienting structures. They preserve intended sequence and visible distribution of effort, but they do not fully reconstruct lived work, doubt, drift, revision, or interruption.
+
+This is why the public `allocate` layer combines:
+
+- schedule blocks
+- budget rhythm
+- event markers
+- red-mark logic
+
+The red mark is important here as a trace of occupied time. It registers directed effort and makes the slot visible after the fact.
+
+Core public outputs:
+
+- [allocate_budget_weekly.csv](../data/derived/allocate/allocate_budget_weekly.csv)
+- [allocate_timeline_dataset.csv](../data/derived/allocate/allocate_timeline_dataset.csv)
+- [allocate_event_markers.csv](../data/derived/allocate/allocate_event_markers.csv)
+
+## Delegate
+
+`Delegate` studies how work, uncertainty, revision, and responsibility move across humans, AI systems, software, and infrastructure.
+
+The local analytical spine in `delegate-analysis` used four units:
 
 1. `message`
 2. `delegation event`
 3. `loop` as `request -> response -> uptake`
-4. `analysis request` as a request-centric row for figures and comparison views
+4. `analysis request` as a request-centric row used for figures
 
-The pipeline also preserved two text layers:
+The pipeline preserved two text layers:
 
 - `text_raw`
 - `text_analysis`
 
-`text_analysis` compresses large code and data blocks into structural markers so that technical payloads remain legible without dominating the analysis.
-
-## Message Pipeline
+`text_analysis` compresses long code and data blocks into structural markers so that technical payloads remain legible without dominating the analysis.
 
 The main message-analysis sequence was:
 
@@ -65,33 +95,23 @@ The main message-analysis sequence was:
 8. classify uptake and derive request-centric views
 9. export aggregates, figures, and audit tables
 
-Key methodological decisions:
+Important method decisions:
 
 - manual labels remain authoritative
-- rule-based and transparent methods remain primary
+- rule-based methods remain primary
 - LLM use is secondary and targeted
-- local filtering is required for text-bearing private corpora
+- private text corpora are filtered and reduced locally before any public layer is prepared
 
-## Project Mass
+The public layer keeps only compact outputs such as:
 
-`project mass` was used when the unit of interest was not only communication but the growth of the project folder itself.
+- [delegate_task_type_comparison.csv](../data/derived/delegate/delegate_task_type_comparison.csv)
+- [delegate_uptake_comparison.csv](../data/derived/delegate/delegate_uptake_comparison.csv)
 
-The main public outputs here are:
+## Overload
 
-- [project_mass_summary.csv](../data/derived/project_mass/project_mass_summary.csv)
-- [project_mass_daily.csv](../data/derived/project_mass/project_mass_daily.csv)
-- [project_mass_toe_daily.csv](../data/derived/project_mass/project_mass_toe_daily.csv)
+`Overload` reads the point where accumulated pressure exceeds workable capacity and becomes legible through chronology, notes, self-tracking, repeated repair, and recovery cycles.
 
-Important limit:
-
-- this is a reconstruction from the current filesystem snapshot
-- it shows observed accumulation, not full historical truth
-
-## Overload Reading
-
-The overload chapter does not treat physiology as diagnostic proof. Wearable data is used as one trace family among others.
-
-The working overload scaffold was phase-based:
+The overload chapter uses a phase scaffold:
 
 - Early Destabilization
 - Dense Accumulation
@@ -100,14 +120,34 @@ The working overload scaffold was phase-based:
 - Terminal Push
 - Afterimage
 
-This is why the public overload layer is organized as phase summaries and timeline contrasts rather than as one continuous stress curve.
+This phase logic keeps visible the difference between structural density, crisis, rescue concentration, late push, and delayed residue after the event.
+
+Physiological data enters this layer as embodied overlay:
+
+- heart-rate activation
+- sleep duration
+- elevated-activation episodes
+- wear coverage
+
+These traces support rereading. Chronology, notes, and marked project events remain the primary frame.
+
+Core public outputs:
+
+- [overload_phase_summary_fitness.csv](../data/derived/overload/overload_phase_summary_fitness.csv)
+- [overload_timeline_weekly.csv](../data/derived/overload/overload_timeline_weekly.csv)
 
 ## Technical Components
 
-The main technical systems behind the project were:
+The main technical systems behind the public layer are:
 
-- TouchDesigner logic states preserved in [data/curated/system](../data/curated/system)
+- final TouchDesigner logic states in [data/curated/system](../data/curated/system)
 - `delegate-analysis` for message, project-mass, allocation, and overload analysis
 - `OpenCV_red` for red-mark detection at the allocation station
-- `SVG_tracer` for selected tracing and SVG output steps
+- `SVG_tracer` for selected tracing and SVG-output steps
 
+## Public Layer
+
+In this repository the method appears in two reduced forms:
+
+- thesis-facing outputs
+- reproducibility-facing notes and templates
