@@ -15,6 +15,44 @@ This repository is meant to be reused with an agent such as Codex or Claude Code
 5. Generate reduced derived tables first.
 6. Build figures only after the tables stabilize.
 
+## Source Acquisition
+
+### Telegram
+
+- Source: Telegram desktop export with `result.json`
+- Role in the method: message chronology, request detection, loops, uptake
+- Local processing: import, normalize, project slice, actor mapping, filtering, reduced analysis text
+- Public output: privacy-safe aggregates and figure-ready comparisons
+
+### ChatGPT
+
+- Source: account export centered on `conversations.json`
+- Optional support file: `ChatGPT - *.html` project page used for project membership
+- Role in the method: message chronology, request detection, loops, uptake
+- Local processing: import, normalize, project mapping, reduced analysis text, loop building
+- Public output: privacy-safe request, task-type, and uptake aggregates
+
+### Mi Fitness
+
+- Source: Mi Fitness data-copy package with CSV tables
+- Role in the method: embodied overlay for overload and phase comparison
+- Local processing: parse heart rate, sleep, activity, daily summary, and stage-level tables
+- Public output: timeline overlays, phase summaries, and reduced comparison tables
+
+### Figma / FigJam Revision History
+
+- Source: version-history views collected manually from the Education account
+- Role in the method: shared documentation and revision rhythm inside `project mass`
+- Local processing: manual extraction of observed edit events into an event log, then daily or weekly aggregation
+- Public output: observed revision counts and timeline overlays folded into the `Collect` layer
+
+### Calendar, Notes, Commentaries, Remembered Episodes
+
+- Source: calendar entries, project notes, typed comments, dictated recollections, manually reviewed phone photos
+- Role in the method: event markers, phase framing, context for allocation and overload
+- Local processing: local dictation or note capture, machine structuring, manual cleanup, event extraction
+- Public output: reduced timeline markers, dated notes, and phase anchors
+
 ## Block By Block
 
 ### Project Mass
@@ -33,10 +71,20 @@ Minimum useful inputs:
 - file timestamps
 - file sizes
 - optionally a `.toe` subset
+- optionally a manually observed revision log for Figma or FigJam
 
 Good agent ask:
 
 - "Map my project folder chronology to `project_mass_daily_template.csv` and keep `.toe` as a separate curve."
+- "Merge my file chronology with a manually compiled Figma or FigJam revision log."
+
+Reference script and tool:
+
+- `delegate-analysis/src/delegation_log/project_mass.py`
+  - Purpose: scan one or more folders and build file-growth tables
+  - Useful for: all-files project mass, `.toe` subset, backup-like file detection, git activity
+  - Limit: reconstructs from the current surviving snapshot
+  - Quick run on Windows: from `delegate-analysis`, run `project_mass.cmd`
 
 ### Allocate
 
@@ -59,12 +107,24 @@ Minimum useful inputs:
 - a schedule or working timeline
 - a budget or expense log
 - dated notes about shifts, deadlines, rehearsals, failures, or repairs
+- optional red-mark sheets or manually transcribed slot confirmations
 
 Good agent asks:
 
 - "Turn my budget export into the structure of `allocate_budget_weekly_template.csv`."
 - "Turn my schedule notes into `allocate_timeline_dataset_template.csv`."
 - "Derive event markers from my notes and calendar."
+
+Reference scripts and tools:
+
+- `OpenCV_red`
+  - Purpose: detect red-mark traces from photographed or scanned sheets
+  - Useful for: occupied-time confirmation inside `Allocate`
+  - Limit: depends on image quality and stable mark visibility
+- manual timeline assembly
+  - Purpose: combine schedule, budget, notes, and markers into one readable timeline
+  - Useful for: thesis-facing allocation figures
+  - Limit: requires human curation of dated events
 
 ### Delegate
 
@@ -97,6 +157,19 @@ Source formats used here:
 - Telegram exports with `result.json`
 - ChatGPT exports with `conversations.json`
 
+Reference scripts and tools:
+
+- `delegate-analysis/src/delegation_log/importers.py`
+  - Purpose: parse Telegram and ChatGPT exports into one message table
+  - Useful for: first-pass ingestion
+- `delegate-analysis/src/delegation_log/normalize.py`
+  - Purpose: standardize columns and build `text_raw` / `text_analysis`
+  - Useful for: stable downstream analysis
+- `delegate-analysis` CLI pipeline
+  - Purpose: import, normalize, anonymize, filter, extract events, build loops, classify uptake
+  - Limit: project registries and local filtering rules still need human supervision
+  - Quick run: use the command sequence in the local `delegate-analysis` README
+
 ### Overload
 
 Use this when you want to compare project chronology against embodied or self-tracking traces.
@@ -118,6 +191,17 @@ Recommended logic:
 2. derive weekly or phase-level summaries from the self-tracking export
 3. compare chronology and embodied traces through phases rather than isolated days
 
+Reference scripts and tools:
+
+- `delegate-analysis/src/delegation_log/fitness.py`
+  - Purpose: parse Mi Fitness raw CSV into heart-rate, activity, sleep, and daily-summary tables
+  - Useful for: overload timeline and phase summaries
+  - Limit: depends on wear continuity and data coverage
+- `delegate-analysis/src/delegation_log/overload_phase_analysis.py`
+  - Purpose: phase-level aggregation and comparison
+  - Useful for: phase summaries and contrast tables
+  - Limit: still depends on a manually built project chronology
+
 ## Source Formats Used Here
 
 - Telegram
@@ -126,6 +210,10 @@ Recommended logic:
   - full export centered on `conversations.json`
 - Mi Fitness
   - zipped data-copy package with CSV tables
+- Figma / FigJam
+  - manually observed version-history events turned into an event log
+- Calendar / notes / recollections / phone photos
+  - locally reviewed material used for human-guided event extraction and timeline anchoring
 
 ## Keep Private Data Local
 
@@ -142,6 +230,8 @@ This is especially important for:
 - third-party chat messages
 - private notes
 - raw health exports
+- personal photo collections
+- dictated recollections and memory notes
 
 ## Local LLM Workflow
 
@@ -191,6 +281,32 @@ Next message:
 ```
 
 For Qwen 3, append `/no_think` in the final user turn or configure non-thinking mode in the serving layer.
+
+## Human-Analysable Sources
+
+Some project traces do not start as clean exports. They were turned into structured inputs through a human-guided step first.
+
+Typical cases:
+
+- calendar comments or schedule remarks
+- recalled chat episodes
+- dictated memory notes
+- reviewed phone photos
+- manually observed Figma or FigJam revision history
+
+Working pattern:
+
+1. describe the material locally in plain language
+2. have the agent structure it into dated rows or event markers
+3. correct names, dates, and sequence manually
+4. merge the cleaned result with the closest block: `collect`, `allocate`, or `overload`
+
+Good agent asks:
+
+- "Turn this dictated recollection into dated event markers."
+- "Convert these calendar comments into a timeline table."
+- "Structure these manually observed FigJam edit events into a daily log."
+- "Review these photo notes and extract project-relevant dated events only."
 
 ## Principle
 

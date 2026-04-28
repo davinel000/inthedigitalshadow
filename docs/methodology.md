@@ -9,7 +9,9 @@ The research works across several trace families at once:
 - ChatGPT exports centered on `conversations.json`
 - Telegram exports centered on `result.json`
 - Mi Fitness data-copy exports
+- manually observed Figma or FigJam revision-history events
 - schedules, budget tables, and red-mark tracking
+- calendar comments, dictated recollections, reviewed phone photos, and other human-guided timeline notes
 - TouchDesigner system states
 - notes, planning material, technical remnants, and installation logic
 
@@ -39,6 +41,8 @@ The public `project mass` layer uses a small number of readable curves and keeps
 - [project_mass_daily.csv](../data/derived/project_mass/project_mass_daily.csv)
 - [project_mass_toe_daily.csv](../data/derived/project_mass/project_mass_toe_daily.csv)
 
+The shared-documentation layer includes manually observed Figma or FigJam revision-history events when those observations were structured into an event log and aggregated by day or week.
+
 Method limit:
 
 - filesystem chronology is a reconstruction from the current surviving snapshot
@@ -56,6 +60,8 @@ This is why the public `allocate` layer combines:
 - budget rhythm
 - event markers
 - red-mark logic
+
+Event markers may come from exported sources or from human-guided structuring of comments, calendar traces, dictated recollections, and manually reviewed notes.
 
 The red mark is important here as a trace of occupied time. It registers directed effort and makes the slot visible after the fact.
 
@@ -130,6 +136,8 @@ Physiological data enters this layer as embodied overlay:
 - wear coverage
 
 These traces support rereading. Chronology, notes, and marked project events remain the primary frame.
+
+Some of those event anchors were assembled through local human-guided structuring rather than direct export. That includes dictated recollections, reviewed phone-photo notes, calendar comments, and other timeline material turned into dated markers before aggregation.
 
 Core public outputs:
 
