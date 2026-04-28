@@ -1,228 +1,306 @@
 # Reproduce
 
-This repository is meant to be reused with an agent such as Codex or Claude Code. Use the analytical shapes with your own local material.
+This repository is meant to be reused with an agent such as Codex or Claude Code. The useful path is to start from one analytical block, reconstruct a reduced local dataset, and only then build public-safe tables or figures.
+
+## Source Types
+
+### Exported Sources
+
+- ChatGPT export centered on `conversations.json`
+- Telegram desktop export with `result.json`
+- Mi Fitness data-copy package with CSV tables
+
+### Windows File System Sources
+
+- a selected project folder on Windows
+- optional `.toe` subset
+- optional backup-heavy folders such as `/Backup/*.toe`
+
+This source works relatively well when the project accumulates files over time and older versions remain in the folder structure instead of being fully overwritten.
+
+### Structured Local Source Tables
+
+- recognized schedule CSV
+- structured budget CSV
+- recovered project timeline CSV
+
+### Observed Manual Source Layers
+
+- FigJam revision-history observations turned into an event log
+- manually reduced red-mark counts
+- overload-event recovery tables
+
+### Human-Guided Narrative Sources
+
+- dictation
+- calendar comments
+- reviewed notes
+- recalled chat episodes
+- psychological notes
+- reviewed phone photos
 
 ## Minimal Path
 
 1. Pick one block:
-   - `project mass`
+   - `filesystem project mass`
+   - `expanded collect`
    - `allocate`
    - `delegate`
    - `overload`
-2. Keep your raw exports local.
-3. Start from the closest public table or template.
-4. Ask your agent to map your data into that structure.
-5. Generate reduced derived tables first.
-6. Build figures only after the tables stabilize.
-
-## Source Acquisition
-
-### Telegram
-
-- Source: Telegram desktop export with `result.json`
-- Role in the method: message chronology, request detection, loops, uptake
-- Local processing: import, normalize, project slice, actor mapping, filtering, reduced analysis text
-- Public output: privacy-safe aggregates and figure-ready comparisons
-
-### ChatGPT
-
-- Source: account export centered on `conversations.json`
-- Optional support file: `ChatGPT - *.html` project page used for project membership
-- Role in the method: message chronology, request detection, loops, uptake
-- Local processing: import, normalize, project mapping, reduced analysis text, loop building
-- Public output: privacy-safe request, task-type, and uptake aggregates
-
-### Mi Fitness
-
-- Source: Mi Fitness data-copy package with CSV tables
-- Role in the method: embodied overlay for overload and phase comparison
-- Local processing: parse heart rate, sleep, activity, daily summary, and stage-level tables
-- Public output: timeline overlays, phase summaries, and reduced comparison tables
-
-### Figma / FigJam Revision History
-
-- Source: version-history views collected manually from the Education account
-- Role in the method: shared documentation and revision rhythm inside `project mass`
-- Local processing: manual extraction of observed edit events into an event log, then daily or weekly aggregation
-- Public output: observed revision counts and timeline overlays folded into the `Collect` layer
-
-### Calendar, Notes, Commentaries, Remembered Episodes
-
-- Source: calendar entries, project notes, typed comments, dictated recollections, manually reviewed phone photos
-- Role in the method: event markers, phase framing, context for allocation and overload
-- Local processing: local dictation or note capture, machine structuring, manual cleanup, event extraction
-- Public output: reduced timeline markers, dated notes, and phase anchors
+2. Keep raw and text-bearing sources local.
+3. Reconstruct one stable local source table first.
+4. Map that table to the nearest public output or template.
+5. Build reduced aggregates before building figures.
 
 ## Block By Block
 
-### Project Mass
+### Filesystem Project Mass
 
-Use this when you want to reconstruct how a project accumulated across time.
+Use this when you want a lower-bound chronology of project accumulation from a surviving folder.
 
-Start from:
+Source data:
 
-- [project_mass_daily_template.csv](../data/templates/project_mass_daily_template.csv)
-- [project_mass_daily.csv](../data/derived/project_mass/project_mass_daily.csv)
-- [project_mass_toe_daily.csv](../data/derived/project_mass/project_mass_toe_daily.csv)
-
-Minimum useful inputs:
-
-- one project folder
+- a selected project folder on Windows
 - file timestamps
 - file sizes
-- optionally a `.toe` subset
-- optionally a manually observed revision log for Figma or FigJam
+- extensions
+- optionally `.toe` files
+- optionally backup-heavy folders that preserve older states
 
-Good agent ask:
+How it was obtained:
 
-- "Map my project folder chronology to `project_mass_daily_template.csv` and keep `.toe` as a separate curve."
-- "Merge my file chronology with a manually compiled Figma or FigJam revision log."
+- local scan of the surviving project folder
+
+Local processing:
+
+1. scan the folder snapshot
+2. read `created`, `modified`, `size`, and `extension`
+3. derive file-created and file-modified events
+4. aggregate them into daily growth tables
+5. split out `.toe` as a separate curve when useful
 
 Reference script and tool:
 
 - `delegate-analysis/src/delegation_log/project_mass.py`
   - Purpose: scan one or more folders and build file-growth tables
-  - Useful for: all-files project mass, `.toe` subset, backup-like file detection, git activity
+  - Useful for: all-files project mass, `.toe` subset, backup-like file detection, optional git activity
   - Limit: reconstructs from the current surviving snapshot
   - Quick run on Windows: from `delegate-analysis`, run `project_mass.cmd`
 
+Public outputs:
+
+- [project_mass_summary.csv](../data/derived/project_mass/project_mass_summary.csv)
+- [project_mass_daily.csv](../data/derived/project_mass/project_mass_daily.csv)
+- [project_mass_toe_daily.csv](../data/derived/project_mass/project_mass_toe_daily.csv)
+
+Public explanation:
+
+- this is a filesystem reconstruction from surviving files
+- cumulative values are observed lower bounds
+- the method works best when files accumulate and earlier versions remain visible in the folder structure
+
+### Expanded Collect
+
+Use this when you want the thesis-facing `Collect` layer rather than folder chronology alone.
+
+Source data:
+
+- filesystem daily tables
+- filtered message counts
+- request tables
+- structured budget CSV
+- budget-derived physical-item layer
+- FigJam revision-history observations
+- project timeline markers
+
+How it was obtained:
+
+- some layers came from exports and scripts
+- some were manually observed and turned into stable local tables
+
+Local processing:
+
+1. derive filesystem mass tables
+2. reduce messages and requests to countable time-based layers
+3. structure budget into a stable CSV
+4. derive physical items from budget where relevant
+5. turn FigJam revision observations into an observed event log
+6. align layers by day or week
+7. assemble a composite mass table for figure work
+
+Reference script and tool:
+
+- `delegate-analysis/src/delegation_log/collect_mass.py`
+  - Purpose: merge several trace layers into a thesis-facing `Collect` composition
+  - Useful for: combined digital, communicative, financial, material, and shared-documentation accumulation
+  - Limit: depends on prior local structuring of several inputs
+
+Public explanation:
+
+- this is a composite accumulation layer, not just a folder scan
+- the shared-documentation layer comes from observed FigJam revision history
+
 ### Allocate
 
-Use this when you want to reread planning, scarcity, occupied time, and budget rhythm.
+Use this when you want to reconstruct intended allocation, spending rhythm, and occupied time.
 
-Start from:
+Source data:
 
-- [allocate_budget_weekly_template.csv](../data/templates/allocate_budget_weekly_template.csv)
-- [allocate_timeline_dataset_template.csv](../data/templates/allocate_timeline_dataset_template.csv)
-- [allocate_event_markers_template.csv](../data/templates/allocate_event_markers_template.csv)
+- recognized schedule CSV
+- structured budget CSV
+- recovered project timeline CSV
+- manually reduced red-mark counts
 
-Public reference outputs:
+How it was obtained:
+
+- the schedule was already a recognized and cleaned source table
+- the budget was structured from the workbook into CSV
+- the timeline was recovered into a separate project table
+- red marks were manually reduced from local material
+
+Local processing:
+
+1. normalize schedule blocks
+2. aggregate budget by week and source
+3. reduce project timeline to readable markers
+4. align timeline, budget, and schedule layers
+5. add red-mark counts where needed
+
+Reference script and tool:
+
+- `delegate-analysis/src/delegation_log/allocate_viz.py`
+  - Purpose: assemble the public allocation layer from schedule, budget, and recovered timeline tables
+  - Useful for: timeline dataset, weekly budget, event markers, figure outputs
+  - Limit: depends on already structured local source tables
+
+Important note:
+
+- red marks were an important self-reflective and presentation layer
+- they covered only the two densest weeks of work
+- they did not enter the final publication visualizations as a full figure layer
+
+Public outputs:
 
 - [allocate_budget_weekly.csv](../data/derived/allocate/allocate_budget_weekly.csv)
 - [allocate_timeline_dataset.csv](../data/derived/allocate/allocate_timeline_dataset.csv)
 - [allocate_event_markers.csv](../data/derived/allocate/allocate_event_markers.csv)
 
-Minimum useful inputs:
-
-- a schedule or working timeline
-- a budget or expense log
-- dated notes about shifts, deadlines, rehearsals, failures, or repairs
-- optional red-mark sheets or manually transcribed slot confirmations
-
-Good agent asks:
-
-- "Turn my budget export into the structure of `allocate_budget_weekly_template.csv`."
-- "Turn my schedule notes into `allocate_timeline_dataset_template.csv`."
-- "Derive event markers from my notes and calendar."
-
-Reference scripts and tools:
-
-- `OpenCV_red`
-  - Purpose: detect red-mark traces from photographed or scanned sheets
-  - Useful for: occupied-time confirmation inside `Allocate`
-  - Limit: depends on image quality and stable mark visibility
-- manual timeline assembly
-  - Purpose: combine schedule, budget, notes, and markers into one readable timeline
-  - Useful for: thesis-facing allocation figures
-  - Limit: requires human curation of dated events
-
 ### Delegate
 
-Use this when your material includes work requests, responses, and follow-up turns across chats.
+Use this when your material includes requests, responses, and continued work across chats.
 
-Public reference outputs:
+Source data:
 
-- [delegate_task_type_comparison.csv](../data/derived/delegate/delegate_task_type_comparison.csv)
-- [delegate_uptake_comparison.csv](../data/derived/delegate/delegate_uptake_comparison.csv)
+- ChatGPT `conversations.json`
+- Telegram `result.json`
+- ChatGPT project membership HTML
+- actor and chat registries
 
-Minimum useful inputs:
+How it was obtained:
 
-- a normalized chat export
-- sender roles
-- timestamps
-- enough local context to read a request and its continuation
+- platform exports plus local registries
 
-Minimal local logic:
+Local processing:
 
-1. normalize messages into one table
-2. preserve one raw text layer
-3. create one reduced analysis text layer
-4. identify request-bearing messages
-5. assign one primary task type
-6. classify uptake after the response
-7. aggregate by target channel
+1. import exports
+2. normalize messages into one schema
+3. preserve `text_raw`
+4. derive `text_analysis` as a compressed analytical text layer
+5. anonymize identifiers and redact PII
+6. assign project and actor labels
+7. filter by project and date
+8. extract request or delegation events
+9. build `request -> response -> uptake` structures
+10. enrich with task and uptake coding
+11. export reduced comparison tables
 
-Source formats used here:
+Coding logic:
 
-- Telegram exports with `result.json`
-- ChatGPT exports with `conversations.json`
+- task categories came from an explicit codebook
+- uptake categories also came from an explicit coding scheme
+- these categories were filled through rules, manual audit, and targeted model assistance
+- manual adjudication remained authoritative
+
+Important method note:
+
+- the early spine was loop-based
+- later work also used a broader relation-oriented self-message layer
 
 Reference scripts and tools:
 
 - `delegate-analysis/src/delegation_log/importers.py`
   - Purpose: parse Telegram and ChatGPT exports into one message table
-  - Useful for: first-pass ingestion
 - `delegate-analysis/src/delegation_log/normalize.py`
-  - Purpose: standardize columns and build `text_raw` / `text_analysis`
-  - Useful for: stable downstream analysis
+  - Purpose: standardize fields and build `text_raw` / `text_analysis`
 - `delegate-analysis` CLI pipeline
-  - Purpose: import, normalize, anonymize, filter, extract events, build loops, classify uptake
-  - Limit: project registries and local filtering rules still need human supervision
-  - Quick run: use the command sequence in the local `delegate-analysis` README
+  - Purpose: import, normalize, anonymize, filter, extract events, build loops, classify uptake, export aggregates
+  - Limit: private corpora, registries, and manual audit layers remain local
+
+Public outputs:
+
+- [delegate_task_type_comparison.csv](../data/derived/delegate/delegate_task_type_comparison.csv)
+- [delegate_uptake_comparison.csv](../data/derived/delegate/delegate_uptake_comparison.csv)
+
+Public explanation:
+
+- public `delegate_*` files are reduced aggregates built from private annotated communication corpora
 
 ### Overload
 
-Use this when you want to compare project chronology against embodied or self-tracking traces.
+Use this when you want to align reconstructed project chronology with embodied traces.
 
-Public reference outputs:
+Source data:
 
-- [overload_phase_summary_fitness.csv](../data/derived/overload/overload_phase_summary_fitness.csv)
-- [overload_timeline_weekly.csv](../data/derived/overload/overload_timeline_weekly.csv)
+- Mi Fitness raw export
+- recovered project timeline
+- overload-event recovery tables
+- dictation, calendar traces, chat review, and notes used in chronology recovery
 
-Minimum useful inputs:
+How it was obtained:
 
-- one dated project timeline
-- one dated self-tracking source
-- one list of significant project events
+- Mi Fitness came from exported raw tables
+- chronology and overload events were reconstructed locally from multiple sources
 
-Recommended logic:
+Local processing:
 
-1. build a dated project timeline
-2. derive weekly or phase-level summaries from the self-tracking export
-3. compare chronology and embodied traces through phases rather than isolated days
+1. parse heart-rate, sleep, activity, and summary tables
+2. reconstruct project chronology
+3. define project phases from chronology and interpretive framing
+4. align physiological traces to those phases
+5. aggregate by day, week, and phase
+6. export summary and figure-ready tables
+
+Important method note:
+
+- phases were not discovered by physiology
+- chronology and interpretive phase logic came first
+- physiology was aggregated against that phase scaffold afterward
 
 Reference scripts and tools:
 
 - `delegate-analysis/src/delegation_log/fitness.py`
   - Purpose: parse Mi Fitness raw CSV into heart-rate, activity, sleep, and daily-summary tables
-  - Useful for: overload timeline and phase summaries
-  - Limit: depends on wear continuity and data coverage
 - `delegate-analysis/src/delegation_log/overload_phase_analysis.py`
   - Purpose: phase-level aggregation and comparison
-  - Useful for: phase summaries and contrast tables
-  - Limit: still depends on a manually built project chronology
+  - Limit: depends on a recovered chronology and locally assembled event frame
 
-## Source Formats Used Here
+Public outputs:
 
-- Telegram
-  - exported chat packages with `result.json`
-- ChatGPT
-  - full export centered on `conversations.json`
-- Mi Fitness
-  - zipped data-copy package with CSV tables
-- Figma / FigJam
-  - manually observed version-history events turned into an event log
-- Calendar / notes / recollections / phone photos
-  - locally reviewed material used for human-guided event extraction and timeline anchoring
+- [overload_phase_summary_fitness.csv](../data/derived/overload/overload_phase_summary_fitness.csv)
+- [overload_timeline_weekly.csv](../data/derived/overload/overload_timeline_weekly.csv)
+
+Public explanation:
+
+- this is a phase-based embodied overlay aligned to reconstructed project chronology
 
 ## Keep Private Data Local
 
-For text-bearing or health-bearing corpora, the working rule is simple:
+For text-bearing, health-bearing, or strongly identifying corpora, the working rule is simple:
 
 1. parse locally
 2. reduce locally
 3. anonymize locally where needed
-4. run LLM steps locally or on a local OpenAI-compatible server
+4. run model-assisted steps only on safe local subsets or local infrastructure
 5. publish only reduced tables and figures
 
 This is especially important for:
@@ -232,6 +310,7 @@ This is especially important for:
 - raw health exports
 - personal photo collections
 - dictated recollections and memory notes
+- raw filesystem inventories with sensitive paths
 
 ## Local LLM Workflow
 
@@ -251,7 +330,7 @@ For Qwen 3, non-thinking mode is the useful default for structured annotation. T
 
 ## Minimal Prompt Pattern
 
-For local message annotation, keep the request bounded.
+For bounded local message annotation:
 
 ```text
 You are annotating one row from a private research corpus.
@@ -282,32 +361,32 @@ Next message:
 
 For Qwen 3, append `/no_think` in the final user turn or configure non-thinking mode in the serving layer.
 
-## Human-Analysable Sources
+## Human-Guided Sources
 
-Some project traces do not start as clean exports. They were turned into structured inputs through a human-guided step first.
+Some project traces did not start as clean exports. They were turned into structured inputs through a human-guided step first.
 
 Typical cases:
 
+- FigJam revision-history observations
 - calendar comments or schedule remarks
 - recalled chat episodes
 - dictated memory notes
 - reviewed phone photos
-- manually observed Figma or FigJam revision history
 
 Working pattern:
 
 1. describe the material locally in plain language
 2. have the agent structure it into dated rows or event markers
 3. correct names, dates, and sequence manually
-4. merge the cleaned result with the closest block: `collect`, `allocate`, or `overload`
+4. merge the cleaned result with the closest block
 
 Good agent asks:
 
 - "Turn this dictated recollection into dated event markers."
 - "Convert these calendar comments into a timeline table."
-- "Structure these manually observed FigJam edit events into a daily log."
+- "Structure these manually observed FigJam revision events into a daily log."
 - "Review these photo notes and extract project-relevant dated events only."
 
 ## Principle
 
-Reuse the structure. Start with one block, one reduced dataset, and one stable figure-ready table.
+Reuse the structure. Start with one block, one stable local source table, and one reduced public-safe output.

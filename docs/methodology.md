@@ -9,11 +9,12 @@ The research works across several trace families at once:
 - ChatGPT exports centered on `conversations.json`
 - Telegram exports centered on `result.json`
 - Mi Fitness data-copy exports
-- manually observed Figma or FigJam revision-history events
-- schedules, budget tables, and red-mark tracking
-- calendar comments, dictated recollections, reviewed phone photos, and other human-guided timeline notes
+- Windows project folders and surviving file structures
+- FigJam revision-history observations turned into an event log
+- structured budget and schedule tables
+- recovered project timeline tables
+- dictated recollections, calendar comments, reviewed notes, and other human-guided timeline material
 - TouchDesigner system states
-- notes, planning material, technical remnants, and installation logic
 
 ## Four Modes
 
@@ -28,42 +29,69 @@ These four modes structure the rereading of the same production process.
 
 ## Collect
 
-`Collect` was operationalized through project mass: the accumulated load of the project across financial, communicative, digital, material, and shared-documentation layers.
+`Collect` was built in two layers.
 
-In this method, accumulation matters twice:
+### 1. Filesystem Project Mass
 
-- it expands what the project can do
-- it increases storage, revision, orientation, and coordination burden
+The first layer reads project accumulation from the surviving folder structure.
 
-The public `project mass` layer uses a small number of readable curves and keeps file-family detail in supporting tables. The core public outputs are:
+Its basic source is a selected project folder on Windows, optionally with a separate `.toe` subset. The folder is scanned as a current snapshot. From that snapshot, the method derives:
+
+- file-level inventory
+- file-created and file-modified events
+- daily growth tables
+- optional `.toe`-only growth tables
+
+Core public outputs:
 
 - [project_mass_summary.csv](../data/derived/project_mass/project_mass_summary.csv)
 - [project_mass_daily.csv](../data/derived/project_mass/project_mass_daily.csv)
 - [project_mass_toe_daily.csv](../data/derived/project_mass/project_mass_toe_daily.csv)
 
-The shared-documentation layer includes manually observed Figma or FigJam revision-history events when those observations were structured into an event log and aggregated by day or week.
-
 Method limit:
 
 - filesystem chronology is a reconstruction from the current surviving snapshot
 - `cumulative_known_files` and `cumulative_known_bytes` should be read as observed lower-bound project mass
+- this layer works best when files accumulate over time and older versions remain in the folder structure
+
+### 2. Expanded Collect Layer
+
+The second layer is the thesis-facing `Collect` composition. It extends folder chronology with additional trace layers:
+
+- filtered project messages
+- request tables
+- structured budget data
+- budget-derived physical-item counts
+- FigJam revision-history observations
+- project timeline markers
+
+This is the layer that supports the final `Collect` figure logic. It treats accumulation as a composite load across digital, communicative, financial, material, and shared-documentation layers.
+
+Important note:
+
+- the shared-documentation layer comes from manually observed FigJam revision history turned into an event log and then aggregated by day or week
 
 ## Allocate
 
 `Allocate` reads how time, money, attention, and technical capacity were distributed under scarcity.
 
-In the thesis, schedules function as orienting structures. They preserve intended sequence and visible distribution of effort, but they do not fully reconstruct lived work, doubt, drift, revision, or interruption.
+Its public layer is assembled from already structured local source tables:
+
+- recognized schedule CSV
+- structured budget CSV
+- recovered project timeline CSV
+- manually reduced red-mark counts
+
+Schedules function here as orienting structures. They preserve intended sequence and visible distribution of effort, but they do not fully reconstruct lived work, revision, interruption, or drift.
 
 This is why the public `allocate` layer combines:
 
 - schedule blocks
 - budget rhythm
 - event markers
-- red-mark logic
+- occupied-time traces
 
-Event markers may come from exported sources or from human-guided structuring of comments, calendar traces, dictated recollections, and manually reviewed notes.
-
-The red mark is important here as a trace of occupied time. It registers directed effort and makes the slot visible after the fact.
+The red mark was an important self-reflective and presentation layer. In the current research contour it covers only the two densest weeks of work and did not enter the final publication as a full visualization layer.
 
 Core public outputs:
 
@@ -75,7 +103,14 @@ Core public outputs:
 
 `Delegate` studies how work, uncertainty, revision, and responsibility move across humans, AI systems, software, and infrastructure.
 
-The local analytical spine in `delegate-analysis` used four units:
+Its confirmed source layer includes:
+
+- ChatGPT `conversations.json`
+- Telegram `result.json`
+- ChatGPT project membership HTML
+- actor and chat registries
+
+The early analytical spine used four units:
 
 1. `message`
 2. `delegation event`
@@ -89,7 +124,7 @@ The pipeline preserved two text layers:
 
 `text_analysis` compresses long code and data blocks into structural markers so that technical payloads remain legible without dominating the analysis.
 
-The main message-analysis sequence was:
+The base message-analysis sequence was:
 
 1. import ChatGPT and Telegram exports
 2. normalize them into one message table
@@ -101,14 +136,20 @@ The main message-analysis sequence was:
 8. classify uptake and derive request-centric views
 9. export aggregates, figures, and audit tables
 
-Important method decisions:
+Coding logic:
 
-- manual labels remain authoritative
-- rule-based methods remain primary
-- LLM use is secondary and targeted
-- private text corpora are filtered and reduced locally before any public layer is prepared
+- task categories came from an explicit codebook
+- uptake categories also came from an explicit coding scheme
+- rules, manual audit, and targeted model assistance were used to fill and correct those layers
+- manual adjudication remained authoritative
 
-The public layer keeps only compact outputs such as:
+Important method note:
+
+- the early spine was loop-based
+- later analysis also worked with a broader relation-oriented self-message layer
+- public outputs reduce those private analytical layers to compact comparison tables
+
+The public layer keeps only reduced outputs such as:
 
 - [delegate_task_type_comparison.csv](../data/derived/delegate/delegate_task_type_comparison.csv)
 - [delegate_uptake_comparison.csv](../data/derived/delegate/delegate_uptake_comparison.csv)
@@ -116,6 +157,13 @@ The public layer keeps only compact outputs such as:
 ## Overload
 
 `Overload` reads the point where accumulated pressure exceeds workable capacity and becomes legible through chronology, notes, self-tracking, repeated repair, and recovery cycles.
+
+Its confirmed source layer includes:
+
+- Mi Fitness raw export
+- recovered project timeline
+- overload-event recovery tables
+- dictation, calendar traces, chat review, and other locally structured recovery material
 
 The overload chapter uses a phase scaffold:
 
@@ -126,7 +174,11 @@ The overload chapter uses a phase scaffold:
 - Terminal Push
 - Afterimage
 
-This phase logic keeps visible the difference between structural density, crisis, rescue concentration, late push, and delayed residue after the event.
+Important method note:
+
+- phases were not discovered by physiology
+- reconstructed chronology and interpretive phase framing came first
+- physiological data was then aligned and aggregated against that phase scaffold
 
 Physiological data enters this layer as embodied overlay:
 
@@ -136,8 +188,6 @@ Physiological data enters this layer as embodied overlay:
 - wear coverage
 
 These traces support rereading. Chronology, notes, and marked project events remain the primary frame.
-
-Some of those event anchors were assembled through local human-guided structuring rather than direct export. That includes dictated recollections, reviewed phone-photo notes, calendar comments, and other timeline material turned into dated markers before aggregation.
 
 Core public outputs:
 
@@ -149,8 +199,7 @@ Core public outputs:
 The main technical systems behind the public layer are:
 
 - final TouchDesigner logic states in [data/curated/system](../data/curated/system)
-- `delegate-analysis` for message, project-mass, allocation, and overload analysis
-- `OpenCV_red` for red-mark detection at the allocation station
+- `delegate-analysis` for message, project-mass, collect, allocate, and overload analysis
 - `SVG_tracer` for selected tracing and SVG-output steps
 
 ## Public Layer
