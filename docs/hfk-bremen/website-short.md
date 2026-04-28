@@ -4,7 +4,7 @@ category: "Master Thesis"
 author: "Viacheslav (Slava) Romanov"
 year: "2026"
 project_page: "https://www.slavaromanov.art/2026/in-the-digital-shadow"
-repository: "https://github.com/slavaromanov/inthedigitalshadow"
+repository: "https://github.com/davinel000/inthedigitalshadow"
 ---
 
 # in the digital shadow: An Embodied Debrief
@@ -20,5 +20,5 @@ The research frame is organized through four modes: `Collect`, `Allocate`, `Dele
 ## Links
 
 - Project page: [slavaromanov.art/2026/in-the-digital-shadow](https://www.slavaromanov.art/2026/in-the-digital-shadow)
-- Public repository: [inthedigitalshadow](https://github.com/slavaromanov/inthedigitalshadow)
+- Public repository: [inthedigitalshadow](https://github.com/davinel000/inthedigitalshadow)
 - Thesis PDF in repository: [romanov_in_the_digital_shadow.pdf](../../romanov_in_the_digital_shadow.pdf)

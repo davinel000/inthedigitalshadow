@@ -7,7 +7,7 @@ year: "2026"
 supervisors: "Dennis P. Paul; Ralf Baecker"
 project_page: "https://www.slavaromanov.art/2026/in-the-digital-shadow"
 umbra_page: "https://www.slavaromanov.art/2025/umbra"
-repository: "https://github.com/slavaromanov/inthedigitalshadow"
+repository: "https://github.com/davinel000/inthedigitalshadow"
 thesis_pdf: "../../romanov_in_the_digital_shadow.pdf"
 video_documentation: "https://filedn.com/lGT3vQOeVHQFjjI0lPsYmHS/website_slavaromanov_media/small_slavaromanov_in_the_digital_shadow_teaser.mp4"
 ---
@@ -17,6 +17,12 @@ video_documentation: "https://filedn.com/lGT3vQOeVHQFjjI0lPsYmHS/website_slavaro
 *in the digital shadow: An Embodied Debrief* is a practice-based research project and installation developed out of the production process of *umbra: In the Digital Shadow*. It rereads that process through accumulated traces and remnants: files, schedules, budgets, chat histories, self-tracking records, notes, physical leftovers, and the residual pressure that remained after the project had formally ended.
 
 The work asks how creative production can be understood once attention shifts away from finished outcomes and toward coordination, delegation, accumulation, and overload. The analytical material extends well beyond conventional documentation. It includes project remnants, operational traces, digital residue, and material evidence that stayed attached to the project after its completion.
+
+## Relation To The Thesis
+
+This documentation accompanies the written master's thesis *in the digital shadow: An Embodied Debrief*. The thesis PDF remains the primary research document and contains the full argument, references, methodological framing, and extended analytical figure set.
+
+The present documentation focuses on the final project form: the installation, colloquium presentation, selected media, and a condensed account of the research model. It should be read as the post-colloquium documentation layer rather than as a replacement for the thesis.
 
 ## Project Overview
 
@@ -78,9 +84,11 @@ Its setup can be read through four connected modules:
 
 ### Collection Chamber
 
-The Collection Chamber is the main capture environment of the installation. It is built around a `3 x 3 x 3 m` projection cube made of aluminium profiles with projection surfaces. Inside it, four-channel sound, three depth cameras (`Azure Kinect`), and a resonating metal plate with two piezo microphones are connected through an audio interface and mixing console used for recording, processing, and direct monitoring.
+The Collection Chamber is the main capture environment of the installation. It is built around a `3 x 3 x 3 m` projection cube made of aluminium profiles with projection surfaces. Inside it, three depth cameras (`Azure Kinect`) capture point-cloud traces and send them to the main computer. A resonating metal plate with two piezo microphones forms the sonic capture surface; this audio layer is routed through an audio interface and mixing console for recording, processing, and direct monitoring.
 
-When a visitor enters the chamber, the system mirrors that presence through point-cloud capture while simultaneously replaying previously recorded traces. Touch on the resonating metal plate is recorded as short sonic fragments. These fragments enter the memory system together with their visual counterparts and become available for later distribution across the installation.
+When a visitor enters the chamber, two processes run in parallel. The system can mirror the visitor through live point-cloud capture, while its own memory continues to wander through previously recorded traces. These recalled shadows appear at changing positions: on the cube surfaces, on one or several light-sound objects, or across both zones at once.
+
+Touching the resonating metal plate acts as a recording trigger. It starts a short capture window, approximately fifteen seconds long, in which the visitor's point-cloud image and corresponding sound are recorded as a new shadow. After recording, this shadow enters the system's memory and can be recalled several times by the Orchestrator. It may reappear on the cube, be assigned to a light-sound object, or return as a synchronized sound-light event.
 
 The chamber therefore serves as both live capture interface and active replay environment.
 
@@ -88,37 +96,37 @@ The chamber therefore serves as both live capture interface and active replay en
 
 Six light-sound objects extend the chamber into a distributed memory field. Each object consists of aluminium profiles, sewn projection-fabric diffusers, one sound channel, and a DMX LED PAR light. Together they form a six-channel layer across the surrounding space.
 
-These objects distribute both memory fragments and system state. Their sound behaves as part of one connected ten-channel system: four channels inside the cube and six channels across the light-sound objects. The same shared memory-slot logic runs through both zones. The light layer operates in a concentrated, point-like way, while the audio layer carries both recalled traces and generative state-dependent sound.
+These objects distribute both memory fragments and system state. Their sound behaves as part of one connected ten-channel spatial system: four channels inside the cube and six channels across the light-sound objects. The same shared memory-slot logic runs through both zones. Each object can act as an individual memory slot, while the group also behaves as a field across which sound and light patterns move. During more intense states, the objects can carry spatialized noise, pulsing light, or wave-like patterns that make the whole room feel like one distributed display surface.
 
 ### Allocate Station
 
-The Allocate Station introduces a second mode of interaction. Paper, marker, and under-camera trigger logic connect gesture to memory allocation inside the system. A red line drawn by the visitor activates an allocation event: one recorded shadow is assigned to one available slot, and a corresponding red pulse appears in the related part of the system.
+The Allocate Station introduces a second mode of interaction. Paper, marker, and under-camera trigger logic connect gesture to memory allocation inside the system. A red line drawn by the visitor activates an allocation event: one recorded shadow is assigned to one available slot, either on a cube surface or in one of the light-sound objects. The selected slot flashes red and begins playback.
 
 Red Marks form an important static and documentary component of the installation. They condense occupied time into a visible trace and connect the exhibition experience back to the project's own self-observation practices.
 
-The station includes a webcam-based recognition setup, an OpenCV-based detection workflow, and an internal LED layer synchronized with the light-sound objects through an `ESP32`-controlled component.
+The station includes a webcam-based recognition setup and an OpenCV-based detection workflow. When a new red line is recognized, the controlled Allocate computer sends an allocation signal to the main computer. The station also contains an internal `ESP32`-controlled LED layer: in stable states it provides consistent illumination for recognition, while during `flush` it joins the unstable light behavior of the wider installation and stops functioning as an input surface.
 
 ### System Logic
 
-Together these components produce a state logic in which waiting, circulation, capture, overload, and release remain in tension. The installation stores and replays traces, modulates sound and light by system state, and moves between quieter spatial behavior and more intensified noise-based conditions.
+Together these components produce a state logic in which waiting, wandering recall, capture, overload, and release remain in tension. The installation stores and replays traces, modulates sound and light by system state, and moves between quieter spatial behavior and more intensified noise-based conditions. It is not only reactive: the system can also assign and recall shadows on its own, so overload can emerge through visitor action, repeated red-line allocation, repeated chamber capture, or the system's own random allocation behavior.
 
 Three internal concepts are central here:
 
 - `shadowDB`, the database of recorded shadows and their metadata
 - `slotDB`, the database of limited slots into which those shadows can be distributed
-- `Orchestrator`, which governs state transitions and applies the policies of the current state
+- `Orchestrator`, which governs state transitions, allocation policies, slot timing, and release behavior
 
-These components organize how traces are stored, distributed, recalled, and transformed across system states. They connect the installation back to the analytical model developed in the thesis.
+These components organize how traces are stored, distributed, recalled, and transformed across system states. A shadow is not only one media file but a linked memory unit: the same identifier can correspond to a recorded point-cloud fragment on the main computer and to a recorded audio fragment on the sound computer. Allocation means that one of these shadows is sent from `shadowDB` into one of the limited slots managed by `slotDB`. The Orchestrator decides when slots are filled, recalled, released, or intensified. This connects the installation back to the analytical model developed in the thesis.
 
 The system works through five principal states:
 
 - `empty`
-- `idle`
-- `collecting`
+- `wandering`
+- `collection`
 - `overload`
 - `flush`
 
-`empty` appears after `flush`, when no new assignments are made for a short interval. From there the system can pass into `idle`, where it recalls and circulates stored traces. `collecting` intensifies live capture and assignment activity. `overload` increases system density and pressure across sound, light, and recall behavior. `flush` acts as a release condition through which the system clears and resets part of its accumulated tension.
+`empty` appears after `flush`, when the slots have been cleared and no new assignments are made for a short interval. It is a suspended state: the cube is nearly dark, small pixels remain visible, the sound recalls a tinnitus-like residue, and slow light waves pass through the light-sound objects. From there the system can wake into `wandering`, where it recalls and circulates stored traces without requiring direct input. `collection` begins when a visitor enters the chamber and activates recording. `overload` increases density and pressure across sound, light, and recall behavior. If overload is brief, the system can return to `wandering` or `collection`; if it lasts too long, `flush` begins. During `flush`, the cube shifts into pixelated noise, the light-sound objects flash, distributed noise fills the space, and slots are cleared one after another until the system falls back into `empty`.
 
 ### Technical Architecture
 
@@ -172,7 +180,7 @@ The accompanying research repository extends that question toward reproducibilit
 
 - Project page: [slavaromanov.art/2026/in-the-digital-shadow](https://www.slavaromanov.art/2026/in-the-digital-shadow)
 - Umbra project page: [slavaromanov.art/2025/umbra](https://www.slavaromanov.art/2025/umbra)
-- Public research repository: [inthedigitalshadow](https://github.com/slavaromanov/inthedigitalshadow)
+- Public research repository: [inthedigitalshadow](https://github.com/davinel000/inthedigitalshadow)
 - Thesis PDF in repository: [romanov_in_the_digital_shadow.pdf](../../romanov_in_the_digital_shadow.pdf)
 - Video documentation: [small_slavaromanov_in_the_digital_shadow_teaser.mp4](https://filedn.com/lGT3vQOeVHQFjjI0lPsYmHS/website_slavaromanov_media/small_slavaromanov_in_the_digital_shadow_teaser.mp4)
 
