@@ -69,71 +69,68 @@ The installation translates the analytical logic of the thesis into a visitor-fa
 
 The installation is a self-running system that embodies the debrief through its own operational behavior. It gathers physical and digital remnants of the project, reworks elements of its visual and material language, and translates the four production modes into an interactive environment. The visitor enters an already active system that remembers, records, circulates, and modulates traces over time.
 
-### Spatial Components
+Its setup can be read through four connected modules:
 
-Its physical setup brings together several components:
-
-- a `3 x 3 x 3 m` cube made of aluminium profiles with projection surfaces
-- a Collection Chamber built around point-cloud capture and resonating metal sound input
-- six light-sound objects made of aluminium profiles and stitched projection-fabric diffusers
-- an Allocate Station for red-line interaction
-- distributed projection, light, slot-based memory logic, and multichannel sound
+- the `Collection Chamber`, which acts as the main capture environment
+- a distributed field of `light-sound objects`, which extends memory through the space
+- the `Allocate Station`, which assigns traces to slots through red-line interaction
+- a `control contour` of networked computers and state logic, which organizes memory, playback, and system transitions
 
 ### Collection Chamber
 
-The Collection Chamber is the main capture environment of the installation. It includes:
+The Collection Chamber is the main capture environment of the installation. It is built around a `3 x 3 x 3 m` projection cube made of aluminium profiles with projection surfaces. Inside it, four-channel sound, three depth cameras (`Azure Kinect`), and a resonating metal plate with two piezo microphones are connected through an audio interface and mixing console used for recording, processing, and direct monitoring.
 
-- the large projection cube
-- four-channel sound inside the cube
-- three depth cameras (`Azure Kinect`)
-- a resonating metal plate with two piezo microphones
-- an audio input/output interface and mixing console for recording, processing, compression, delay, and direct monitoring
+When a visitor enters the chamber, the system mirrors that presence through point-cloud capture while simultaneously replaying previously recorded traces. Touch on the resonating metal plate is recorded as short sonic fragments. These fragments enter the memory system together with their visual counterparts and become available for later distribution across the installation.
 
-When a visitor enters the chamber, the system records presence through point-cloud traces and through sound captured from touch on the resonating metal plate. Short fragments are written into the system's memory and retained inside a slot logic that distributes them across visual and sonic components.
-
-The chamber records more than entry. It captures brief embodied fragments and folds them back into the ongoing internal circulation of the installation.
+The chamber therefore serves as both live capture interface and active replay environment.
 
 ### Light-Sound Objects
 
-Six light-sound objects extend the chamber into a distributed memory field. Each object consists of aluminium profiles, sewn projection-fabric diffusers, one sound channel, and a DMX LED PAR light. Together they form a six-channel sound layer across the installation space and carry part of the system's state-based modulation.
+Six light-sound objects extend the chamber into a distributed memory field. Each object consists of aluminium profiles, sewn projection-fabric diffusers, one sound channel, and a DMX LED PAR light. Together they form a six-channel layer across the surrounding space.
+
+These objects distribute both memory fragments and system state. Their sound behaves as part of one connected ten-channel system: four channels inside the cube and six channels across the light-sound objects. The same shared memory-slot logic runs through both zones. The light layer operates in a concentrated, point-like way, while the audio layer carries both recalled traces and generative state-dependent sound.
 
 ### Allocate Station
 
-The Allocate Station introduces a second mode of interaction. Paper, marker, and under-camera trigger logic connect gesture to memory allocation inside the system. A red line drawn by the visitor activates an additional allocation event, occupies a slot, and triggers a corresponding red visual pulse inside the installation logic.
+The Allocate Station introduces a second mode of interaction. Paper, marker, and under-camera trigger logic connect gesture to memory allocation inside the system. A red line drawn by the visitor activates an allocation event: one recorded shadow is assigned to one available slot, and a corresponding red pulse appears in the related part of the system.
 
 Red Marks form an important static and documentary component of the installation. They condense occupied time into a visible trace and connect the exhibition experience back to the project's own self-observation practices.
 
-The station also includes:
-
-- a webcam-based recognition setup
-- an OpenCV-based detection workflow
-- an internal LED layer synchronized with the light-sound objects through an `ESP32`-controlled lighting component
+The station includes a webcam-based recognition setup, an OpenCV-based detection workflow, and an internal LED layer synchronized with the light-sound objects through an `ESP32`-controlled component.
 
 ### System Logic
 
 Together these components produce a state logic in which waiting, circulation, capture, overload, and release remain in tension. The installation stores and replays traces, modulates sound and light by system state, and moves between quieter spatial behavior and more intensified noise-based conditions.
 
-Different sonic layers correspond to different system conditions. The installation uses a spatial sound layer for ambient memory circulation, a noisier layer for heightened system pressure, and a separate reaction layer linked to Allocate activity.
+Three internal concepts are central here:
 
-Several internal concepts are central to that logic:
-
-- `shadowDB`
-- `slotDB`
-- `Orchestrator`
+- `shadowDB`, the database of recorded shadows and their metadata
+- `slotDB`, the database of limited slots into which those shadows can be distributed
+- `Orchestrator`, which governs state transitions and applies the policies of the current state
 
 These components organize how traces are stored, distributed, recalled, and transformed across system states. They connect the installation back to the analytical model developed in the thesis.
+
+The system works through five principal states:
+
+- `empty`
+- `idle`
+- `collecting`
+- `overload`
+- `flush`
+
+`empty` appears after `flush`, when no new assignments are made for a short interval. From there the system can pass into `idle`, where it recalls and circulates stored traces. `collecting` intensifies live capture and assignment activity. `overload` increases system density and pressure across sound, light, and recall behavior. `flush` acts as a release condition through which the system clears and resets part of its accumulated tension.
 
 ### Technical Architecture
 
 The installation runs through three main computational roles:
 
-- a main computer responsible for point-cloud recording, point-cloud display, system-state logic, and several visual representations of the system state
-- a controlled computer responsible for sound recording, synchronized playback of fragments linked to point clouds, ten-channel sound distribution, and generative sound layers for `empty`, `idle`, `collecting`, `overload`, and `flush`
-- a controlled computer responsible for Allocate Station input through webcam capture and OpenCV-based recognition
+- a main computer responsible for point-cloud recording, point-cloud display, `shadowDB`, `slotDB`, the `Orchestrator`, and several visual representations of system state
+- a controlled sound computer responsible for recording and playback of fragments synchronized with point clouds, and for ten-channel sound distribution
+- a controlled Allocate computer responsible for webcam capture and OpenCV-based recognition at the Allocate Station
 
-The visual layer uses two projectors across the large cube surfaces. The sound system uses one audio input/output interface for recording and ten-channel output.
+The controlled computers listen to the main computer and follow the logic defined by the `Orchestrator`. State behavior is therefore defined centrally and distributed across the rest of the system.
 
-For future exhibition contexts, the detailed technical stack and rider can be separated into a dedicated production document. In this documentation layer, the emphasis remains on the operational logic and the role of each module inside the installation.
+The visual layer uses two projectors across the large cube surfaces. The sound system uses one audio input/output interface for recording input and ten-channel output.
 
 ## Figures And Media
 
@@ -195,17 +192,4 @@ Photo credits:
 
 Acknowledgements:
 
-- Chi Him Chik
-- Alex Reinig
-- Leonard Spillner
-- Juan Luque
-- Lucy Savelyeva
-- Jimi Liu
-- Nilya Musaeva
-- Ali Mukhametov
-- Markus Walthert
-- Patrick Peljhan
-- Alena Romanova
-- Urbanscreen GmbH & Co KG
-- Zentrale Ausleihe
-- Schwankhalle
+I would like to thank the *umbra* team and collaborators: Chi Him Chik, Alex Reinig, Leonard Spillner, Juan Luque, and Lucy Savelyeva. My thanks also go to Jimi Liu, Nilya Musaeva, Ali Mukhametov, Markus Walthert, Patrick Peljhan, Alena Romanova, Urbanscreen GmbH & Co KG, Zentrale Ausleihe, and Schwankhalle.
