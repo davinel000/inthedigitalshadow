@@ -20,6 +20,8 @@ The research works across several trace families at once:
 
 The thesis reads the project through four operational modes:
 
+These four modes were selected as working analytical lenses rather than as a total taxonomy of the project. Together they make it possible to read the production process across accumulation, distribution, externalization, and limit conditions. Each mode isolates one aspect of the same system while remaining connected to the others.
+
 - `Collect`
 - `Allocate`
 - `Delegate`
@@ -200,6 +202,7 @@ The main technical systems behind the public layer are:
 
 - final TouchDesigner logic states in [data/curated/system](../data/curated/system)
 - `delegate-analysis` for message, project-mass, collect, allocate, and overload analysis
+- `OpenCV_red` as a real-time recognition and OSC transmission component used in the installation environment
 - `SVG_tracer` for selected tracing and SVG-output steps
 
 ## Public Layer

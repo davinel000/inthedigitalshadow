@@ -21,6 +21,7 @@ This source works relatively well when the project accumulates files over time a
 ### Structured Local Source Tables
 
 - recognized schedule CSV
+- recognized project schedule from a Gantt-like planning image
 - structured budget CSV
 - recovered project timeline CSV
 
@@ -38,6 +39,8 @@ This source works relatively well when the project accumulates files over time a
 - recalled chat episodes
 - psychological notes
 - reviewed phone photos
+
+The important point is not the source object by itself, but the structured output produced from it: recognized schedules, recovered timelines, dated event logs, reduced markers, and other stable local tables that can be aggregated in the same way as the project datasets here.
 
 ## Minimal Path
 
@@ -154,6 +157,7 @@ Source data:
 How it was obtained:
 
 - the schedule was already a recognized and cleaned source table
+- the project schedule was digitized from a Gantt-like planning artifact into a stable schedule table
 - the budget was structured from the workbook into CSV
 - the timeline was recovered into a separate project table
 - red marks were manually reduced from local material
@@ -368,6 +372,7 @@ Some project traces did not start as clean exports. They were turned into struct
 Typical cases:
 
 - FigJam revision-history observations
+- project schedule images or Gantt-like planning views
 - calendar comments or schedule remarks
 - recalled chat episodes
 - dictated memory notes
@@ -376,13 +381,14 @@ Typical cases:
 Working pattern:
 
 1. describe the material locally in plain language
-2. have the agent structure it into dated rows or event markers
+2. have the agent structure it into dated rows, schedule blocks, or event markers
 3. correct names, dates, and sequence manually
 4. merge the cleaned result with the closest block
 
 Good agent asks:
 
 - "Turn this dictated recollection into dated event markers."
+- "Turn this project schedule image into a structured schedule table."
 - "Convert these calendar comments into a timeline table."
 - "Structure these manually observed FigJam revision events into a daily log."
 - "Review these photo notes and extract project-relevant dated events only."
