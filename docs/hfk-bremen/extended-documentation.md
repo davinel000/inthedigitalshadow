@@ -22,6 +22,8 @@ The work asks how creative production can be understood once attention shifts aw
 
 The project combines research, data interpretation, and installation design. Its central method, *Embodied Debrief*, approaches the project retrospectively. Production is reread through residues and reconstructed as a dynamic system of growing traces, uneven resource distribution, distributed agency, and delayed aftereffects.
 
+The reflective base of the project is *umbra: In the Digital Shadow*, a collaborative audiovisual performance developed in Bremen in 2025 together with Chi Him Chik. That production provides the temporal frame, the collaborative setting, the technical environment, and much of the residual material that is reread here through traces, diagrams, notes, and installation logic. In the sections that follow, `the project` refers to that performance and its afterimage.
+
 The installation translates this logic into a spatial experience. Visitors move through an environment where traces are captured, circulated, intensified, and partially released. The work stages project memory as an unstable, accumulating, and overloaded condition.
 
 ## Research Frame
@@ -67,22 +69,33 @@ The installation translates the analytical logic of the thesis into a visitor-fa
 
 The installation is a self-running system that embodies the debrief through its own operational behavior. It gathers physical and digital remnants of the project, reworks elements of its visual and material language, and translates the four production modes into an interactive environment. The visitor enters an already active system that remembers, records, circulates, and modulates traces over time.
 
+### Spatial Components
+
 Its physical setup brings together several components:
 
-- a large cube with projection surfaces
-- a resonating perforated plate
-- spatial and noise-based sound layers
-- a Collection Chamber for visitor capture
+- a `3 x 3 x 3 m` cube made of aluminium profiles with projection surfaces
+- a Collection Chamber built around point-cloud capture and resonating metal sound input
+- six light-sound objects made of aluminium profiles and stitched projection-fabric diffusers
 - an Allocate Station for red-line interaction
-- light, projection, and slot-based memory logic distributed across the system
-
-Two interaction components are central:
+- distributed projection, light, slot-based memory logic, and multichannel sound
 
 ### Collection Chamber
 
-The Collection Chamber acts as the primary site of capture and trace generation. When a visitor enters the chamber, the system records presence through point-cloud traces and through sound captured with piezo microphones. Short fragments are written into the system's memory and retained inside a slot logic that distributes them across visual and sonic components.
+The Collection Chamber is the main capture environment of the installation. It includes:
 
-This means that the chamber records more than entry. It captures brief embodied fragments and folds them back into the ongoing internal circulation of the installation.
+- the large projection cube
+- four-channel sound inside the cube
+- three depth cameras (`Azure Kinect`)
+- a resonating metal plate with two piezo microphones
+- an audio input/output interface and mixing console for recording, processing, compression, delay, and direct monitoring
+
+When a visitor enters the chamber, the system records presence through point-cloud traces and through sound captured from touch on the resonating metal plate. Short fragments are written into the system's memory and retained inside a slot logic that distributes them across visual and sonic components.
+
+The chamber records more than entry. It captures brief embodied fragments and folds them back into the ongoing internal circulation of the installation.
+
+### Light-Sound Objects
+
+Six light-sound objects extend the chamber into a distributed memory field. Each object consists of aluminium profiles, sewn projection-fabric diffusers, one sound channel, and a DMX LED PAR light. Together they form a six-channel sound layer across the installation space and carry part of the system's state-based modulation.
 
 ### Allocate Station
 
@@ -90,9 +103,57 @@ The Allocate Station introduces a second mode of interaction. Paper, marker, and
 
 Red Marks form an important static and documentary component of the installation. They condense occupied time into a visible trace and connect the exhibition experience back to the project's own self-observation practices.
 
+The station also includes:
+
+- a webcam-based recognition setup
+- an OpenCV-based detection workflow
+- an internal LED layer synchronized with the light-sound objects through an `ESP32`-controlled lighting component
+
+### System Logic
+
 Together these components produce a state logic in which waiting, circulation, capture, overload, and release remain in tension. The installation stores and replays traces, modulates sound and light by system state, and moves between quieter spatial behavior and more intensified noise-based conditions.
 
 Different sonic layers correspond to different system conditions. The installation uses a spatial sound layer for ambient memory circulation, a noisier layer for heightened system pressure, and a separate reaction layer linked to Allocate activity.
+
+Several internal concepts are central to that logic:
+
+- `shadowDB`
+- `slotDB`
+- `Orchestrator`
+
+These components organize how traces are stored, distributed, recalled, and transformed across system states. They connect the installation back to the analytical model developed in the thesis.
+
+### Technical Architecture
+
+The installation runs through three main computational roles:
+
+- a main computer responsible for point-cloud recording, point-cloud display, system-state logic, and several visual representations of the system state
+- a controlled computer responsible for sound recording, synchronized playback of fragments linked to point clouds, ten-channel sound distribution, and generative sound layers for `empty`, `idle`, `collecting`, `overload`, and `flush`
+- a controlled computer responsible for Allocate Station input through webcam capture and OpenCV-based recognition
+
+The visual layer uses two projectors across the large cube surfaces. The sound system uses one audio input/output interface for recording and ten-channel output.
+
+For future exhibition contexts, the detailed technical stack and rider can be separated into a dedicated production document. In this documentation layer, the emphasis remains on the operational logic and the role of each module inside the installation.
+
+## Figures And Media
+
+This documentation layer does not need to reproduce the full analytical figure set from the thesis. A smaller selection is more useful here.
+
+Recommended balance:
+
+- `2-3` analytical figures from the research
+- `3-5` installation or presentation images
+- `1` key visual early in the document
+
+The full analytical diagram set remains available through the thesis and the repository. In this document, figures should support the narrative flow rather than reproduce the entire research apparatus.
+
+Good candidates for inclusion are:
+
+- one `Collect` or `Allocate` figure
+- one `Delegate` or `Overload` figure
+- one image of Red Marks
+- one or two installation views
+- one presentation still
 
 ## Presentation
 
