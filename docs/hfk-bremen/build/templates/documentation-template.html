@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{TITLE}} - {{DOCUMENT_LABEL}}</title>
+    <style>
+{{STYLE}}
+    </style>
+  </head>
+  <body>
+    <section class="intro-page">
+      <div class="intro-page__hero" style="background-image: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.58)), url('{{COVER_IMAGE_URL}}'); background-size: {{COVER_FIT}}; background-position: {{COVER_POSITION}};">
+        <div class="intro-page__hero-content">
+          <h1>{{TITLE}}</h1>
+          <div class="intro-page__subtitle">{{DOCUMENT_LABEL}}</div>
+        </div>
+        <div class="intro-page__credit">{{COVER_CREDIT}}</div>
+      </div>
+      <table class="metadata-table">
+        <tbody>
+{{METADATA_ROWS}}
+        </tbody>
+      </table>
+    </section>
+
+    <main class="document-body">
+{{BODY_HTML}}
+    </main>
+  </body>
+</html>

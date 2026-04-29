@@ -1,0 +1,195 @@
+@page {
+  size: A4;
+  margin: 27mm 17mm 17mm 17mm;
+}
+
+@page intro {
+  size: A4;
+  margin: 0;
+}
+
+html {
+  font-size: 12pt;
+}
+
+body {
+  margin: 0;
+  color: #202020;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.48;
+}
+
+.intro-page {
+  page: intro;
+  width: 210mm;
+  min-height: 297mm;
+  break-after: page;
+  background: #ffffff;
+}
+
+.intro-page__hero {
+  position: relative;
+  height: 132mm;
+  color: #ffffff;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.intro-page__hero-content {
+  position: absolute;
+  left: 18mm;
+  right: 18mm;
+  bottom: 19mm;
+}
+
+.intro-page h1 {
+  margin: 0;
+  max-width: 148mm;
+  font-size: 29pt;
+  line-height: 1.04;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.intro-page__subtitle {
+  margin-top: 6pt;
+  font-size: 14pt;
+  font-weight: 500;
+}
+
+.intro-page__credit {
+  position: absolute;
+  right: 10mm;
+  bottom: 6mm;
+  font-size: 7pt;
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.metadata-table {
+  width: calc(100% - 36mm);
+  margin: 18mm 18mm 0 18mm;
+  border-collapse: collapse;
+  font-size: 10.2pt;
+}
+
+.metadata-table th,
+.metadata-table td {
+  border-top: 0.6pt solid #cfcfcf;
+  padding: 7pt 0;
+  vertical-align: top;
+  text-align: left;
+}
+
+.metadata-table tr:last-child th,
+.metadata-table tr:last-child td {
+  border-bottom: 0.6pt solid #cfcfcf;
+}
+
+.metadata-table th {
+  width: 36mm;
+  color: #707070;
+  font-weight: 500;
+}
+
+.metadata-table td {
+  color: #202020;
+  font-weight: 500;
+}
+
+.document-body {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  page-break-after: avoid;
+}
+
+h1 {
+  margin: 0 0 9pt 0;
+  font-size: 19pt;
+  line-height: 1.15;
+  letter-spacing: 0;
+}
+
+h2 {
+  margin: 16pt 0 6pt 0;
+  font-size: 14.2pt;
+  line-height: 1.2;
+  letter-spacing: 0;
+}
+
+h3 {
+  margin: 12pt 0 5pt 0;
+  font-size: 12.2pt;
+  line-height: 1.2;
+  letter-spacing: 0;
+}
+
+p {
+  margin: 0 0 9pt 0;
+  font-size: 11.2pt;
+}
+
+ul,
+ol {
+  margin: 0 0 10pt 1.15rem;
+  padding: 0;
+  font-size: 10.8pt;
+  line-height: 1.25;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li::before {
+  content: "- ";
+}
+
+li {
+  margin: 0 0 2.5pt 0;
+}
+
+a {
+  color: #202020;
+  text-decoration: underline;
+  text-decoration-thickness: 0.45pt;
+  text-underline-offset: 1.5pt;
+}
+
+code {
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  font-size: 0.92em;
+  background: #f2f2f2;
+  padding: 0.1em 0.25em;
+}
+
+figure {
+  margin: 15pt 0;
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+figure img {
+  width: 100%;
+  max-height: 158mm;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+
+figcaption {
+  margin-top: 5pt;
+  font-size: 8pt;
+  color: #707070;
+  text-align: right;
+}
+
+.page-break {
+  break-before: page;
+  page-break-before: always;
+  height: 0;
+}
