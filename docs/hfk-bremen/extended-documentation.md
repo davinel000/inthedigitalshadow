@@ -9,7 +9,7 @@ project_page: "https://www.slavaromanov.art/2026/in-the-digital-shadow"
 umbra_page: "https://www.slavaromanov.art/2025/umbra"
 repository: "https://github.com/davinel000/inthedigitalshadow"
 thesis_pdf: "../../romanov_in_the_digital_shadow.pdf"
-video_documentation: "https://filedn.com/lGT3vQOeVHQFjjI0lPsYmHS/website_slavaromanov_media/small_slavaromanov_in_the_digital_shadow_teaser.mp4"
+video_documentation: "../assets/video_small/slavaromanov_in_the_digital_shadow_teaser.mp4"
 ---
 
 # in the digital shadow: An Embodied Debrief
@@ -18,32 +18,28 @@ video_documentation: "https://filedn.com/lGT3vQOeVHQFjjI0lPsYmHS/website_slavaro
 
 The work asks how creative production can be understood once attention shifts away from finished outcomes and toward coordination, delegation, accumulation, and overload. The analytical material extends well beyond conventional documentation. It includes project remnants, operational traces, digital residue, and material evidence that stayed attached to the project after its completion.
 
-## Relation To The Thesis
-
-This documentation accompanies the written master's thesis *in the digital shadow: An Embodied Debrief*. The thesis PDF remains the primary research document and contains the full argument, references, methodological framing, and extended analytical figure set.
-
-The present documentation focuses on the final project form: the installation, colloquium presentation, selected media, and a condensed account of the research model. It should be read as the post-colloquium documentation layer rather than as a replacement for the thesis.
+This documentation accompanies the written master's thesis, which remains the main analytical research document and contains the extended argument, references, methodology, and figure set. The present text documents the installation and the final colloquium presentation, and gives a condensed account of how the thesis research was translated into spatial form.
 
 ## Project Overview
 
-The project combines research, data interpretation, and installation design. Its central method, *Embodied Debrief*, approaches the project retrospectively. Production is reread through residues and reconstructed as a dynamic system of growing traces, uneven resource distribution, distributed agency, and delayed aftereffects.
+The project combines research, data interpretation, and installation design. It proposes *Embodied Debrief* as a method for approaching a completed project retrospectively. Debriefing is understood here as a reflective return to a past experience without reducing it to blame or efficiency alone. It becomes embodied because the return happens through lived experience, self-observation, digital and material traces, and the physical form of the installation. Production is reread through residues and reconstructed as a dynamic system of growing traces, uneven resource distribution, distributed agency, and delayed aftereffects.
 
-The reflective base of the project is *umbra: In the Digital Shadow*, a collaborative audiovisual performance developed in Bremen in 2025 together with Chi Him Chik. That production provides the temporal frame, the collaborative setting, the technical environment, and much of the residual material that is reread here through traces, diagrams, notes, and installation logic. In the sections that follow, `the project` refers to that performance and its afterimage.
+The reflective base of the project is [*umbra: In the Digital Shadow*](https://www.slavaromanov.art/2025/umbra), an audiovisual performance developed in Bremen in 2025 in collaboration with Chi Him Chik. That production period provides the temporal frame, the collaborative setting, the technical environment, and much of the residual material that is reread here through traces, diagrams, notes, and installation logic. In the sections that follow, `the project` refers to that performance and its afterimage.
 
 The installation translates this logic into a spatial experience. Visitors move through an environment where traces are captured, circulated, intensified, and partially released. The work stages project memory as an unstable, accumulating, and overloaded condition.
 
 ## Research Frame
 
-The research is organized through four operational modes:
+The research is organized through four operational modes of creative production:
 
 - `Collect`
 - `Allocate`
 - `Delegate`
 - `Overload`
 
-These four modes were selected as working analytical lenses for rereading the same project. Together they make it possible to follow accumulation, distribution, externalization, and limit conditions across one shared production process.
+These four modes were selected as working analytical lenses for rereading the same project. Together they make it possible to follow accumulation, distribution, externalization, and limit conditions across one shared production process, including its material, technical, organizational, and psychological dimensions.
 
-They are grounded in a speculative reading of lived production experience and do not claim to form a closed or exhaustive taxonomy of creative work.
+They are grounded in a speculative reading of lived production experience and do not claim to form a closed or exhaustive taxonomy of creative work in general.
 
 ### Collect
 
@@ -86,9 +82,9 @@ Its setup can be read through four connected modules:
 
 The Collection Chamber is the main capture environment of the installation. It is built around a `3 x 3 x 3 m` projection cube made of aluminium profiles with projection surfaces. Inside it, three depth cameras (`Azure Kinect`) capture point-cloud traces and send them to the main computer. A resonating metal plate with two piezo microphones forms the sonic capture surface; this audio layer is routed through an audio interface and mixing console for recording, processing, and direct monitoring.
 
-When a visitor enters the chamber, two processes run in parallel. The system can mirror the visitor through live point-cloud capture, while its own memory continues to wander through previously recorded traces. These recalled shadows appear at changing positions: on the cube surfaces, on one or several light-sound objects, or across both zones at once.
+When a visitor enters the chamber, two processes run in parallel. The system mirrors the visitor's body through live point-cloud capture, while its own memory continues to wander through previously recorded traces. These recalled shadows appear at changing positions: on the cube surfaces, on one or several light-sound objects, or across both zones at once.
 
-Touching the resonating metal plate acts as a recording trigger. It starts a short capture window, approximately fifteen seconds long, in which the visitor's point-cloud image and corresponding sound are recorded as a new shadow. After recording, this shadow enters the system's memory and can be recalled several times by the Orchestrator. It may reappear on the cube, be assigned to a light-sound object, or return as a synchronized sound-light event.
+Touching the resonating metal plate acts as a recording trigger. It starts a short capture window, approximately fifteen seconds long, in which the visitor's point-cloud image and the corresponding contact or movement sound are recorded as a new shadow. After recording, this shadow enters the system's memory and can be recalled by the Orchestrator. It may reappear on the cube, be assigned to a light-sound object, or return as a synchronized sound-light event.
 
 The chamber therefore serves as both live capture interface and active replay environment.
 
@@ -102,9 +98,9 @@ These objects distribute both memory fragments and system state. Their sound beh
 
 The Allocate Station introduces a second mode of interaction. Paper, marker, and under-camera trigger logic connect gesture to memory allocation inside the system. A red line drawn by the visitor activates an allocation event: one recorded shadow is assigned to one available slot, either on a cube surface or in one of the light-sound objects. The selected slot flashes red and begins playback.
 
-Red Marks form an important static and documentary component of the installation. They condense occupied time into a visible trace and connect the exhibition experience back to the project's own self-observation practices.
+Red Marks form an important static and documentary component of the installation. They come from a self-tracking practice used during the production period, where each mark registered a directed block of work and the occupation of time by the project. In the installation, the same gesture becomes ambivalent: it confirms a lived allocation of attention, but it also adds pressure to the system by assigning another shadow to a limited slot.
 
-The station includes a webcam-based recognition setup and an OpenCV-based detection workflow. When a new red line is recognized, the controlled Allocate computer sends an allocation signal to the main computer. The station also contains an internal `ESP32`-controlled LED layer: in stable states it provides consistent illumination for recognition, while during `flush` it joins the unstable light behavior of the wider installation and stops functioning as an input surface.
+The station includes an under-camera recognition setup using OpenCV. The camera reads the paper from below, detects newly drawn red lines, separates them from the existing marks, and sends an allocation signal to the main computer. The station also contains an internal `ESP32`-controlled LED layer: in stable states it provides consistent illumination for recognition, while during `flush` it joins the unstable light behavior of the wider installation and stops functioning as an input surface.
 
 ### System Logic
 
@@ -140,31 +136,11 @@ The controlled computers listen to the main computer and follow the logic define
 
 The visual layer uses two projectors across the large cube surfaces. The sound system uses one audio input/output interface for recording input and ten-channel output.
 
-## Figures And Media
-
-This documentation layer does not need to reproduce the full analytical figure set from the thesis. A smaller selection is more useful here.
-
-Recommended balance:
-
-- `2-3` analytical figures from the research
-- `3-5` installation or presentation images
-- `1` key visual early in the document
-
-The full analytical diagram set remains available through the thesis and the repository. In this document, figures should support the narrative flow rather than reproduce the entire research apparatus.
-
-Good candidates for inclusion are:
-
-- one `Collect` or `Allocate` figure
-- one `Delegate` or `Overload` figure
-- one image of Red Marks
-- one or two installation views
-- one presentation still
-
 ## Presentation
 
-The final presentation brought together the research, the installation environment, and the documentary layer. The colloquium functioned as both an exhibition situation and a reflection on project memory. What became visible was the final system together with the density of the process that produced it.
+The installation was presented in Halle 1 from 31 March to 2 April 2026. The final colloquium took place on 2 April 2026 at 17:00.
 
-Exhibition footage and installation stills provide the practical record of this layer. They document the spatial arrangement, visitor relation, technical atmosphere, and the way the installation translated project residue into public form.
+The presentation brought together the written research, the installation environment, and the documentary layer. It functioned both as an exhibition situation and as a reflection on project memory. What became visible was the final system together with the density of the process that produced it.
 
 ## Reflection
 
@@ -174,7 +150,9 @@ The project proposes a way of rereading those residues without flattening them i
 
 The project also leaves open a productive question: how future creative work might be documented in ways that preserve achievements together with accumulation, strain, and distributed agency as constitutive parts of production.
 
-The accompanying research repository extends that question toward reproducibility. It gathers methods, reduced datasets, diagrams, and technical notes so that trace-based reflection can be reused as a broader analytical approach to one's own project remnants and production data.
+## Repository
+
+The accompanying research repository extends the project toward reproducibility and reuse. It gathers the thesis PDF, reduced public datasets, diagrams, technical notes, and methodological documentation. The repository is intended to make the trace-based approach inspectable and partially reusable: not as a universal model of creative work, but as a set of tools and examples for rereading one's own production process through accumulation, allocation, delegation, and overload.
 
 ## Access
 
@@ -182,7 +160,7 @@ The accompanying research repository extends that question toward reproducibilit
 - Umbra project page: [slavaromanov.art/2025/umbra](https://www.slavaromanov.art/2025/umbra)
 - Public research repository: [inthedigitalshadow](https://github.com/davinel000/inthedigitalshadow)
 - Thesis PDF in repository: [romanov_in_the_digital_shadow.pdf](../../romanov_in_the_digital_shadow.pdf)
-- Video documentation: [small_slavaromanov_in_the_digital_shadow_teaser.mp4](https://filedn.com/lGT3vQOeVHQFjjI0lPsYmHS/website_slavaromanov_media/small_slavaromanov_in_the_digital_shadow_teaser.mp4)
+- Video documentation: [slavaromanov_in_the_digital_shadow_teaser.mp4](../assets/video_small/slavaromanov_in_the_digital_shadow_teaser.mp4)
 
 Additional project, publication, and video links can be attached to this documentation package together with the final media selection.
 
