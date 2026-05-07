@@ -183,8 +183,6 @@ The accompanying research repository extends the project toward reproducibility 
 - Thesis PDF: [romanov_in_the_digital_shadow.pdf](https://github.com/davinel000/inthedigitalshadow/blob/main/romanov_in_the_digital_shadow.pdf)
 - Video documentation: [slavaromanov_in_the_digital_shadow_teaser.mp4](https://filedn.com/lGT3vQOeVHQFjjI0lPsYmHS/website_slavaromanov_media/small_slavaromanov_in_the_digital_shadow_teaser.mp4)
 
-Additional project, publication, and video links can be attached to this documentation package together with the final media selection.
-
 ## Credits
 
 Supervisors:
