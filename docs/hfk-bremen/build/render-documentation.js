@@ -175,73 +175,73 @@ function defaultFigures() {
   const figures = [
     {
       id: 'installation-key',
-      path: '../assets/photos/selected/1_ids_jimi_liu.jpg',
+      path: 'assets/photos/selected/1_ids_jimi_liu.jpg',
       caption: 'Installation view of in the digital shadow during the final presentation. Photo: Jimi Liu.',
       alt: 'Installation view with red light and projection cube',
     },
     {
       id: 'umbra-source',
-      path: '../assets/thesis_figures/figure_2_jimiliu.jpg',
+      path: 'assets/thesis_figures/figure_2_jimiliu.jpg',
       caption: 'umbra: In the Digital Shadow, the audiovisual performance that provides the source project for the debrief. Photo: Jimi Liu.',
       alt: 'Projection cube from umbra performance',
     },
     {
       id: 'collect',
-      path: '../assets/thesis_figures/figure_3_collect.jpg',
+      path: 'assets/thesis_figures/figure_3_collect.jpg',
       caption: 'Collect: accumulated project mass across financial, communicative, digital, material, and shared-documentation layers.',
       alt: 'Collect diagram',
     },
     {
       id: 'allocate',
-      path: '../assets/thesis_figures/figure_4_allocate.jpg',
+      path: 'assets/thesis_figures/figure_4_allocate.jpg',
       caption: 'Allocate: schedule, budget rhythm, event markers, and occupied-time traces across the production period.',
       alt: 'Allocate diagram',
     },
     {
       id: 'red-marks',
-      path: '../assets/thesis_figures/figure_5_red_marks.jpg',
+      path: 'assets/thesis_figures/figure_5_red_marks.jpg',
       caption: 'Red Marks: self-tracking marks used during the densest production period.',
       alt: 'Red marks documentation',
     },
     {
       id: 'delegate',
-      path: '../assets/thesis_figures/figure_6_delegate_request_fixed.jpg',
+      path: 'assets/thesis_figures/figure_6_delegate_request_fixed.jpg',
       caption: 'Delegate: comparison of human-directed and AI-directed request types in the reduced public dataset.',
       alt: 'Delegate request diagram',
     },
     {
       id: 'overload',
-      path: '../assets/thesis_figures/figure_9_overload_phase_comparison.jpg',
+      path: 'assets/thesis_figures/figure_9_overload_phase_comparison.jpg',
       caption: 'Overload: comparison of reconstructed project phases and aligned physiological traces.',
       alt: 'Overload phase comparison diagram',
     },
     {
       id: 'collection-chamber',
-      path: '../assets/photos/selected/2_ids_slava_romanov.JPG',
+      path: 'assets/photos/selected/2_ids_slava_romanov.JPG',
       caption: 'Collection Chamber with recalled point-cloud traces. Photo: Viacheslav (Slava) Romanov.',
       alt: 'Collection chamber with point cloud traces',
     },
     {
       id: 'allocate-station',
-      path: '../assets/photos/selected/3_ids_slava_romanov.JPG',
+      path: 'assets/photos/selected/3_ids_slava_romanov.JPG',
       caption: 'Red-line interaction at the Allocate Station. Photo: Viacheslav (Slava) Romanov.',
       alt: 'Hand drawing red marks at the Allocate Station',
     },
     {
       id: 'perforated-card',
-      path: '../assets/photos/selected/4_ids_slava_romanov.JPG',
+      path: 'assets/photos/selected/4_ids_slava_romanov.JPG',
       caption: 'Perforated card used as an in-space textual label: ENTER AND BECOME A TRACE. Photo: Viacheslav (Slava) Romanov.',
       alt: 'Perforated card reading Enter and become a trace',
     },
     {
       id: 'flush',
-      path: '../assets/photos/selected/5_ids_slava_romanov.JPG',
+      path: 'assets/photos/selected/5_ids_slava_romanov.JPG',
       caption: 'Flush state: pixelated noise and slot-clearing behavior on the cube. Photo: Viacheslav (Slava) Romanov.',
       alt: 'Pixelated noise on the cube during flush state',
     },
     {
       id: 'presentation',
-      path: '../assets/photos/jimi_for_thesis/ids_jimi_liu (6).jpg',
+      path: 'assets/photos/jimi_for_thesis/ids_jimi_liu (6).jpg',
       caption: 'Final colloquium presentation, 2 April 2026. Photo: Jimi Liu.',
       alt: 'Final colloquium presentation with visitors',
     },
@@ -322,7 +322,7 @@ async function main() {
   const template = fs.readFileSync(TEMPLATE_PATH, 'utf8');
   const css = fs.readFileSync(CSS_PATH, 'utf8');
 
-  const coverImage = metadata.coverImage || '../assets/photos/selected/1_ids_jimi_liu.jpg';
+  const coverImage = metadata.coverImage || 'assets/photos/selected/1_ids_jimi_liu.jpg';
   const coverPath = resolveAssetPath(sourceDir, coverImage);
   const coverImageUrl = assetUrl(coverPath);
 

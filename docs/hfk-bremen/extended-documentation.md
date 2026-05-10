@@ -9,8 +9,8 @@ supervisors: "Dennis P. Paul; Ralf Baecker"
 project_page: "https://www.slavaromanov.art/2026/in-the-digital-shadow"
 umbra_page: "https://www.slavaromanov.art/2025/umbra"
 repository: "https://github.com/davinel000/inthedigitalshadow"
-thesis_pdf: "../../romanov_in_the_digital_shadow.pdf"
-video_documentation: "../assets/video_small/slavaromanov_in_the_digital_shadow_teaser.mp4"
+thesis_pdf: "romanov_in_the_digital_shadow.pdf"
+video_documentation: "https://filedn.com/lGT3vQOeVHQFjjI0lPsYmHS/website_slavaromanov_media/small_slavaromanov_in_the_digital_shadow_teaser.mp4"
 ---
 
 # in the digital shadow: An Embodied Debrief
@@ -27,7 +27,7 @@ The project combines research, data interpretation, and installation design. It 
 
 The reflective base of the project is [*umbra: In the Digital Shadow*](https://www.slavaromanov.art/2025/umbra), an audiovisual performance developed in Bremen in 2025 in collaboration with Chi Him Chik. That production period provides the temporal frame, the collaborative setting, the technical environment, and much of the residual material that is reread here through traces, diagrams, notes, and installation logic. In the sections that follow, `the project` refers to that performance and its afterimage.
 
-![umbra: the audiovisual performance that provides the source project for the debrief. Photo: Jimi Liu.](../assets/thesis_figures/figure_2_jimiliu.jpg)
+![umbra: the audiovisual performance that provides the source project for the debrief. Photo: Jimi Liu.](assets/thesis_figures/figure_2_jimiliu.jpg)
 
 The installation translates this logic into a spatial experience. Visitors move through an environment where traces are captured, circulated, intensified, and partially released. The work stages project memory as an unstable, accumulating, and overloaded condition.
 
@@ -46,7 +46,7 @@ These four modes were selected as working analytical lenses for rereading the sa
 
 `Collect` reads the accumulation of project mass across several layers at once: digital files, communication traces, spending, material acquisitions, and shared documentation. One of the central observations is that project growth increases logistical, cognitive, and affective weight alongside possibility. The corresponding figure combines surviving folder chronology, `.toe` files save density, filtered message layers, budget-derived material counts, and observed FigJam revision activity.
 
-![Collect: accumulated project mass across financial, communicative, digital, material, and shared-documentation layers.](../assets/thesis_figures/figure_3_collect.jpg)
+![Collect: accumulated project mass across financial, communicative, digital, material, and shared-documentation layers.](assets/thesis_figures/figure_3_collect.jpg)
 
 ### Allocate
 
@@ -54,7 +54,7 @@ These four modes were selected as working analytical lenses for rereading the sa
 
 The allocation in the theis is assembled from a recognized project schedule, a structured budget table, and a recovered project timeline. Red Marks formed a self-reflective layer during production, especially across the densest weeks of work.
 
-![Red Marks: self-tracking marks used during the densest production period.](../assets/thesis_figures/figure_5_red_marks.jpg)
+![Red Marks: self-tracking marks used during the densest production period.](assets/thesis_figures/figure_5_red_marks.jpg)
 
 ### Delegate
 
@@ -62,7 +62,7 @@ The allocation in the theis is assembled from a recognized project schedule, a s
 
 The delegate figures reduce private annotated communication corpora into public-safe comparison tables. Human-directed requests concentrate strongly in coordination and planning, while AI-directed requests are distributed more heavily across analysis, coding, writing, and technical setup.
 
-![Delegate: comparison of human-directed and AI-directed request types in the reduced public dataset.](../assets/thesis_figures/figure_6_delegate_request_fixed.jpg)
+![Delegate: comparison of human-directed and AI-directed request types in the reduced public dataset.](assets/thesis_figures/figure_6_delegate_request_fixed.jpg)
 
 ### Overload
 
@@ -70,7 +70,7 @@ The delegate figures reduce private annotated communication corpora into public-
 
 The overload figures were built by aligning fitness-tracking summaries to a separately recovered project chronology and event frame. The phases were defined through chronology and interpretive framing first; physiological traces were aggregated against that scaffold afterward.
 
-![Overload: comparison of reconstructed project phases and aligned physiological traces.](../assets/thesis_figures/figure_8_overload_timeline.jpg)
+![Overload: comparison of reconstructed project phases and aligned physiological traces.](assets/thesis_figures/figure_8_overload_timeline.jpg)
 
 ## Installation
 
@@ -89,7 +89,7 @@ Its setup can be read through four connected modules:
 
 The Collection Chamber is the main capture environment of the installation. It is built around a `3 x 3 x 3 m` projection cube made of aluminium profiles with projection surfaces. Inside it, three depth cameras capture point-cloud traces and send them to the main computer. A resonating metal plate with two piezo microphones forms the sonic capture surface on the floor; this audio layer is routed through an audio interface and mixing console for recording, processing, and direct monitoring.
 
-![Collection Chamber with recalled point-cloud traces. Photo: Viacheslav (Slava) Romanov.](../assets/photos/selected/2_ids_slava_romanov.JPG)
+![Collection Chamber with recalled point-cloud traces. Photo: Viacheslav (Slava) Romanov.](assets/photos/selected/2_ids_slava_romanov.JPG)
 
 When a visitor enters the chamber, two processes run in parallel. The system mirrors the visitor's body through live point-cloud capture, while its own memory continues to wander through previously recorded traces. These recalled shadows appear at changing positions: on the cube surfaces, on one or several light-sound objects, or across both zones at once.
 
@@ -107,7 +107,7 @@ These objects distribute both memory fragments and system state. Their sound beh
 
 The Allocate Station introduces a second mode of interaction. Paper, marker, and under-camera trigger logic connect gesture to memory allocation inside the system. 
 
-![Red-line interaction at the Allocate Station. Photo: Viacheslav (Slava) Romanov.](../assets/photos/selected/3_ids_slava_romanov.JPG)
+![Red-line interaction at the Allocate Station. Photo: Viacheslav (Slava) Romanov.](assets/photos/selected/3_ids_slava_romanov.JPG)
 
 A red line drawn by the visitor activates an allocation event: one recorded shadow is assigned to one available slot, either on a cube surface or in one of the light-sound objects. The selected slot flashes red and begins playback.
 
@@ -117,7 +117,7 @@ The station includes an under-camera recognition setup using OpenCV. The camera 
 
 
 
-![Perforated card used as an in-space textual label: ENTER TO BECOME A TRACE. Photo: Viacheslav (Slava) Romanov.](../assets/photos/selected/4_ids_slava_romanov.JPG)
+![Perforated card used as an in-space textual label: ENTER TO BECOME A TRACE. Photo: Viacheslav (Slava) Romanov.](assets/photos/selected/4_ids_slava_romanov.JPG)
 
 ### System Logic
 
@@ -141,7 +141,7 @@ The system works through five principal states:
 
 `empty` appears after `flush`, when the slots have been cleared and no new assignments are made for a short interval. It is a suspended state: the cube is nearly dark, small pixels remain visible, the sound recalls a tinnitus-like residue, and slow light waves pass through the light-sound objects. From there the system can wake into `wandering`, where it recalls and circulates stored traces without requiring direct input. `collection` begins when a visitor enters the chamber and activates recording. `overload` increases density and pressure across sound, light, and recall behavior. If overload is brief, the system can return to `wandering` or `collection`; if it lasts too long, `flush` begins. During `flush`, the cube shifts into pixelated noise, the light-sound objects flash, distributed noise fills the space, and slots are cleared one after another until the system falls back into `empty`.
 
-![Flush state: pixelated noise and slot-clearing behavior on the cube. Photo: Viacheslav (Slava) Romanov.](../assets/photos/selected/5_ids_slava_romanov.JPG)
+![Flush state: pixelated noise and slot-clearing behavior on the cube. Photo: Viacheslav (Slava) Romanov.](assets/photos/selected/5_ids_slava_romanov.JPG)
 
 ### Technical Architecture
 
@@ -161,7 +161,7 @@ The installation was presented in Halle 1 (HfK Bremen) from 31 March to 2 April 
 
 The presentation brought together the written research, the installation environment, and the documentary layer. It functioned both as an exhibition situation and as a reflection on project memory. What became visible was the final system together with the density of the process that produced it.
 
-![Final colloquium presentation, 2 April 2026. Photo: Jimi Liu.](../assets/photos/selected/6_ids_jimi_liu.jpg)
+![Final colloquium presentation, 2 April 2026. Photo: Jimi Liu.](assets/photos/selected/6_ids_jimi_liu.jpg)
 
 ## Reflection
 
@@ -180,7 +180,7 @@ The accompanying research repository extends the project toward reproducibility 
 - Project page: [slavaromanov.art/2026/in-the-digital-shadow](https://www.slavaromanov.art/2026/in-the-digital-shadow)
 - Umbra project page: [slavaromanov.art/2025/umbra](https://www.slavaromanov.art/2025/umbra)
 - Public research repository: [inthedigitalshadow](https://github.com/davinel000/inthedigitalshadow)
-- Thesis PDF: [romanov_in_the_digital_shadow.pdf](https://github.com/davinel000/inthedigitalshadow/blob/main/romanov_in_the_digital_shadow.pdf)
+- Thesis PDF: [romanov_in_the_digital_shadow.pdf](romanov_in_the_digital_shadow.pdf)
 - Video documentation: [slavaromanov_in_the_digital_shadow_teaser.mp4](https://filedn.com/lGT3vQOeVHQFjjI0lPsYmHS/website_slavaromanov_media/small_slavaromanov_in_the_digital_shadow_teaser.mp4)
 
 ## Credits

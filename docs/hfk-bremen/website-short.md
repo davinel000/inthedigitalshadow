@@ -8,7 +8,7 @@ supervisors: "Dennis P. Paul; Ralf Baecker"
 project_page: "https://www.slavaromanov.art/2026/in-the-digital-shadow"
 umbra_page: "https://www.slavaromanov.art/2025/umbra"
 repository: "https://github.com/davinel000/inthedigitalshadow"
-thesis_pdf: "https://github.com/davinel000/inthedigitalshadow/blob/main/romanov_in_the_digital_shadow.pdf"
+thesis_pdf: "romanov_in_the_digital_shadow.pdf"
 video_documentation: "https://filedn.com/lGT3vQOeVHQFjjI0lPsYmHS/website_slavaromanov_media/small_slavaromanov_in_the_digital_shadow_teaser.mp4"
 ---
 
@@ -53,7 +53,7 @@ Links:
 
 - Project page: [slavaromanov.art/2026/in-the-digital-shadow](https://www.slavaromanov.art/2026/in-the-digital-shadow)
 - Umbra project page: [slavaromanov.art/2025/umbra](https://www.slavaromanov.art/2025/umbra)
-- Thesis PDF: [romanov_in_the_digital_shadow.pdf](https://github.com/davinel000/inthedigitalshadow/blob/main/romanov_in_the_digital_shadow.pdf)
+- Thesis PDF: [romanov_in_the_digital_shadow.pdf](romanov_in_the_digital_shadow.pdf)
 - Research repository: [github.com/davinel000/inthedigitalshadow](https://github.com/davinel000/inthedigitalshadow)
 
 Credits:

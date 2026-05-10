@@ -26,7 +26,7 @@ Outputs:
 Use normal Markdown image syntax:
 
 ```md
-![Installation view. Photo: Jimi Liu.](../assets/photos/selected/1_ids_jimi_liu.jpg)
+![Installation view. Photo: Jimi Liu.](assets/photos/selected/1_ids_jimi_liu.jpg)
 ```
 
 Relative paths are resolved from the Markdown file location and embedded into the generated HTML/PDF.
@@ -50,9 +50,9 @@ author: "Viacheslav (Slava) Romanov"
 program: "Digital Media Bremen / HfK Bremen"
 year: "2026"
 supervisors: "Dennis P. Paul; Ralf Baecker"
-coverImage: "../assets/photos/selected/1_ids_jimi_liu.jpg"
+coverImage: "assets/photos/selected/1_ids_jimi_liu.jpg"
 coverCredit: "Photo: Jimi Liu"
 coverPosition: "center center"
 ```
 
-If `coverImage` is omitted, the build uses `../assets/photos/selected/1_ids_jimi_liu.jpg`.
+If `coverImage` is omitted, the build uses `assets/photos/selected/1_ids_jimi_liu.jpg`.
